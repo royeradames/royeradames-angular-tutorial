@@ -2,9 +2,20 @@
 
 <article class="tutorial">
   <article class="notes">
-    <h1>notes</h1>
+    <article class="table-of-contents">
+      <p>Routing / Setting up and loading routes</p>
+    </article>
+    <article
+      class="chapter"
+      markdown
+      [src]="'../assets/setting-up-routes.md'"
+      (load)="onLoad($event)"
+      (error)="onError($event)"
+    ></article>
   </article>
   <article class="playground">
-    <h1>play ground</h1>
+    <iframe
+      src="https://stackblitz.com/edit/angular-ivy-2zan4p?file=src/app/app.component.ts"
+    ></iframe>
   </article>
 </article>

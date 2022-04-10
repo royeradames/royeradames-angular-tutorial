@@ -1,11 +1,18 @@
 .tutorial {
   display: grid;
-  grid-template: "notes playground" 100vh/ 35vw 65vw;
+  grid-template: "notes playground" 100vh/ 30vw 70vw;
+  // color: white;
 }
 
 .notes {
-  background-color: aqua;
+  // background-color: aqua;
+  color: var(--sidebar-text);
+  background-color: var(--second);
 }
 .playground {
-  background-color: brown;
+  // background-color: brown;
+  & iframe {
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -1,18 +1,17 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppComponent } from './app.component';
-import { AngularDocComponent } from './angular-doc/angular-doc.component';
-
+import { AppComponent } from "./app.component";
+import { AngularDocComponent } from "./angular-doc/angular-doc.component";
+import { MarkdownModule } from "ngx-markdown";
+import { HttpClient, HttpClientModule } from "@angular/common/http";
 @NgModule({
-  declarations: [
-    AppComponent,
-    AngularDocComponent
-  ],
+  declarations: [AppComponent, AngularDocComponent],
   imports: [
-    BrowserModule
+    MarkdownModule.forRoot({ loader: HttpClient }),
+    BrowserModule,
+    HttpClientModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
