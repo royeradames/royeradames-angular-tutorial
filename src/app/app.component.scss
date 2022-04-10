@@ -2,12 +2,21 @@
   display: grid;
   grid-template: "notes playground" 100vh/ 30vw 70vw;
   // color: white;
+  border-right: 1px solid var(--second);
+  background-color: var(--second);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .notes {
   // background-color: aqua;
   color: var(--sidebar-text);
   background-color: var(--second);
+  overflow: auto;
+  &-markdown {
+    padding: 3.2rem 4rem;
+    overflow: auto;
+    flex: 1;
+  }
 }
 .playground {
   // background-color: brown;

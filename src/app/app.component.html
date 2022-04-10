@@ -1,21 +1,23 @@
 <!-- <app-angular-doc></app-angular-doc> -->
 
-<article class="tutorial">
-  <article class="notes">
-    <article class="table-of-contents">
-      <p>Routing / Setting up and loading routes</p>
+<main id="main">
+  <article class="tutorial">
+    <article class="notes">
+      <article class="table-of-contents">
+        <p>Routing / Setting up and loading routes</p>
+      </article>
+      <article
+        class="notes-markdown"
+        markdown
+        [src]="'../assets/setting-up-routes.md'"
+        (load)="onLoad($event)"
+        (error)="onError($event)"
+      ></article>
     </article>
-    <article
-      class="chapter"
-      markdown
-      [src]="'../assets/setting-up-routes.md'"
-      (load)="onLoad($event)"
-      (error)="onError($event)"
-    ></article>
+    <article class="playground">
+      <iframe
+        src="https://stackblitz.com/edit/angular-ivy-2zan4p?file=src/app/app.component.ts"
+      ></iframe>
+    </article>
   </article>
-  <article class="playground">
-    <iframe
-      src="https://stackblitz.com/edit/angular-ivy-2zan4p?file=src/app/app.component.ts"
-    ></iframe>
-  </article>
-</article>
+</main>

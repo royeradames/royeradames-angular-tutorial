@@ -1,20 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
 @use "styles/css-reset.scss";
-@use "styles/variables.scss";
 
 :root {
-  --nav-h: 6rem;
-  --top-offset: 6rem;
-  --sidebar-w: 30rem;
-  --sidebar-mid-w: 36rem;
-  --sidebar-large-w: 48rem;
-  --main-width: 80rem;
-  --side-nav: 2.4rem;
-  --side-page: var(--side-nav);
-  --out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --sidebar-text: rgba(255, 255, 255, 0.75);
+  --second: #676778;
+  --h4: 1.8rem;
+  --lh: 1.5;
+  --back: #ffffff;
+  --text: #444;
+  --second-text: #7b7766;
+  --code-fs: 1.3rem;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+body {
+  --font: "Overpass", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  --font-mono: "Fira Mono", monospace;
+  font: 400 var(--h4) / var(--lh) var(--font);
+  background-color: var(--back);
+  color: var(--text);
 }
 
 // wrap code snippet
 code {
   white-space: pre-wrap !important;
+  position: relative;
+  border-radius: 0.3em;
+  margin: 0 0.2rem;
+  color: var(--sidebar-text);
+  background: rgba(0, 0, 0, 0.12);
+  padding: 0.2em 0.4em 0.3em;
+  white-space: nowrap;
+  position: relative;
+  top: -0.1em;
+  font: 400 var(--code-fs) / 1.7 var(--font-mono);
 }

@@ -1,4 +1,3 @@
-# If this works I can move to the next big step
 
 ```ts
 import { RouterModule, Routes } from '@angular/router';
