@@ -34,10 +34,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/prismjs/themes/prism-okaidia.css"
             ],
             "scripts": [
-              "node_modules/marked/marked.min.js"
+              "node_modules/marked/marked.min.js",
+              "node_modules/prismjs/prism.js",
+              "node_modules/prismjs/components/prism-typescript.min.js",
+              "node_modules/prismjs/components/prism-css.min.js",
+              "node_modules/prismjs/components/prism-sass.min.js",
+              "node_modules/prismjs/components/prism-cshtml.min.js"
             ]
           },
           "configurations": {
