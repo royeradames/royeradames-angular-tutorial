@@ -1,4 +1,4 @@
-@use "styles/css-reset.scss";
+// @use "styles/css-reset.scss";
 
 :root {
   --sidebar-text: rgba(255, 255, 255, 0.75);
@@ -9,6 +9,7 @@
   --text: #444;
   --second-text: #7b7766;
   --code-fs: 1.3rem;
+  --linemax: 72rem;
 }
 
 html {
@@ -40,4 +41,13 @@ code {
   position: relative;
   top: -0.1em;
   font: 400 var(--code-fs) / 1.7 var(--font-mono);
+}
+
+blockquote {
+  position: relative;
+  margin: 1.6rem 0 2.4rem;
+  padding: 2rem 2.4rem 1.8rem;
+  max-width: var(--linemax);
+  background-color: #0000002b;
+  color: var(--sidebar-text);
 }

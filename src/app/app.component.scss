@@ -1,14 +1,12 @@
 .tutorial {
   display: grid;
   grid-template: "notes playground" 100vh/ 30vw 70vw;
-  // color: white;
   border-right: 1px solid var(--second);
   background-color: var(--second);
   color: rgba(255, 255, 255, 0.75);
 }
 
 .notes {
-  // background-color: aqua;
   color: var(--sidebar-text);
   background-color: var(--second);
   overflow: auto;
@@ -19,9 +17,13 @@
   }
 }
 .playground {
-  // background-color: brown;
   & iframe {
     width: 100%;
     height: 100%;
   }
+}
+
+.title {
+  text-align: center;
+  padding: 1em 0.5em;
 }
