@@ -6,18 +6,24 @@
       <article class="table-of-contents">
         <h1 class="title">Routing / Setting up and loading routes</h1>
       </article>
-      <article
-        class="notes-markdown"
-        markdown
-        [src]="'../assets/setting-up-routes.md'"
-        (load)="onLoad($event)"
-        (error)="onError($event)"
-      ></article>
+
+      <div class="notes-markdown">
+        <article
+          markdown
+          [src]="'../assets/setting-up-routes.md'"
+          (load)="onLoad($event)"
+          (error)="onError($event)"
+        ></article>
+        <hr />
+        <article class="controls">
+          <button class="show-reset" (click)="showReset()">
+            {{ showResetBtnText }}
+          </button>
+        </article>
+      </div>
     </article>
     <article class="playground">
-      <iframe
-        src="https://stackblitz.com/edit/angular-ivy-2zan4p?file=src/app/app.component.ts"
-      ></iframe>
+      <iframe [src]="playgroundPath"></iframe>
     </article>
   </article>
 </main>

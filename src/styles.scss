@@ -1,6 +1,7 @@
 // @use "styles/css-reset.scss";
 
 :root {
+  --prime: #ff3e00;
   --sidebar-text: rgba(255, 255, 255, 0.75);
   --second: #676778;
   --h4: 1.8rem;
@@ -10,6 +11,9 @@
   --second-text: #7b7766;
   --code-fs: 1.3rem;
   --linemax: 72rem;
+  --border-r: 0.4rem;
+  --h1: 3.2rem;
+  --h5: 1.6rem;
 }
 
 html {

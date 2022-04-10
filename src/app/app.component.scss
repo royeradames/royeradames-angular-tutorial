@@ -27,3 +27,24 @@
   text-align: center;
   padding: 1em 0.5em;
 }
+
+.show-reset {
+  background: var(--prime);
+  padding: 0.3em 0.7em;
+  border-radius: var(--border-r);
+  top: 0.1em;
+  position: relative;
+  font-size: var(--h5);
+  font-weight: 300;
+  color: #ffffffb3;
+
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  color: currentColor;
+  cursor: pointer;
+}
+
+.controls {
+  margin-top: 1em;
+}
