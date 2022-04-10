@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { DomSanitizer } from "@angular/platform-browser";
+import { ChapterService } from "./chapter.service";
 
 @Component({
   selector: "app-root",
@@ -7,34 +8,20 @@ import { DomSanitizer } from "@angular/platform-browser";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
-  constructor(private sanitizer: DomSanitizer) {}
-  onError(e) {
-    console.log(e);
-  }
-  onLoad(e) {
-    console.log(e);
-  }
-  aPath =
-    "https://stackblitz.com/edit/angular-ivy-2zan4p?embed=1&file=src/app/app.module.ts";
-  bPath =
-    "https://stackblitz.com/edit/angular-ivy-4rloit?embed=1&file=src/app/app.module.ts";
-  playgroundPath = this.sanitizer.bypassSecurityTrustResourceUrl(this.aPath);
+  meta = this.chapterService.meta;
 
-  showResetBtnText = "Show me";
+  constructor(private chapterService: ChapterService) {}
+
   showReset(): void {
-    const showSolution = this.showResetBtnText === "Show me" ? true : false;
-
+    const showSolution =
+      this.meta.showResetBtnText === "Show me" ? true : false;
+    console.log(showSolution);
     if (showSolution) {
-      ("change src path");
-      this.showResetBtnText = "Reset";
-      this.playgroundPath = this.sanitizer.bypassSecurityTrustResourceUrl(
-        this.bPath
-      );
+      this.meta.showResetBtnText = "Reset";
+      this.meta.playgroundPath = this.meta.bPath;
     } else {
-      this.showResetBtnText = "Show me";
-      this.playgroundPath = this.sanitizer.bypassSecurityTrustResourceUrl(
-        this.aPath
-      );
+      this.chapterService.meta.showResetBtnText = "Show me";
+      this.meta.playgroundPath = this.meta.aPath;
     }
   }
 }

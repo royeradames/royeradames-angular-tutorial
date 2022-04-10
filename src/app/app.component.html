@@ -1,29 +1,22 @@
-<!-- <app-angular-doc></app-angular-doc> -->
-
 <main id="main">
   <article class="tutorial">
     <article class="notes">
       <article class="table-of-contents">
-        <h1 class="title">Routing / Setting up and loading routes</h1>
+        <h1 class="title">{{ meta.title }}</h1>
       </article>
 
       <div class="notes-markdown">
-        <article
-          markdown
-          [src]="'../assets/setting-up-routes.md'"
-          (load)="onLoad($event)"
-          (error)="onError($event)"
-        ></article>
+        <article markdown [src]="'../assets/setting-up-routes.md'"></article>
         <hr />
         <article class="controls">
           <button class="show-reset" (click)="showReset()">
-            {{ showResetBtnText }}
+            {{ meta.showResetBtnText }}
           </button>
         </article>
       </div>
     </article>
     <article class="playground">
-      <iframe [src]="playgroundPath"></iframe>
+      <iframe [src]="meta.playgroundPath"></iframe>
     </article>
   </article>
 </main>

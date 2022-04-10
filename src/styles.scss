@@ -30,6 +30,9 @@ body {
   font: 400 var(--h4) / var(--lh) var(--font);
   background-color: var(--back);
   color: var(--text);
+
+  // remove margin
+  margin: 0;
 }
 
 // wrap code snippet
