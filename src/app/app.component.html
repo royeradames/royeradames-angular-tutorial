@@ -6,13 +6,16 @@
       </article>
 
       <div class="notes-markdown">
-        <article markdown [src]="'../assets/setting-up-routes.md'"></article>
+        <article markdown [src]="meta.markdownPath"></article>
         <hr />
         <article class="controls">
           <button class="show-reset" (click)="showReset()">
-            {{ meta.showResetBtnText }}
+            {{ meta.currentText }}
           </button>
         </article>
+        <a class="improve-document" [href]="meta.editPath" target="_black"
+          >Edit this chapter</a
+        >
       </div>
     </article>
     <article class="playground">

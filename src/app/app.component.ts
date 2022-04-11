@@ -13,14 +13,12 @@ export class AppComponent {
   constructor(private chapterService: ChapterService) {}
 
   showReset(): void {
-    const showSolution =
-      this.meta.showResetBtnText === "Show me" ? true : false;
-    console.log(showSolution);
+    const showSolution = this.meta.currentText === "Show me" ? true : false;
     if (showSolution) {
-      this.meta.showResetBtnText = "Reset";
+      this.meta.currentText = this.meta.resetText;
       this.meta.playgroundPath = this.meta.bPath;
     } else {
-      this.chapterService.meta.showResetBtnText = "Show me";
+      this.meta.currentText = this.chapterService.meta.showText;
       this.meta.playgroundPath = this.meta.aPath;
     }
   }

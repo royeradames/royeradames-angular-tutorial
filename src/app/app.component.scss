@@ -25,7 +25,7 @@
 
 .title {
   text-align: center;
-  padding: 1em 0.5em;
+  margin-bottom: 0;
 }
 
 .show-reset {
@@ -47,4 +47,19 @@
 
 .controls {
   margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.improve-document {
+  font-size: 14px;
+  text-decoration: none;
+  opacity: 0.3;
+  padding: 0 0.1em 0 1.2em;
+  background: no-repeat 0 50% url("../assets/edit.svg");
+  background-size: 1em 1em;
+  color: var(--sidebar-text);
+  &:hover {
+    transition: color 0.2s;
+    color: var(--back);
+  }
 }
