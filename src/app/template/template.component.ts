@@ -14,7 +14,7 @@ export class TemplateComponent implements OnInit {
     .find((note) => note.name === `${this.meta.chapter} / ${this.meta.section}`)
     ?.link?.replace("/", "");
 
-  constructor(private chapterService: ChapterService, private router: Router) {}
+  constructor(private chapterService: ChapterService) {}
 
   showReset(): void {
     const showSolution = this.meta.currentText === "Show me" ? true : false;
