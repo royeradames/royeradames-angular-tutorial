@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ChapterService } from "./chapter.service";
+import { noteNavs as notesNav } from "./notes-data";
 @Component({
   selector: "app-template",
   templateUrl: "./template.component.html",
@@ -7,8 +8,11 @@ import { ChapterService } from "./chapter.service";
 })
 export class TemplateComponent implements OnInit {
   meta = this.chapterService.meta;
+  notesNav = notesNav();
 
-  constructor(private chapterService: ChapterService) {}
+  constructor(private chapterService: ChapterService) {
+    console.log(this.notesNav);
+  }
 
   showReset(): void {
     const showSolution = this.meta.currentText === "Show me" ? true : false;

@@ -87,8 +87,9 @@ export function noteRoutes(): Routes {
   }));
 }
 
-export function noteLinkPath() {
-  return notes.map((note) =>
-    note.section.toLocaleLowerCase().replace(/\s/g, "-")
-  );
+export function noteNavs() {
+  return notes.map((note) => ({
+    link: "/" + note.section.toLocaleLowerCase().replace(/\s/g, "-"),
+    name: `${note.chapter} / ${note.section}`,
+  }));
 }

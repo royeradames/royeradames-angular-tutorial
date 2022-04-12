@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
-import { ActivatedRoute, Router } from "@angular/router";
+import { Router } from "@angular/router";
 import { notes, Notes } from "./notes-data";
 
 interface Meta extends Omit<Notes, "aPath" | "bPath"> {

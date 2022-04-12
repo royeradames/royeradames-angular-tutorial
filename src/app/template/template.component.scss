@@ -55,11 +55,32 @@
   text-decoration: none;
   opacity: 0.3;
   padding: 0 0.1em 0 1.2em;
-  background: no-repeat 0 50% url("../assets/edit.svg");
+  background: no-repeat 0 50% url("../../assets/edit.svg");
   background-size: 1em 1em;
   color: var(--sidebar-text);
   &:hover {
     transition: color 0.2s;
     color: var(--back);
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+
+  font-size: var(--h5);
+
+  &-link {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: var(--back);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.1em;
+    &:hover {
+      color: var(--prime);
+      background-color: var(--back);
+    }
   }
 }
