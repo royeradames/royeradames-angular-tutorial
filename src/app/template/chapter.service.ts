@@ -28,6 +28,19 @@ export class ChapterService {
       resetText: "Reset",
       currentText: "Show me",
     };
+    // on path change update the meta
+    router.events.subscribe(() => {
+      const currentTutorial = this.loadNote(notes);
+      this.meta = {
+        ...currentTutorial,
+        aPath: this.trustUrl(currentTutorial.aPath),
+        bPath: this.trustUrl(currentTutorial.bPath),
+        playgroundPath: this.trustUrl(currentTutorial.aPath),
+        showText: "Show me",
+        resetText: "Reset",
+        currentText: "Show me",
+      };
+    });
   }
 
   private trustUrl(url: string): SafeResourceUrl {
