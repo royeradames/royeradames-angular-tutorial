@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ChapterService } from "./chapter.service";
-import { noteNavs as notesNav } from "./notes-data";
+import { notesNav } from "./notes-data";
 @Component({
   selector: "app-template",
   templateUrl: "./template.component.html",

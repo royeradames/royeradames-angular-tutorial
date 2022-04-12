@@ -14,6 +14,19 @@ export interface Notes {
 
 export const notes: Notes[] = [
   {
+    id: 6,
+    domainPath: "",
+    chapter: "Introduction",
+    section: "Welcome to Angular",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.html",
+    markdownPath: "assets/welcome-to-angular.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/welcome-to-angular.md",
+  },
+  {
     id: 1,
     domainPath: "setting-up-and-loading-routes",
     chapter: "Routing",
@@ -82,14 +95,14 @@ export const notes: Notes[] = [
 
 export function noteRoutes(): Routes {
   return notes.map((note) => ({
-    path: note.section.toLocaleLowerCase().replace(/\s/g, "-"),
+    path: note.domainPath,
     component: TemplateComponent,
   }));
 }
 
-export function noteNavs() {
+export function notesNav() {
   return notes.map((note) => ({
-    link: "/" + note.section.toLocaleLowerCase().replace(/\s/g, "-"),
+    link: "/" + note.domainPath,
     name: `${note.chapter} / ${note.section}`,
   }));
 }
