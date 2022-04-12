@@ -10,6 +10,7 @@ Enable link to change pages without reloading the page with routerLink directive
 </ul>
 ```
 
+Hover on the link to see the link path differences.
 ## For more complex path
 
 use property binding and pass down an array of string with all the segments of the path.
@@ -17,3 +18,4 @@ use property binding and pass down an array of string with all the segments of t
 ```ts
 <li role="presentation"><a [routerLink]="['/users']">Users</a></li>
 ```
+
