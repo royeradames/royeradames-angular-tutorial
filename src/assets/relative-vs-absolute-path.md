@@ -22,4 +22,4 @@ Link path can be relative or absolute.
 </div>
 ```
 
-
+If you are in the root path absolute and relative paths do the same thing.

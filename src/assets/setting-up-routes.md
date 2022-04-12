@@ -44,3 +44,4 @@ Now if you add the path to the url, you will see does component loaded.
 `/users` will show the UserComponent
 
 
+You cannot use inject route logic like `ActivatedRoute` if you don't have it routing setup. It will crash the app.

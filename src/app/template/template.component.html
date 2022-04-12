@@ -1,0 +1,25 @@
+<main id="main">
+  <article class="tutorial">
+    <article class="notes">
+      <article class="table-of-contents">
+        <h1 class="title">{{ meta.chapter }} / {{ meta.section }}</h1>
+      </article>
+
+      <div class="notes-markdown">
+        <article markdown [src]="meta.markdownPath"></article>
+        <hr />
+        <article class="controls">
+          <button class="show-reset" (click)="showReset()">
+            {{ meta.currentText }}
+          </button>
+        </article>
+        <a class="improve-document" [href]="meta.editPath" target="_black"
+          >Edit this chapter</a
+        >
+      </div>
+    </article>
+    <article class="playground">
+      <iframe [src]="meta.playgroundPath"></iframe>
+    </article>
+  </article>
+</main>

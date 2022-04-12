@@ -1,18 +1,23 @@
-Trigger a page navigation through the code with `router.navigate`
+Navigate programmatically with `router.navigate`. The default is absolute path, and relative path you must use specify `{relativeTo: this.route}`
 
-`home.component.ts`
+`users.component.ts`
 ```js
-constructor(private router: Router) {}
+constructor(private router: Router, private route: ActivatedRoute) {}
 
 onLoadServers() {
-  // ... Your code
   this.router.navigate(['/servers']);
+}
+onReload() {
+  this.router.navigate(['/users'], {relativeTo: this.route});
 }
 ```
 
-`home.component.html`
+`users.component.html`
 ```html
 <h4>Welcome to Server Manager 4.0</h4>
 <p>Manage your Servers and Users.</p>
 <button class="btn btn-primary" (click)="onLoadServers()">Load Servers</button>
+<button class="btn btn-primary" (click)="onReload()">Reload Page</button>
 ```
+
+Relative path will through an error in the console log
