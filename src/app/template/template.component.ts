@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 import { ChapterService } from "./chapter.service";
 import { notesNav } from "./notes-data";
 @Component({
@@ -9,10 +10,11 @@ import { notesNav } from "./notes-data";
 export class TemplateComponent implements OnInit {
   meta = this.chapterService.meta;
   notesNav = notesNav();
+  link = this.notesNav
+    .find((note) => note.name === `${this.meta.chapter} / ${this.meta.section}`)
+    ?.link?.replace("/", "");
 
-  constructor(private chapterService: ChapterService) {
-    console.log(this.notesNav);
-  }
+  constructor(private chapterService: ChapterService, private router: Router) {}
 
   showReset(): void {
     const showSolution = this.meta.currentText === "Show me" ? true : false;

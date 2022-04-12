@@ -4,6 +4,7 @@
       <article class="table-of-contents">
         <nav *ngFor="let noteNav of notesNav" class="navigation">
           <a
+            [id]="'#' + noteNav.link.replace('/', '')"
             [routerLink]="noteNav.link"
             class="navigation-link"
             routerLinkActive="active"
@@ -11,7 +12,9 @@
             >{{ noteNav.name }}</a
           >
         </nav>
-        <h1 class="title">{{ meta.chapter }} / {{ meta.section }}</h1>
+        <a [href]="'#' + link">
+          <h1 class="title">{{ meta.chapter }} / {{ meta.section }}</h1>
+        </a>
       </article>
 
       <div class="notes-markdown">

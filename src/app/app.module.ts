@@ -8,7 +8,6 @@ import { RouterModule } from "@angular/router";
 import { noteRoutes } from "./template/notes-data";
 import { TemplateComponent } from "./template/template.component";
 
-console.log(noteRoutes());
 @NgModule({
   declarations: [AppComponent, TemplateComponent],
   imports: [
