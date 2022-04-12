@@ -59,6 +59,19 @@ const notes: Notes[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/relative-vs-absolute-path.md",
   },
+  {
+    id: 4,
+    title: "Routing / Styling active router links",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-8mcz3h?embed=1&file=src/app/app.component.html&hideExplorer=1",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-q3qvxv?embed=1&file=src/app/app.component.html&hideExplorer=1",
+    playgroundPath:
+      "https://stackblitz.com/edit/angular-ivy-8mcz3h?embed=1&file=src/app/app.component.html&hideExplorer=1",
+    markdownPath: "assets/styling-active-router-links.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/styling-active-router-links.md",
+  },
 ];
 @Injectable({
   providedIn: "root",
@@ -67,7 +80,7 @@ export class ChapterService {
   meta: Meta;
 
   constructor(private sanitizer: DomSanitizer) {
-    const currentTutorial = notes[2];
+    const currentTutorial = notes[3];
     this.meta = {
       ...currentTutorial,
       aPath: this.trustUrl(currentTutorial.aPath),
