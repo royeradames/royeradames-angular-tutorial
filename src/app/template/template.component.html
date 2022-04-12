@@ -2,8 +2,9 @@
   <article class="tutorial">
     <article class="notes">
       <article class="table-of-contents">
-        <nav *ngFor="let noteNav of notesNav" class="navigation">
+        <nav class="navigation" [ngClass]="{ hide: isHidingNav }">
           <a
+            *ngFor="let noteNav of notesNav"
             [id]="'#' + noteNav.link.replace('/', '')"
             [routerLink]="noteNav.link"
             class="navigation-link"
@@ -12,8 +13,12 @@
             >{{ noteNav.name }}</a
           >
         </nav>
-        <a [href]="id">
-          <h1 class="title">{{ meta.chapter }} / {{ meta.section }}</h1>
+        <!-- [href]="id" -->
+        <a (click)="isHidingNav = !isHidingNav">
+          <h1 class="title">
+            <span class="icon"></span>
+            {{ meta.chapter }} / {{ meta.section }}
+          </h1>
         </a>
       </article>
 

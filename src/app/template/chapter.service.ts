@@ -18,29 +18,10 @@ export class ChapterService {
   meta: Meta;
 
   constructor(private sanitizer: DomSanitizer, private router: Router) {
-    const currentTutorial = this.loadNote(notes);
-    this.meta = {
-      ...currentTutorial,
-      aPath: this.trustUrl(currentTutorial.aPath),
-      bPath: this.trustUrl(currentTutorial.bPath),
-      playgroundPath: this.trustUrl(currentTutorial.aPath),
-      showText: "Show me",
-      resetText: "Reset",
-      currentText: "Show me",
-    };
-    // on path change update the meta
-    router.events.subscribe(() => {
-      const currentTutorial = this.loadNote(notes);
-      this.meta = {
-        ...currentTutorial,
-        aPath: this.trustUrl(currentTutorial.aPath),
-        bPath: this.trustUrl(currentTutorial.bPath),
-        playgroundPath: this.trustUrl(currentTutorial.aPath),
-        showText: "Show me",
-        resetText: "Reset",
-        currentText: "Show me",
-      };
+    router.events.subscribe((e) => {
+      this.meta = this.setMeta(notes);
     });
+    this.meta = this.setMeta(notes);
   }
 
   private trustUrl(url: string): SafeResourceUrl {
@@ -52,5 +33,18 @@ export class ChapterService {
     const note = notes.find((note) => note.domainPath === currentDomainPath);
     if (note === undefined) return notes[0];
     return note;
+  }
+
+  private setMeta(notes: Notes[]) {
+    const currentTutorial = this.loadNote(notes);
+    return {
+      ...currentTutorial,
+      aPath: this.trustUrl(currentTutorial.aPath),
+      bPath: this.trustUrl(currentTutorial.bPath),
+      playgroundPath: this.trustUrl(currentTutorial.aPath),
+      showText: "Show me",
+      resetText: "Reset",
+      currentText: "Show me",
+    };
   }
 }

@@ -10,6 +10,7 @@ export class TemplateComponent {
   meta = this.chapterService.meta;
   notesNav = notesNav();
   id = this.generateTitleId();
+  isHidingNav = true;
 
   constructor(private chapterService: ChapterService) {}
 
