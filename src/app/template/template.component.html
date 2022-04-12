@@ -3,9 +3,13 @@
     <article class="notes">
       <article class="table-of-contents">
         <nav *ngFor="let noteNav of notesNav" class="navigation">
-          <a [routerLink]="noteNav.link" class="navigation-link">{{
-            noteNav.name
-          }}</a>
+          <a
+            [routerLink]="noteNav.link"
+            class="navigation-link"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >{{ noteNav.name }}</a
+          >
         </nav>
         <h1 class="title">{{ meta.chapter }} / {{ meta.section }}</h1>
       </article>
