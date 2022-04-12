@@ -6,12 +6,10 @@ import { notesNav } from "./notes-data";
   templateUrl: "./template.component.html",
   styleUrls: ["./template.component.scss"],
 })
-export class TemplateComponent implements OnInit {
+export class TemplateComponent {
   meta = this.chapterService.meta;
   notesNav = notesNav();
-  link = this.notesNav
-    .find((note) => note.name === `${this.meta.chapter} / ${this.meta.section}`)
-    ?.link?.replace("/", "");
+  id = this.generateTitleId();
 
   constructor(private chapterService: ChapterService) {}
 
@@ -26,5 +24,14 @@ export class TemplateComponent implements OnInit {
     }
   }
 
-  ngOnInit(): void {}
+  private generateTitleId() {
+    return (
+      "#" +
+      this.notesNav
+        .find(
+          (note) => note.name === `${this.meta.chapter} / ${this.meta.section}`
+        )
+        ?.link?.replace("/", "")
+    );
+  }
 }
