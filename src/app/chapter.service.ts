@@ -72,6 +72,19 @@ const notes: Notes[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/styling-active-router-links.md",
   },
+  {
+    id: 5,
+    title: "Routing / Navigating programmatically",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-l77w2z?embed=1&file=src/app/home/home.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-vuymfc?embed=1&file=src/app/home/home.component.ts",
+    playgroundPath:
+      "https://stackblitz.com/edit/angular-ivy-l77w2z?embed=1&file=src/app/home/home.component.ts",
+    markdownPath: "assets/navigating-programmatically.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/navigating-programmatically.md",
+  },
 ];
 @Injectable({
   providedIn: "root",
@@ -80,7 +93,7 @@ export class ChapterService {
   meta: Meta;
 
   constructor(private sanitizer: DomSanitizer) {
-    const currentTutorial = notes[3];
+    const currentTutorial = notes[4];
     this.meta = {
       ...currentTutorial,
       aPath: this.trustUrl(currentTutorial.aPath),
