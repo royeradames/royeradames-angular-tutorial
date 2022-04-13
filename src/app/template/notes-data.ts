@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 import { TemplateComponent } from "./template.component";
 
-export interface Notes {
+export interface NotesInterface {
   id: number;
   chapter: string;
   section: string;
@@ -12,7 +12,7 @@ export interface Notes {
   domainPath: string;
 }
 
-export const notes: Notes[] = [
+export const notes: NotesInterface[] = [
   {
     id: 6,
     domainPath: "",
@@ -119,12 +119,12 @@ export const notes: Notes[] = [
   },
 ];
 
-export function noteRoutes(): Routes {
-  return notes.map((note) => ({
-    path: note.domainPath,
-    component: TemplateComponent,
-  }));
-}
+// export function noteRoutes(): Routes {
+//   return notes.map((note) => ({
+//     path: note.domainPath,
+//     component: TemplateComponent,
+//   }));
+// }
 
 export function notesNav() {
   return notes.map((note) => ({

@@ -5,7 +5,7 @@ import { AppComponent } from "./app.component";
 import { MarkdownModule } from "ngx-markdown";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { RouterModule } from "@angular/router";
-import { noteRoutes } from "./template/notes-data";
+// import { noteRoutes } from "./template/notes-data";
 import { TemplateComponent } from "./template/template.component";
 
 @NgModule({
@@ -14,7 +14,13 @@ import { TemplateComponent } from "./template/template.component";
     MarkdownModule.forRoot({ loader: HttpClient }),
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(noteRoutes()),
+    RouterModule.forRoot([
+      { path: "", component: TemplateComponent },
+      {
+        path: ":title",
+        component: TemplateComponent,
+      },
+    ]),
   ],
   bootstrap: [AppComponent],
 })

@@ -1,18 +1,37 @@
-import { Component, OnInit } from "@angular/core";
-import { ChapterService } from "./chapter.service";
-import { notesNav } from "./notes-data";
+import { Component } from "@angular/core";
+import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
+import { ActivatedRoute, Router } from "@angular/router";
+import { NotesInterface, notesNav, notes } from "./notes-data";
+interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
+  showText: string;
+  resetText: string;
+  currentText: string;
+  aPath: SafeResourceUrl;
+  bPath: SafeResourceUrl;
+  playgroundPath: SafeResourceUrl;
+}
 @Component({
   selector: "app-template",
   templateUrl: "./template.component.html",
   styleUrls: ["./template.component.scss"],
 })
 export class TemplateComponent {
-  meta = this.chapterService.meta;
+  meta: MetaInterface;
   notesNav = notesNav();
-  id = this.generateTitleId();
+  id: string;
   isHidingNav = true;
 
-  constructor(private chapterService: ChapterService) {}
+  constructor(
+    private sanitizer: DomSanitizer,
+    private router: Router,
+    private route: ActivatedRoute
+  ) {
+    this.meta = this.getMeta(notes);
+    this.id = this.generateTitleId();
+    this.router.events.subscribe((e) => {
+      this.meta = this.getMeta(notes);
+    });
+  }
 
   showReset(): void {
     const showSolution = this.meta.currentText === "Show me" ? true : false;
@@ -20,7 +39,7 @@ export class TemplateComponent {
       this.meta.currentText = this.meta.resetText;
       this.meta.playgroundPath = this.meta.bPath;
     } else {
-      this.meta.currentText = this.chapterService.meta.showText;
+      this.meta.currentText = this.meta.showText;
       this.meta.playgroundPath = this.meta.aPath;
     }
   }
@@ -34,5 +53,29 @@ export class TemplateComponent {
         )
         ?.link?.replace("/", "")
     );
+  }
+  private trustUrl(url: string): SafeResourceUrl {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+
+  private loadNote(notes: NotesInterface[]) {
+    const currentDomainPath = this.route.snapshot.params["title"];
+    console.log(currentDomainPath);
+    const note = notes.find((note) => note.domainPath === currentDomainPath);
+    if (note === undefined) return notes[0];
+    return note;
+  }
+
+  private getMeta(notes: NotesInterface[]) {
+    const currentTutorial = this.loadNote(notes);
+    return {
+      ...currentTutorial,
+      aPath: this.trustUrl(currentTutorial.aPath),
+      bPath: this.trustUrl(currentTutorial.bPath),
+      playgroundPath: this.trustUrl(currentTutorial.aPath),
+      showText: "Show me",
+      resetText: "Reset",
+      currentText: "Show me",
+    };
   }
 }
