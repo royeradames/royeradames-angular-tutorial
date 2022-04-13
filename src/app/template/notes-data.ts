@@ -104,6 +104,19 @@ export const notes: Notes[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/route-parameters.md",
   },
+  {
+    id: 8,
+    domainPath: "query-parameters",
+    chapter: "Routing",
+    section: "Query parameters",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts",
+    markdownPath: "assets/query-parameters.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/query-parameters.md",
+  },
 ];
 
 export function noteRoutes(): Routes {
