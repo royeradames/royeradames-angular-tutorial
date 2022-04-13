@@ -90,3 +90,8 @@ ngOnDestroy() {
 <button [routerLink]="['/users', 2, 'beth']">Load beth</button>
 ```
 
+## all params are string
+
+`+` can convert a string number to a number 
+- `const id = +this.route.snapshot.params['id']`
+- `+params['id']`
