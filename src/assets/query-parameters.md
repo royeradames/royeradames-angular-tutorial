@@ -101,4 +101,4 @@ constructor(
   }
 ```
 
-Navigate to server and select a server and see the console log input.
+Navigate to server and select a server and see the console log output.
