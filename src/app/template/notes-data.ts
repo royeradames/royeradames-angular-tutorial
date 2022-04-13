@@ -117,6 +117,19 @@ export const notes: NotesInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/query-parameters.md",
   },
+  {
+    id: 9,
+    domainPath: "nested-routes",
+    chapter: "Routing",
+    section: "Nested routes",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-xatedq?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-bsaf3p?embed=1&file=src/app/app.module.ts",
+    markdownPath: "assets/nested-routes.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/nested-routes.md",
+  },
 ];
 
 export function notesNav() {
