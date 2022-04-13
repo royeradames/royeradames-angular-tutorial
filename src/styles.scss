@@ -47,7 +47,7 @@ code {
   white-space: nowrap;
   position: relative;
   top: -0.1em;
-  font: 400 var(--code-fs) / 1.7 var(--font-mono);
+  font: 400 var(--code-fs) / 1.7 var(--font-mono) !important;
 }
 
 blockquote {
