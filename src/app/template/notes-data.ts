@@ -106,25 +106,18 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 8,
-    domainPath: "query-parameters",
+    domainPath: "adding-query-parameters",
     chapter: "Routing",
     section: "Query parameters",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts",
-    markdownPath: "assets/query-parameters.md",
+    markdownPath: "assets/adding-query-parameters.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/query-parameters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/adding-query-parameters.md",
   },
 ];
-
-// export function noteRoutes(): Routes {
-//   return notes.map((note) => ({
-//     path: note.domainPath,
-//     component: TemplateComponent,
-//   }));
-// }
 
 export function notesNav() {
   return notes.map((note) => ({

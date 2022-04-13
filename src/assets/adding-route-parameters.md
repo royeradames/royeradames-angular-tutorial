@@ -22,8 +22,25 @@ You don't need to subscribe if your component will not load itself.
 
 ### Note 
 
-subscription (Observables) need to be unsubscribe on `ngOnDestroy()` so that the subscription doesn't continue running in memory
-- Except some Angular subscriptions that Angular destroy automatically like router subscriptions 
+
+subscription need to be `ngOnDestroy()` when watching over the dom and are not require when doing http calls. HTTP calls are 1 time event while the dom can be infinite. 
+
+```ts
+paramsSubscription: Subscription;
+
+ngOnInit() {
+  this.paramsSubscription = this.route.params.subscribe((params: Params) => {
+    this.user = {
+      id: params['id'],
+      name: params['name'],
+    };
+  });
+}
+
+ngOnDestroy() {
+  this.paramsSubscription.unsubscribe();
+}
+```
 
 ## You can pass down data to a component through with params
 
