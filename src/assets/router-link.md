@@ -1,4 +1,4 @@
-Enable link to change pages without reloading the page with routerLink directive. 
+Enable link to change pages without reloading the page with `routerLink` directive. 
 
 ## In app.component.html update the nav links
 

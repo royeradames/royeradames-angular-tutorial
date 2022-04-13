@@ -91,6 +91,19 @@ export const notes: Notes[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/navigating-programmatically.md",
   },
+  {
+    id: 7,
+    domainPath: "route-parameters",
+    chapter: "Routing",
+    section: "Route parameters",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-vuymfc?embed=1&file=src/app/users/user/user.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-mii2hv?embed=1&file=src/app/users/user/user.component.ts",
+    markdownPath: "assets/route-parameters.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/route-parameters.md",
+  },
 ];
 
 export function noteRoutes(): Routes {
