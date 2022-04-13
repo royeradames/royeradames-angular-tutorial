@@ -106,16 +106,16 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 8,
-    domainPath: "adding-query-parameters",
+    domainPath: "query-parameters",
     chapter: "Routing",
     section: "Query parameters",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts",
+      "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts",
-    markdownPath: "assets/adding-query-parameters.md",
+      "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
+    markdownPath: "assets/query-parameters.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/adding-query-parameters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/query-parameters.md",
   },
 ];
 
