@@ -130,6 +130,19 @@ export const notes: NotesInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/nested-routes.md",
   },
+  {
+    id: 10,
+    domainPath: "nested-routes",
+    chapter: "Routing",
+    section: "Redirecting and wildcard routes",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-3oiczz?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-yydpre?embed=1&file=src/app/app.module.ts",
+    markdownPath: "assets/redirecting-and-wildcard-routes.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/redirecting-and-wildcard-routes.md",
+  },
 ];
 
 export function notesNav() {
