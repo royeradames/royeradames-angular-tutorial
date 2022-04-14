@@ -1,6 +1,11 @@
-`?key=value&otherKey:otherValue`. Commonly used in APIs.
+Handling query params `?key=value&otherKey:otherValue`, commonly for APIs. The query can be set, capture, and preserve.
 
-## set parameters
+`routerLink`
+`queryParams`
+`fragment`
+`queryParamsHandling`
+
+## Set
 
 In angular we use `queryParams` and `fragment` directive which binds to the `routerLink` directive.
 
@@ -26,7 +31,7 @@ this.router.navigate(['/servers', id, 'edit'], {
 });
 ```
 
-## Get parameters
+## Capture
 
 ```ts
 private route: ActivatedRoute
@@ -35,6 +40,18 @@ this.route.snapshot.queryParams;
 this.route.snapshot.fragment;
 this.route.queryParams.subscribe();
 this.route.fragment.subscribe();
+```
+
+## Preserve
+
+If you want to `preserve` or `merge` you query when navigation away from your component then
+
+`QueryParamsHandling = 'merge' | 'preserve' | ''`
+
+```ts
+onEdit(){
+  this.router.navigate(['edit'], {relativeTo: this.route, queryParamsHandling: "preserve"})
+}
 ```
 
 ## Practice
@@ -47,6 +64,7 @@ const appRoutes: Routes = [
   { path: 'users', component: UsersComponent },
   { path: 'users/:id/:name', component: UserComponent },
   { path: 'servers', component: ServersComponent },
+  { path: 'servers/:id', component: ServerComponent },
   { path: 'servers/:id/edit', component: EditServerComponent },
 ];
 ```
@@ -56,7 +74,7 @@ const appRoutes: Routes = [
 ```html
 <div class="list-group">
     <a
-      [routerLink]="['/servers', 5, 'edit']"
+      [routerLink]="['/servers', 5]"
       [queryParams]="{ allowEdit: '1' }"
       fragment="loading"
       href="#"
@@ -67,6 +85,31 @@ const appRoutes: Routes = [
     </a>
   </div>
 </div>
+```
+
+`server.component.html`
+
+```html
+<h5>{{ server.name }}</h5>
+<p>Server status is {{ server.status }}</p>
+<button class="btn btn-primary" (click)="onEdit()">Edit server</button>
+<a routerLink="edit" queryParamsHandling="preserve">Edit server</a>
+```
+
+`server.component.js`
+
+```ts
+server: {id: number, name: string, status: string};
+
+constructor(private serversService: ServersService, private route: ActivatedRoute, private router:Router) { }
+
+ngOnInit() {
+  this.server = this.serversService.getServer(1);
+}
+
+onEdit(){
+  this.router.navigate(['edit'], {relativeTo: this.route, queryParamsHandling: "preserve"})
+}
 ```
 
 `home.component.html`
