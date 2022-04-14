@@ -20,6 +20,7 @@ import { TemplateComponent } from "./template/template.component";
         path: ":title",
         component: TemplateComponent,
       },
+      { path: "**", redirectTo: "" },
     ]),
   ],
   bootstrap: [AppComponent],
