@@ -3,7 +3,7 @@ Instead of getting console errors for trying to access routes that doesn't exist
 Commonly used for 404 or redirect to home landing page.
 
 `**` wild card. Make sure to have it last to catch all other routes. Routes are parse from start to finish.
-`redirectTo` changes the path to the redirectTo path
+`redirectTo` changes the path to the redirectTo path. Cannot be used with `component`
 
 ## Practice
 
