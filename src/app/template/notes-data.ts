@@ -132,7 +132,7 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 10,
-    domainPath: "nested-routes",
+    domainPath: "redirecting-and-wildcard-routes",
     chapter: "Routing",
     section: "Redirecting and wildcard routes",
     aPath:
@@ -142,6 +142,19 @@ export const notes: NotesInterface[] = [
     markdownPath: "assets/redirecting-and-wildcard-routes.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/redirecting-and-wildcard-routes.md",
+  },
+  {
+    id: 11,
+    chapter: "Routing",
+    domainPath: "outsourcing-the-routes-configuration",
+    markdownPath: "assets/outsourcing-the-routes-configuration.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/outsourcing-the-routes-configuration.md",
+    section: "Outsourcing the routes configuration",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-lqkinq?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-czd2hz?embed=1&file=src/app/app-routing.module.ts",
   },
 ];
 
