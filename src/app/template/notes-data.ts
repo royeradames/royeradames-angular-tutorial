@@ -156,6 +156,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-czd2hz?embed=1&file=src/app/app-routing.module.ts",
   },
+  {
+    id: 12,
+    chapter: "Routing",
+    domainPath: "guards",
+    markdownPath: "assets/guards.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards.md",
+    section: "Guards",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-u6pvhp?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-kmdu7i?embed=1&file=src/app/auth.service.ts",
+  },
 ];
 
 export function notesNav() {
