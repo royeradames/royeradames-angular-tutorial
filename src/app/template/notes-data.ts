@@ -159,11 +159,24 @@ export const notes: NotesInterface[] = [
   {
     id: 12,
     chapter: "Routing",
-    domainPath: "guards",
-    markdownPath: "assets/guards.md",
+    domainPath: "guards-loading-route",
+    markdownPath: "assets/guards-loading-route.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards.md",
-    section: "Guards",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards-loading-route.md",
+    section: "Guards loading route",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-u6pvhp?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-kmdu7i?embed=1&file=src/app/auth.service.ts",
+  },
+  {
+    id: 13,
+    chapter: "Routing",
+    domainPath: "guards-leaving-route",
+    markdownPath: "assets/guards-leaving-route.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards-leaving-route.md",
+    section: "Guards leaving route",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-u6pvhp?embed=1&file=src/app/app.module.ts",
     bPath:
