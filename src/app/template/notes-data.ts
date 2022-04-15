@@ -178,9 +178,22 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards-leaving-route.md",
     section: "Guards leaving route",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-u6pvhp?embed=1&file=src/app/app.module.ts",
+      "https://stackblitz.com/edit/angular-ivy-hgl21t?embed=1&file=src/app/servers/edit-server/edit-server.component.ts",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-kmdu7i?embed=1&file=src/app/auth.service.ts",
+      "https://stackblitz.com/edit/angular-ivy-ycas2f?embed=1&file=src/app/servers/edit-server/edit-server.component.ts",
+  },
+  {
+    id: 14,
+    chapter: "Routing",
+    domainPath: "passing-static-data-from-route-to-component",
+    markdownPath: "assets/passing-static-data-from-route-to-component.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/passing-static-data-from-route-to-component.md",
+    section: "Passing static data from route to component",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-snyzef?embed=1&file=src/app/app-routing.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-rjacpn?embed=1&file=src/app/app-routing.module.ts",
   },
 ];
 
