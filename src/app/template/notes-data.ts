@@ -195,6 +195,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-rjacpn?embed=1&file=src/app/app-routing.module.ts",
   },
+  {
+    id: 15,
+    chapter: "Routing",
+    domainPath: "resolving-dynamic-data-with-the-resolve-guard",
+    markdownPath: "assets/resolving-dynamic-data-with-the-resolve-guard.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/resolving-dynamic-data-with-the-resolve-guard.md",
+    section: "Resolving dynamic data with the resolve guard",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-dcqt15?embed=1&file=src/app/servers/server/server.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-imgwe8?embed=1&file=src/app/servers/server/server-resolver.service.ts",
+  },
 ];
 
 export function notesNav() {
