@@ -1,4 +1,11 @@
-You can pass static data with `ActivatedRoute` `data` 
+You can pass static data with 
+
+route `data: {}` and
+
+```ts
+private route: ActivatedRoute
+this.errorMessage = this.route.snapshot.data[''];
+```
 
 ## Practice
 
