@@ -1,5 +1,6 @@
 Functionality, logic, code which is executed before a route is loaded or once you want to leave a route. For example, user must be login to have access to a path.
 
+A guard always need to be a service.
 To guard a parent level route path you need to use `canActivate` in the parent route, and pass a class service that implements `CanActivate`.
 To guard a child level route path you need to use `canActivateChild` in the parent route, and pass a class service that implements `CanActivateChild`
 
