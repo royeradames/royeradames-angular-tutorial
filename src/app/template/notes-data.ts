@@ -208,6 +208,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-imgwe8?embed=1&file=src/app/servers/server/server-resolver.service.ts",
   },
+  {
+    id: 16,
+    chapter: "Routing",
+    domainPath: "understanding-location-strategies",
+    markdownPath: "assets/understanding-location-strategies.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/understanding-location-strategies.md",
+    section: "Understanding location strategies",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-pw5wac?embed=1&file=src/app/app-routing.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-xxsbvw?embed=1&file=src/app/app-routing.module.ts",
+  },
 ];
 
 export function notesNav() {
