@@ -15,7 +15,7 @@ interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
   templateUrl: "./tutorial-template.component.html",
   styleUrls: ["./tutorial-template.component.scss"],
 })
-export class tutorialTemplateComponent {
+export class TutorialTemplateComponent {
   meta: MetaInterface;
   notesNav = notesNav();
   id: string;

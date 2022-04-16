@@ -1,14 +1,19 @@
 import { NgModule } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { tutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
+import { NewTutorialFormComponent } from "./new-tutorial-form/new-tutorial-form.component";
+import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 
 @NgModule({
   imports: [
     RouterModule.forRoot([
-      { path: "", component: tutorialTemplateComponent },
+      { path: "", component: TutorialTemplateComponent },
       {
         path: ":title",
-        component: tutorialTemplateComponent,
+        component: TutorialTemplateComponent,
+      },
+      {
+        path: "new-angular-tutorial",
+        component: NewTutorialFormComponent,
       },
       { path: "**", redirectTo: "" },
     ]),
