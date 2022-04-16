@@ -5,20 +5,19 @@ import { AppComponent } from "./app.component";
 import { MarkdownModule } from "ngx-markdown";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { RouterModule } from "@angular/router";
-// import { noteRoutes } from "./template/notes-data";
-import { TemplateComponent } from "./template/template.component";
+import { tutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 
 @NgModule({
-  declarations: [AppComponent, TemplateComponent],
+  declarations: [AppComponent, tutorialTemplateComponent],
   imports: [
     MarkdownModule.forRoot({ loader: HttpClient }),
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot([
-      { path: "", component: TemplateComponent },
+      { path: "", component: tutorialTemplateComponent },
       {
         path: ":title",
-        component: TemplateComponent,
+        component: tutorialTemplateComponent,
       },
       { path: "**", redirectTo: "" },
     ]),

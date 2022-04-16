@@ -11,11 +11,11 @@ interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
   playgroundPath: SafeResourceUrl;
 }
 @Component({
-  selector: "app-template",
-  templateUrl: "./template.component.html",
-  styleUrls: ["./template.component.scss"],
+  selector: "app-tutorial-template",
+  templateUrl: "./tutorial-template.component.html",
+  styleUrls: ["./tutorial-template.component.scss"],
 })
-export class TemplateComponent {
+export class tutorialTemplateComponent {
   meta: MetaInterface;
   notesNav = notesNav();
   id: string;

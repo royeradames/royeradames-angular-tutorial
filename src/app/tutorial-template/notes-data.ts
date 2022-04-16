@@ -1,5 +1,5 @@
 import { Routes } from "@angular/router";
-import { TemplateComponent } from "./template.component";
+import { tutorialTemplateComponent } from "./tutorial-template.component";
 
 export interface NotesInterface {
   id: number;
