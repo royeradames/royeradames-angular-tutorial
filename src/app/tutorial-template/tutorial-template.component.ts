@@ -31,6 +31,9 @@ export class tutorialTemplateComponent {
     this.router.events.subscribe((e) => {
       this.meta = this.getMeta(notes);
     });
+
+    // when redirected to home remove redirected path
+    if (this.meta.domainPath === "") this.router.navigate(["/"]);
   }
 
   showReset(): void {
@@ -45,7 +48,7 @@ export class tutorialTemplateComponent {
     }
   }
 
-  private generateTitleId() {
+  private generateTitleId(): string {
     return (
       "#" +
       this.notesNav
@@ -59,7 +62,7 @@ export class tutorialTemplateComponent {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
-  private loadNote(notes: NotesInterface[]) {
+  private loadNote(notes: NotesInterface[]): NotesInterface {
     const currentDomainPath = this.route.snapshot.params["title"];
     console.log(currentDomainPath);
     const note = notes.find((note) => note.domainPath === currentDomainPath);
