@@ -6,15 +6,16 @@ import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template
 @NgModule({
   imports: [
     RouterModule.forRoot([
+      {
+        path: "new",
+        component: NewTutorialFormComponent,
+      },
       { path: "", component: TutorialTemplateComponent },
       {
         path: ":title",
         component: TutorialTemplateComponent,
       },
-      {
-        path: "new-angular-tutorial",
-        component: NewTutorialFormComponent,
-      },
+
       { path: "**", redirectTo: "" },
     ]),
   ],
