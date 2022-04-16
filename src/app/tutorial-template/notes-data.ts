@@ -22,9 +22,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.html",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.html",
-    markdownPath: "assets/welcome-to-angular.md",
+    markdownPath: "assets/routing/welcome-to-angular.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/welcome-to-angular.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/welcome-to-angular.md",
   },
   {
     id: 1,
@@ -35,9 +35,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-2zan4p?embed=1&file=src/app/app.module.ts&hideExplorer=1",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-4rloit?embed=1&file=src/app/app.module.ts&hideExplorer=1",
-    markdownPath: "assets/setting-up-routes.md",
+    markdownPath: "assets/routing/setting-up-routes.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/setting-up-routes.md&hideExplorer=1",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/setting-up-routes.md&hideExplorer=1",
   },
   {
     id: 2,
@@ -48,9 +48,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-ou51xf?embed=1&file=src/app/app.component.html&hideExplorer=1",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-y71jmy?embed=1&file=src/app/app.component.html&hideExplorer=1",
-    markdownPath: "assets/router-link.md",
+    markdownPath: "assets/routing/router-link.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/router-link.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/router-link.md",
   },
   {
     id: 3,
@@ -61,9 +61,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-mdyp2r?file=src/app/servers/servers.component.html&hideExplorer=1",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-zrnbkv?embed=1&file=src/app/servers/servers.component.html",
-    markdownPath: "assets/relative-vs-absolute-path.md",
+    markdownPath: "assets/routing/relative-vs-absolute-path.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/relative-vs-absolute-path.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/relative-vs-absolute-path.md",
   },
   {
     id: 4,
@@ -74,9 +74,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-8mcz3h?embed=1&file=src/app/app.component.html&hideExplorer=1",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-q3qvxv?embed=1&file=src/app/app.component.html&hideExplorer=1",
-    markdownPath: "assets/styling-active-router-links.md",
+    markdownPath: "assets/routing/styling-active-router-links.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/styling-active-router-links.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/styling-active-router-links.md",
   },
   {
     id: 5,
@@ -87,9 +87,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-l77w2z?embed=1&file=src/app/users/users.component.ts&devToolsHeight=33",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-vuymfc?embed=1&file=src/app/users/users.component.ts&devToolsHeight=33",
-    markdownPath: "assets/navigating-programmatically.md",
+    markdownPath: "assets/routing/navigating-programmatically.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/navigating-programmatically.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/navigating-programmatically.md",
   },
   {
     id: 7,
@@ -100,9 +100,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-vuymfc?embed=1&file=src/app/users/user/user.component.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-mii2hv?embed=1&file=src/app/users/user/user.component.ts",
-    markdownPath: "assets/route-parameters.md",
+    markdownPath: "assets/routing/route-parameters.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/route-parameters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/route-parameters.md",
   },
   {
     id: 8,
@@ -113,9 +113,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
-    markdownPath: "assets/query-parameters.md",
+    markdownPath: "assets/routing/query-parameters.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/query-parameters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/query-parameters.md",
   },
   {
     id: 9,
@@ -126,9 +126,9 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-xatedq?embed=1&file=src/app/app.module.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-bsaf3p?embed=1&file=src/app/app.module.ts",
-    markdownPath: "assets/nested-routes.md",
+    markdownPath: "assets/routing/nested-routes.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/nested-routes.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/nested-routes.md",
   },
   {
     id: 10,
@@ -139,17 +139,17 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-3oiczz?embed=1&file=src/app/app.module.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-yydpre?embed=1&file=src/app/app.module.ts",
-    markdownPath: "assets/redirecting-and-wildcard-routes.md",
+    markdownPath: "assets/routing/redirecting-and-wildcard-routes.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/redirecting-and-wildcard-routes.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/redirecting-and-wildcard-routes.md",
   },
   {
     id: 11,
     chapter: "Routing",
     domainPath: "outsourcing-the-routes-configuration",
-    markdownPath: "assets/outsourcing-the-routes-configuration.md",
+    markdownPath: "assets/routing/outsourcing-the-routes-configuration.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/outsourcing-the-routes-configuration.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/outsourcing-the-routes-configuration.md",
     section: "Outsourcing the routes configuration",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-lqkinq?embed=1&file=src/app/app.module.ts",
@@ -160,9 +160,9 @@ export const notes: NotesInterface[] = [
     id: 12,
     chapter: "Routing",
     domainPath: "guards-loading-route",
-    markdownPath: "assets/guards-loading-route.md",
+    markdownPath: "assets/routing/guards-loading-route.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards-loading-route.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/guards-loading-route.md",
     section: "Guards loading route",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-u6pvhp?embed=1&file=src/app/app.module.ts",
@@ -173,9 +173,9 @@ export const notes: NotesInterface[] = [
     id: 13,
     chapter: "Routing",
     domainPath: "guards-leaving-route",
-    markdownPath: "assets/guards-leaving-route.md",
+    markdownPath: "assets/routing/guards-leaving-route.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/guards-leaving-route.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/guards-leaving-route.md",
     section: "Guards leaving route",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-hgl21t?embed=1&file=src/app/servers/edit-server/edit-server.component.ts",
@@ -186,9 +186,10 @@ export const notes: NotesInterface[] = [
     id: 14,
     chapter: "Routing",
     domainPath: "passing-static-data-from-route-to-component",
-    markdownPath: "assets/passing-static-data-from-route-to-component.md",
+    markdownPath:
+      "assets/routing/passing-static-data-from-route-to-component.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/passing-static-data-from-route-to-component.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/passing-static-data-from-route-to-component.md",
     section: "Passing static data from route to component",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-snyzef?embed=1&file=src/app/app-routing.module.ts",
@@ -199,9 +200,10 @@ export const notes: NotesInterface[] = [
     id: 15,
     chapter: "Routing",
     domainPath: "resolving-dynamic-data-with-the-resolve-guard",
-    markdownPath: "assets/resolving-dynamic-data-with-the-resolve-guard.md",
+    markdownPath:
+      "assets/routing/resolving-dynamic-data-with-the-resolve-guard.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/resolving-dynamic-data-with-the-resolve-guard.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/resolving-dynamic-data-with-the-resolve-guard.md",
     section: "Resolving dynamic data with the resolve guard",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-dcqt15?embed=1&file=src/app/servers/server/server.component.ts",
@@ -212,9 +214,9 @@ export const notes: NotesInterface[] = [
     id: 16,
     chapter: "Routing",
     domainPath: "understanding-location-strategies",
-    markdownPath: "assets/understanding-location-strategies.md",
+    markdownPath: "assets/routing/understanding-location-strategies.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/understanding-location-strategies.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/understanding-location-strategies.md",
     section: "Understanding location strategies",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-pw5wac?embed=1&file=src/app/app-routing.module.ts",
