@@ -6,7 +6,7 @@ export interface NotesInterface {
   chapter: string;
   section: string;
   aPath: string;
-  bPath: string;
+  bPath?: string;
   markdownPath: string;
   editPath: string;
   domainPath: string;
@@ -220,6 +220,16 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-pw5wac?embed=1&file=src/app/app-routing.module.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-xxsbvw?embed=1&file=src/app/app-routing.module.ts",
+  },
+  {
+    id: 17,
+    chapter: "Forms",
+    domainPath: "angular-forms-introduction",
+    markdownPath: "assets/forms/angular-forms-introduction.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/angular-forms-introduction.md",
+    section: "Understanding location strategies",
+    aPath: "",
   },
 ];
 

@@ -25,7 +25,7 @@
         <article markdown [src]="meta.markdownPath"></article>
         <hr />
         <article class="controls">
-          <button class="show-reset" (click)="showReset()">
+          <button class="show-reset" (click)="showReset()" *ngIf="meta.bPath">
             {{ meta.currentText }}
           </button>
         </article>

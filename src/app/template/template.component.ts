@@ -7,7 +7,7 @@ interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
   resetText: string;
   currentText: string;
   aPath: SafeResourceUrl;
-  bPath: SafeResourceUrl;
+  bPath?: SafeResourceUrl;
   playgroundPath: SafeResourceUrl;
 }
 @Component({
@@ -34,6 +34,7 @@ export class TemplateComponent {
   }
 
   showReset(): void {
+    if (this.meta.bPath === undefined) return;
     const showSolution = this.meta.currentText === "Show me" ? true : false;
     if (showSolution) {
       this.meta.currentText = this.meta.resetText;
@@ -71,7 +72,10 @@ export class TemplateComponent {
     return {
       ...currentTutorial,
       aPath: this.trustUrl(currentTutorial.aPath),
-      bPath: this.trustUrl(currentTutorial.bPath),
+      bPath:
+        currentTutorial.bPath === undefined
+          ? undefined
+          : this.trustUrl(currentTutorial.bPath),
       playgroundPath: this.trustUrl(currentTutorial.aPath),
       showText: "Show me",
       resetText: "Reset",
