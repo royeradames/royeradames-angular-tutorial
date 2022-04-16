@@ -23,12 +23,6 @@
   }
 }
 
-.title {
-  text-align: center;
-  margin-bottom: 0;
-  cursor: pointer;
-}
-
 .show-reset {
   background: var(--prime);
   padding: 0.3em 0.7em;
@@ -63,43 +57,4 @@
     transition: color 0.2s;
     color: var(--back);
   }
-}
-
-.navigation {
-  display: flex;
-  flex-direction: column;
-
-  font-size: var(--h5);
-
-  &-link {
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    color: var(--back);
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0.1em;
-    &:hover {
-      color: var(--prime);
-      background-color: var(--back);
-    }
-  }
-}
-
-.active {
-  color: var(--prime);
-  background-color: var(--back);
-}
-
-.hide {
-  display: none;
-}
-
-.icon {
-  width: 20px;
-  height: 20px;
-  background: no-repeat 0 50% url("../../assets/menu-icon.svg");
-  background-size: 20px;
-  background-repeat: no-repeat;
-  padding: 0 0.1em 0 1.2em;
 }

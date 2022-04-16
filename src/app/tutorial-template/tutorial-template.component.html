@@ -1,7 +1,7 @@
 <main id="main">
   <article class="tutorial">
     <article class="notes">
-      <article class="table-of-contents">
+      <!-- <article class="table-of-contents">
         <nav class="navigation" [ngClass]="{ hide: isHidingNav }">
           <a
             *ngFor="let noteNav of notesNav"
@@ -19,8 +19,11 @@
             {{ meta.chapter }} / {{ meta.section }}
           </h1>
         </a>
-      </article>
-
+      </article> -->
+      <app-table-of-content
+        [title]="title"
+        [notesNav]="notesNav"
+      ></app-table-of-content>
       <div class="notes-markdown">
         <article markdown [src]="meta.markdownPath"></article>
         <hr />

@@ -1,8 +1,8 @@
 import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
-import { NotesInterface, notesNav, notes } from "./notes-data";
-interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
+import { NotesInterface, notesNav, notes } from "../notes-data";
+export interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
   showText: string;
   resetText: string;
   currentText: string;
@@ -19,7 +19,8 @@ export class TutorialTemplateComponent {
   meta: MetaInterface;
   notesNav = notesNav();
   id: string;
-  isHidingNav = true;
+  title: string;
+  // isHidingNav = true;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -27,6 +28,7 @@ export class TutorialTemplateComponent {
     private route: ActivatedRoute
   ) {
     this.meta = this.getMeta(notes);
+    this.title = `${this.meta.chapter} / ${this.meta.section}`;
     this.id = this.generateTitleId();
     this.router.events.subscribe((e) => {
       this.meta = this.getMeta(notes);
