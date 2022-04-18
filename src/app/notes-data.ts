@@ -242,7 +242,7 @@ export const notes: NotesInterface[] = [
       "assets/forms/td-creating-the–form–and-registering-the-controls.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-creating-the–form–and-registering-the-controls.md",
-    section: "Creating the form and registering the controls",
+    section: "TD Creating the form and registering the controls",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-xtzt2y?embed=1&file=src/app/app.component.html",
     bPath:
@@ -255,11 +255,24 @@ export const notes: NotesInterface[] = [
     markdownPath: "assets/forms/td-submitting-and-using-the-form.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-submitting-and-using-the-form.md",
-    section: "Submitting and using the form",
+    section: "TD Submitting and using the form",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-bhmsih?embed=1&file=src/app/app.component.html",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-bhmsih?devToolsHeight=33&embed=1&file=src/app/app.component.html",
+  },
+  {
+    id: 20,
+    chapter: "Forms",
+    domainPath: "td-adding-validation-to-check-user-input",
+    markdownPath: "assets/forms/td-adding-validation-to-check-user-input.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-adding-validation-to-check-user-input.md",
+    section: "TD Adding validation to check user input",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-ugqjpr?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-fdatjy?devToolsHeight=33&embed=1&file=src/app/app.component.html",
   },
 ];
 
