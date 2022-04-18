@@ -300,6 +300,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-c2p9c7?embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 23,
+    chapter: "Forms",
+    domainPath: "td-set-default-values-with-ngModel-property",
+    markdownPath: "assets/forms/td-set-default-values-with-ngModel-property.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-set-default-values-with-ngModel-property.md",
+    section: "TD set default values with ngModel property",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-gt53x4?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-bbekcq?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export function notesNav() {
