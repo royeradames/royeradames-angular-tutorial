@@ -274,6 +274,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-fdatjy?devToolsHeight=33&embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 21,
+    chapter: "Forms",
+    domainPath: "td-using-the-form-state",
+    markdownPath: "assets/forms/td-using-the-form-state.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-the-form-state.md",
+    section: "TD using the form state",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-ugqjpr?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-fdatjy?devToolsHeight=33&embed=1&file=src/app/app.component.html",
+  },
 ];
 
 export function notesNav() {
