@@ -1,4 +1,4 @@
-
+You can give any input a default values by setting `ngModel]` to a variable. For select it matches the option value.
 
 ## Practice
 
