@@ -26,3 +26,23 @@ You can add validation by adding attributes to the input.
 ```
 
 You will notice in the console that when you submit the form the form status is valid or invalid if it was fill correctly.
+
+## List of Angular validators
+
+- min 
+- max 
+- required 
+- requiredTrue 
+- email 
+- minLength 
+- maxLength 
+- pattern 
+- nullValidator
+- compose
+- composeAsync
+
+[Resource](https://angular.io/api/forms/Validators)
+
+## HTML5 validation
+
+Additionally, you might also want to enable HTML5 validation (by default, Angular disables it). You can do so by adding the `ngNativeValidate`  to a control in your template.
