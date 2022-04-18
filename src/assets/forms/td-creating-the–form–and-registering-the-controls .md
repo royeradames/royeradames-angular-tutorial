@@ -2,8 +2,8 @@ You need `FormsModule` to be import in your app module to be able to ue the temp
 
 To register an input use:
 
-`ngModel`
-`name`
+- `ngModel`
+- `name`
 
 ## practice
 

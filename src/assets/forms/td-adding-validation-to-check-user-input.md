@@ -1,7 +1,7 @@
 You can add validation by adding attributes to the input.
 
-`required` also in default input. Angular takes over it and works with it has a directive. 
-`email` only in angular. Checks that the email has a valid email pattern
+- `required` also in default input. Angular takes over it and works with it has a directive.
+- `email` only in angular. Checks that the email has a valid email pattern
 
 ## Practice
 
@@ -29,14 +29,14 @@ You will notice in the console that when you submit the form the form status is 
 
 ## List of Angular validators
 
-- min 
-- max 
-- required 
-- requiredTrue 
-- email 
-- minLength 
-- maxLength 
-- pattern 
+- min
+- max
+- required
+- requiredTrue
+- email
+- minLength
+- maxLength
+- pattern
 - nullValidator
 - compose
 - composeAsync

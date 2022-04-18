@@ -287,6 +287,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-7ldd6r?embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 22,
+    chapter: "Forms",
+    domainPath: "td-outputting-validation-error-messages",
+    markdownPath: "assets/forms/td-outputting-validation-error-messages.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-outputting-validation-error-messages.md",
+    section: "TD outputting validation error message",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-wqg434?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-c2p9c7?embed=1&file=src/app/app.component.html",
+  },
 ];
 
 export function notesNav() {
