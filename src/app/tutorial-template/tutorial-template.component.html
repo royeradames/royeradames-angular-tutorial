@@ -1,25 +1,6 @@
 <main id="main">
   <article class="tutorial">
     <article class="notes">
-      <!-- <article class="table-of-contents">
-        <nav class="navigation" [ngClass]="{ hide: isHidingNav }">
-          <a
-            *ngFor="let noteNav of notesNav"
-            [id]="'#' + noteNav.link.replace('/', '')"
-            [routerLink]="noteNav.link"
-            class="navigation-link"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            >{{ noteNav.name }}</a
-          >
-        </nav>
-        <a (click)="isHidingNav = !isHidingNav">
-          <h1 class="title">
-            <span class="icon"></span>
-            {{ meta.chapter }} / {{ meta.section }}
-          </h1>
-        </a>
-      </article> -->
       <app-table-of-content
         [title]="title"
         [notesNav]="notesNav"
