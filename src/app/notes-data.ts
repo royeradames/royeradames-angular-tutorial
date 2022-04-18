@@ -231,7 +231,22 @@ export const notes: NotesInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/angular-forms-introduction.md",
     section: "Understanding location strategies",
-    aPath: "",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
+  },
+  {
+    id: 18,
+    chapter: "Forms",
+    domainPath: "td-creating-the–form–and-registering-the-controls",
+    markdownPath:
+      "assets/forms/td-creating-the–form–and-registering-the-controls.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-creating-the–form–and-registering-the-controls.md",
+    section: "Creating the form and registering the controls",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-xtzt2y?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-xuhc5x?embed=1&file=src/app/app.component.html",
   },
 ];
 
