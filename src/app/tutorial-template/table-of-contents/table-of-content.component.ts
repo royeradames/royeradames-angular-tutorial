@@ -1,5 +1,5 @@
 import { Component, Input } from "@angular/core";
-import { MetaInterface } from "../tutorial-template/tutorial-template.component";
+import { MetaInterface } from "../tutorial-template.component";
 
 interface NotesNav {
   link: string;

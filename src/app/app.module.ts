@@ -7,7 +7,7 @@ import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 import { AppRoutesModule } from "./app-routes.module";
 import { NewTutorialFormComponent } from "./new-tutorial-form/new-tutorial-form.component";
-import { TableOfContentComponent } from "./table-of-contents/table-of-content.component";
+import { TableOfContentComponent } from "./tutorial-template/table-of-contents/table-of-content.component";
 
 @NgModule({
   declarations: [
