@@ -2,6 +2,7 @@ import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
 import { NotesInterface, notesNav, notes } from "../notes-data";
+
 export interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
   showText: string;
   resetText: string;
@@ -20,7 +21,6 @@ export class TutorialTemplateComponent {
   notesNav = notesNav();
   id: string;
   title: string;
-  // isHidingNav = true;
 
   constructor(
     private sanitizer: DomSanitizer,
