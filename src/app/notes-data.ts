@@ -313,6 +313,32 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-bbekcq?embed=1&file=src/app/app.component.ts",
   },
+  {
+    id: 24,
+    chapter: "Forms",
+    domainPath: "td-using-ngmodel-with-two-way-binding",
+    markdownPath: "assets/forms/td-using-ngmodel-with-two-way-binding.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-ngmodel-with-two-way-binding.md",
+    section: "TD using ngModel with two way binding",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-c8vdcs?embed=1&file=src/app/app.component.html",
+  },
+  {
+    id: 25,
+    chapter: "Forms",
+    domainPath: "td-grouping-form-controls",
+    markdownPath: "assets/forms/td-grouping-form-controls.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-grouping-form-controls.md",
+    section: "TD grouping form controls",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-c8vdcs?embed=1&file=src/app/app.component.html",
+  },
 ];
 
 export function notesNav() {
