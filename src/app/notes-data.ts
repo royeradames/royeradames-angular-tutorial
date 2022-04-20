@@ -335,9 +335,22 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-grouping-form-controls.md",
     section: "TD grouping form controls",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-tjtsnx?embed=1&file=src/app/app.component.html",
+      "https://stackblitz.com/edit/angular-ivy-tjtsnx?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-a4iavg?embed=1&file=src/app/app.component.html",
+      "https://stackblitz.com/edit/angular-ivy-a4iavg?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
+  },
+  {
+    id: 26,
+    chapter: "Forms",
+    domainPath: "td-handling-radio-buttons",
+    markdownPath: "assets/forms/td-handling-radio-buttons.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-handling-radio-buttons.md",
+    section: "TD handling radio buttons",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-j4486h?embed=1&file=src/app/app.component.html",
   },
 ];
 
