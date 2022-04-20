@@ -374,22 +374,22 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-form-data.md",
     section: "TD using form data",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-nlfg2q?embed=1&file=src/app/app.component.ts",
-    bPath:
-      "https://stackblitz.com/edit/angular-ivy-peqgu7?embed=1&file=src/app/app.component.ts",
-  },
-  {
-    id: 29,
-    chapter: "Forms",
-    domainPath: "td-using-form-data",
-    markdownPath: "assets/forms/td-using-form-data.md",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-form-data.md",
-    section: "TD using form data",
-    aPath:
       "https://stackblitz.com/edit/angular-ivy-sfd9fz?embed=1&file=src/app/app.component.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-tmij5r?embed=1&file=src/app/app.component.ts",
+  },
+  {
+    id: 28,
+    chapter: "Forms",
+    domainPath: "td-resetting-forms",
+    markdownPath: "assets/forms/td-resetting-forms.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-resetting-forms.md",
+    section: "TD resetting forms",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-vbtjud?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-yixav6?embed=1&file=src/app/app.component.ts",
   },
 ];
 
