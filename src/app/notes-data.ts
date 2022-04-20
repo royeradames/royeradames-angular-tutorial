@@ -393,9 +393,40 @@ export const notes: NotesInterface[] = [
   },
 ];
 
-export function notesNav() {
-  return notes.map((note) => ({
-    link: "/" + note.domainPath,
-    name: `${note.chapter} / ${note.section}`,
-  }));
+export interface NotesNav {
+  link: string;
+  name: string;
+  chapter?: string;
+  chapterNumber?: number;
+}
+
+export function notesNav(): NotesNav[] {
+  let previousChapter = "";
+  let chapterNumber = 1;
+  const alphabetStart = 64;
+  const alphabetEnd = 90;
+  let utfLetter = alphabetStart;
+  const decoder = new TextDecoder();
+  return notes.map((note) => {
+    //
+    const isNewChapter = note.chapter != previousChapter;
+    const resetLetter = utfLetter === alphabetEnd || isNewChapter;
+    if (resetLetter) utfLetter = alphabetStart;
+
+    const alphabetLetter = decoder.decode(new Uint8Array([++utfLetter]));
+
+    const nav: NotesNav = {
+      link: "/" + note.domainPath,
+      name: `${alphabetLetter}. ${note.section}`,
+      chapter: isNewChapter ? note.chapter : undefined,
+      chapterNumber: isNewChapter ? chapterNumber : undefined,
+    };
+
+    if (isNewChapter) {
+      previousChapter = note.chapter;
+      chapterNumber++;
+    }
+
+    return nav;
+  });
 }

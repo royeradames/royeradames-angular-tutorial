@@ -1,14 +1,18 @@
 <article class="table-of-contents">
   <nav class="navigation" [ngClass]="{ hide: isHidingNav }">
-    <a
-      *ngFor="let noteNav of notesNav"
-      [id]="'#' + noteNav.link.replace('/', '')"
-      [routerLink]="noteNav.link"
-      class="navigation-link"
-      routerLinkActive="active"
-      [routerLinkActiveOptions]="{ exact: true }"
-      >{{ noteNav.name }}</a
-    >
+    <div *ngFor="let noteNav of notesNav">
+      <button disabled *ngIf="noteNav.chapter" class="chapter">
+        {{ noteNav.chapterNumber }}. {{ noteNav.chapter }}
+      </button>
+      <a
+        [id]="'#' + noteNav.link.replace('/', '')"
+        [routerLink]="noteNav.link"
+        class="navigation-link"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >{{ noteNav.name }}</a
+      >
+    </div>
   </nav>
   <a (click)="isHidingNav = !isHidingNav">
     <h1 class="title">
