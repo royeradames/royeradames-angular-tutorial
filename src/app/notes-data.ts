@@ -365,6 +365,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-peqgu7?embed=1&file=src/app/app.component.ts",
   },
+  {
+    id: 28,
+    chapter: "Forms",
+    domainPath: "td-using-form-data",
+    markdownPath: "assets/forms/td-using-form-data.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-form-data.md",
+    section: "TD using form data",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-nlfg2q?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-peqgu7?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export function notesNav() {
