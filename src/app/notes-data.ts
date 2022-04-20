@@ -348,9 +348,22 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-handling-radio-buttons.md",
     section: "TD handling radio buttons",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
+      "https://stackblitz.com/edit/angular-ivy-cftfsl?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-j4486h?embed=1&file=src/app/app.component.html",
+      "https://stackblitz.com/edit/angular-ivy-j4486h?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
+  },
+  {
+    id: 27,
+    chapter: "Forms",
+    domainPath: "td-setting-and-patching-form-values",
+    markdownPath: "assets/forms/td-setting-and-patching-form-values.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-setting-and-patching-form-values.md",
+    section: "TD setting and patching form values",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-nlfg2q?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-peqgu7?embed=1&file=src/app/app.component.ts",
   },
 ];
 
