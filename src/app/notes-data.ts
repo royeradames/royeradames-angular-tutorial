@@ -335,9 +335,9 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-grouping-form-controls.md",
     section: "TD grouping form controls",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
+      "https://stackblitz.com/edit/angular-ivy-tjtsnx?embed=1&file=src/app/app.component.html",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-c8vdcs?embed=1&file=src/app/app.component.html",
+      "https://stackblitz.com/edit/angular-ivy-a4iavg?embed=1&file=src/app/app.component.html",
   },
 ];
 
