@@ -28,9 +28,9 @@ export class TutorialTemplateComponent {
     private route: ActivatedRoute
   ) {
     this.meta = this.getMeta(notes);
-    this.title = `${this.meta.chapter} / ${this.meta.section}`;
+    this.title = this.meta.section;
     this.id = this.generateTitleId();
-    this.router.events.subscribe((e) => {
+    this.router.events.subscribe(() => {
       this.meta = this.getMeta(notes);
     });
 
