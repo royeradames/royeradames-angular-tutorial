@@ -1,4 +1,4 @@
-You need `FormsModule` imported in the module.ts to be able to use reactive form method.
+You need `FormsModule` imported in the module.ts to be able to use reactive form method. Then you will need to construct the form structure in `.js` and sync it with the html form.
 
 `FormsModule`
 

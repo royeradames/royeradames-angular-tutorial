@@ -417,6 +417,32 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-axq2h2?embed=1&file=src/app/app.component.ts",
   },
+  {
+    id: 31,
+    chapter: "Reactive form",
+    domainPath: "reactive-syncing-html-and-form",
+    markdownPath: "assets/forms/reactive-syncing-html-and-form.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-syncing-html-and-form.md",
+    section: "Syncing HTML and form",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-ebrhaa?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-xczfh9?embed=1&file=src/app/app.component.html",
+  },
+  {
+    id: 32,
+    chapter: "Reactive form",
+    domainPath: "reactive-submitting-the-form",
+    markdownPath: "assets/forms/reactive-submitting-the-form.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-submitting-the-form.md",
+    section: "Submitting the form",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-6hhazz?file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-bfnr4p?embed=1&file=src/app/app.component.html",
+  },
 ];
 
 export interface NotesNav {
