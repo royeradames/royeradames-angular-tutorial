@@ -14,10 +14,10 @@
       >
     </div>
   </nav>
+  <hr *ngIf="!isHidingNav" />
   <a (click)="isHidingNav = !isHidingNav">
     <h1 class="title">
       <span class="icon"></span>
-
       {{ title }}
     </h1>
   </a>
