@@ -225,7 +225,7 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 17,
-    chapter: "Forms",
+    chapter: "Form",
     domainPath: "angular-forms-introduction",
     markdownPath: "assets/forms/angular-forms-introduction.md",
     editPath:
@@ -236,13 +236,13 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 18,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-creating-the–form–and-registering-the-controls",
     markdownPath:
       "assets/forms/td-creating-the–form–and-registering-the-controls.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-creating-the–form–and-registering-the-controls.md",
-    section: "TD Creating the form and registering the controls",
+    section: "Creating the form and registering the controls",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-xtzt2y?embed=1&file=src/app/app.component.html",
     bPath:
@@ -250,12 +250,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 19,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-submitting-and-using-the-form",
     markdownPath: "assets/forms/td-submitting-and-using-the-form.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-submitting-and-using-the-form.md",
-    section: "TD Submitting and using the form",
+    section: "Submitting and using the form",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-bhmsih?embed=1&file=src/app/app.component.html",
     bPath:
@@ -263,12 +263,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 20,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-adding-validation-to-check-user-input",
     markdownPath: "assets/forms/td-adding-validation-to-check-user-input.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-adding-validation-to-check-user-input.md",
-    section: "TD Adding validation to check user input",
+    section: "Adding validation to check user input",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-ugqjpr?embed=1&file=src/app/app.component.html",
     bPath:
@@ -276,12 +276,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 21,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-using-the-form-state",
     markdownPath: "assets/forms/td-using-the-form-state.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-the-form-state.md",
-    section: "TD using the form state",
+    section: "Using the form state",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-3ua9r5?embed=1&file=src/app/app.component.html",
     bPath:
@@ -289,12 +289,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 22,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-outputting-validation-error-messages",
     markdownPath: "assets/forms/td-outputting-validation-error-messages.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-outputting-validation-error-messages.md",
-    section: "TD outputting validation error message",
+    section: "Outputting validation error message",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-wqg434?embed=1&file=src/app/app.component.html",
     bPath:
@@ -302,12 +302,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 23,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-set-default-values-with-ngModel-property",
     markdownPath: "assets/forms/td-set-default-values-with-ngModel-property.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-set-default-values-with-ngModel-property.md",
-    section: "TD set default values with ngModel property",
+    section: "Set default values with ngModel property",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-gt53x4?embed=1&file=src/app/app.component.html",
     bPath:
@@ -315,12 +315,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 24,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-using-ngmodel-with-two-way-binding",
     markdownPath: "assets/forms/td-using-ngmodel-with-two-way-binding.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-ngmodel-with-two-way-binding.md",
-    section: "TD using ngModel with two way binding",
+    section: "Using ngModel with two way binding",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
     bPath:
@@ -328,12 +328,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 25,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-grouping-form-controls",
     markdownPath: "assets/forms/td-grouping-form-controls.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-grouping-form-controls.md",
-    section: "TD grouping form controls",
+    section: "Grouping form controls",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-tjtsnx?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
     bPath:
@@ -341,12 +341,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 26,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-handling-radio-buttons",
     markdownPath: "assets/forms/td-handling-radio-buttons.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-handling-radio-buttons.md",
-    section: "TD handling radio buttons",
+    section: "Handling radio buttons",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-cftfsl?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
     bPath:
@@ -354,12 +354,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 27,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-setting-and-patching-form-values",
     markdownPath: "assets/forms/td-setting-and-patching-form-values.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-setting-and-patching-form-values.md",
-    section: "TD setting and patching form values",
+    section: "Setting and patching form values",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-nlfg2q?embed=1&file=src/app/app.component.ts",
     bPath:
@@ -367,12 +367,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 28,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-using-form-data",
     markdownPath: "assets/forms/td-using-form-data.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-form-data.md",
-    section: "TD using form data",
+    section: "Using form data",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-sfd9fz?embed=1&file=src/app/app.component.ts",
     bPath:
@@ -380,12 +380,12 @@ export const notes: NotesInterface[] = [
   },
   {
     id: 28,
-    chapter: "Forms",
+    chapter: "Template driven form",
     domainPath: "td-resetting-forms",
     markdownPath: "assets/forms/td-resetting-forms.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-resetting-forms.md",
-    section: "TD resetting forms",
+    section: "Resetting forms",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-vbtjud?embed=1&file=src/app/app.component.ts",
     bPath:
