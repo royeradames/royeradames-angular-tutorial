@@ -469,6 +469,17 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-k4rycu?embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 35,
+    chapter: "Reactive form",
+    domainPath: "reactive-grouping-controls",
+    markdownPath: "assets/forms/reactive-grouping-controls.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-grouping-controls.md",
+    section: "Grouping controls",
+    aPath: "",
+    bPath: "",
+  },
 ];
 
 export interface NotesNav {
