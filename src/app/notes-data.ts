@@ -391,6 +391,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-yixav6?embed=1&file=src/app/app.component.ts",
   },
+  {
+    id: 28,
+    chapter: "Reactive form",
+    domainPath: "reactive-setup",
+    markdownPath: "assets/forms/reactive-setup.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-setup.md",
+    section: "Setup",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-vbtjud?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-yixav6?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export interface NotesNav {

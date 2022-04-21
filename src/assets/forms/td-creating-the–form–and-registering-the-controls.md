@@ -7,7 +7,18 @@ To register an input use:
 
 ## practice
 
+`app.module.ts`
+
 ```ts
+imports: [
+  BrowserModule,
+  FormsModule,
+],
+```
+
+`app.component.html`
+
+```html
 <input
   type="text"
   id="username"
