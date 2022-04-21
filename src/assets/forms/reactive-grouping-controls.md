@@ -1,4 +1,4 @@
-We can group `FormControl` by nesting our desire `FormControl` with `FormGroup`, and using `formGroupName="<formGroup name>"` in the tag that wraps all the `FormControl`.
+We can group `FormControl` by nesting our desire `FormControl` with `FormGroup`, and using `formGroupName="<formGroup name>"` in the tag that wraps all the `FormControl`. When we group controllers together `.get` path to get access to the form needs to be updated, starting from the top level.
 
 `FormGroup`
 
