@@ -451,8 +451,10 @@ export const notes: NotesInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-adding-validation.md",
     section: "Adding validation",
-    aPath: "",
-    bPath: "",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-wyhwti?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-ip6tjv?embed=1&file=src/app/app.component.ts",
   },
   {
     id: 34,
