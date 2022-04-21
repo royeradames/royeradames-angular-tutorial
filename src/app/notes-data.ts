@@ -392,7 +392,7 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-yixav6?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 28,
+    id: 29,
     chapter: "Reactive form",
     domainPath: "reactive-setup",
     markdownPath: "assets/forms/reactive-setup.md",
@@ -400,9 +400,22 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-setup.md",
     section: "Setup",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-vbtjud?embed=1&file=src/app/app.component.ts",
+      "https://stackblitz.com/edit/angular-ivy-fmssbr?embed=1&file=src/app/app.module.ts",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-yixav6?embed=1&file=src/app/app.component.ts",
+      "https://stackblitz.com/edit/angular-ivy-ugcary?embed=1&file=src/app/app.component.ts",
+  },
+  {
+    id: 30,
+    chapter: "Reactive form",
+    domainPath: "reactive-creating-a-form-in-code",
+    markdownPath: "assets/forms/reactive-creating-a-form-in-code.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-creating-a-form-in-code.md",
+    section: "Creating a form in code",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-zpfgun?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-axq2h2?embed=1&file=src/app/app.component.ts",
   },
 ];
 

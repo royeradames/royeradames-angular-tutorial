@@ -1,26 +1,18 @@
-You need `FormsModule` imported in the module.ts to be able to use reactive form method.
-
-`FormsModule`
+`FormControl`
 
 `FormGroup`
-
-``
-
 ## Practice
 
-`app.component.ts`
+Create the form structure in the component.ts file
 
 ```ts
-import { FormGroup } from '@angular/forms';
-signupForm: FormGroup;
-```
+import { FormControl, FormGroup } from '@angular/forms';
 
-`app.module.ts`
-
-```ts
-imports: [
-  BrowserModule,
-  FormsModule,
-  ReactiveFormsModule
-],
+constructor() {
+  this.singupForm = new FormGroup({
+    username: new FormControl(null),
+    email: new FormControl(null),
+    gender: new FormControl('male'),
+  });
+}
 ```
