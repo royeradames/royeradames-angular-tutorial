@@ -477,8 +477,10 @@ export const notes: NotesInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-grouping-controls.md",
     section: "Grouping controls",
-    aPath: "",
-    bPath: "",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-atwyqk?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-ryqiht?embed=1&file=src/app/app.component.ts",
   },
 ];
 
