@@ -443,6 +443,30 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-bfnr4p?embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 33,
+    chapter: "Reactive form",
+    domainPath: "reactive-adding-validation",
+    markdownPath: "assets/forms/reactive-adding-validation.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-adding-validation.md",
+    section: "Adding validation",
+    aPath: "",
+    bPath: "",
+  },
+  {
+    id: 34,
+    chapter: "Reactive form",
+    domainPath: "reactive-getting-access-to-controls",
+    markdownPath: "assets/forms/reactive-getting-access-to-controls.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-getting-access-to-controls.md",
+    section: "Getting access to controls",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-aq1xc6?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-k4rycu?embed=1&file=src/app/app.component.html",
+  },
 ];
 
 export interface NotesNav {
