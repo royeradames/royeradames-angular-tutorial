@@ -511,10 +511,10 @@ export const notes: NotesInterface[] = [
   {
     id: 38,
     chapter: "Reactive form",
-    domainPath: "reactive-using-error-codes",
-    markdownPath: "assets/forms/reactive-using-error-codes.md",
+    domainPath: "reactive-custom-error-message",
+    markdownPath: "assets/forms/reactive-custom-error-message.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-using-error-codes.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-custom-error-message.md",
     section: "Custom error message",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
