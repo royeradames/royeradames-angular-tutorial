@@ -495,6 +495,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-6sypwa?embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 37,
+    chapter: "Reactive form",
+    domainPath: "reactive-creating-custom-validators",
+    markdownPath: "assets/forms/reactive-creating-custom-validators.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-creating-custom-validators.md",
+    section: "Creating custom validators",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-drgzut?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-w5euj6?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export interface NotesNav {
