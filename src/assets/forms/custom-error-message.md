@@ -25,4 +25,21 @@ Have costume error message for nameIsForbidden and require errors.
     >This field required!</span
   >
 </span>
+
+<span
+  class="help-block"
+  *ngIf="
+    signupForm.get('userData.email').invalid &&
+    signupForm.get('userData.email').touched
+  "
+  ><span *ngIf="signupForm.get('userData.email').errors['required']"
+    >Please enter a valid email!</span
+  >
+  <span
+    *ngIf="
+      signupForm.get('userData.email').errors['emailIsForbidden']
+    "
+    >Invalid email</span
+  ></span
+>
 ```
