@@ -521,6 +521,20 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-go658y?embed=1&file=src/app/app.component.html",
   },
+  {
+    id: 38,
+    chapter: "Reactive form",
+    domainPath: "reactive-reacting-to-status-or-value-changes",
+    markdownPath:
+      "assets/forms/reactive-reacting-to-status-or-value-changes.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-reacting-to-status-or-value-changes.md",
+    section: "Reacting to status or value changes",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-tqxa86?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-aml5u7?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export interface NotesNav {
