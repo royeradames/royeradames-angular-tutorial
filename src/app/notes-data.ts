@@ -535,6 +535,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-aml5u7?embed=1&file=src/app/app.component.ts",
   },
+  {
+    id: 39,
+    chapter: "Reactive form",
+    domainPath: "reactive-setting-and-patching-values",
+    markdownPath: "assets/forms/reactive-setting-and-patching-values.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-setting-and-patching-values.md",
+    section: "Setting and patching values",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-awgjva?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-dy8vrc?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export interface NotesNav {
