@@ -4,6 +4,7 @@ You need `FormsModule` imported in the module.ts to be able to use reactive form
 
 `FormGroup`
 
+With `ReactiveFormsModule` we get errors like `Can't bind to 'formGroup' since it isn't a known property of 'form'`
 ## Practice
 
 `app.component.ts`
