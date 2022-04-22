@@ -508,6 +508,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-w5euj6?embed=1&file=src/app/app.component.ts",
   },
+  {
+    id: 38,
+    chapter: "Reactive form",
+    domainPath: "reactive-using-error-codes",
+    markdownPath: "assets/forms/reactive-using-error-codes.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-using-error-codes.md",
+    section: "Using error codes",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-go658y?embed=1&file=src/app/app.component.html",
+  },
 ];
 
 export interface NotesNav {
