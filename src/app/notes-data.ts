@@ -515,7 +515,7 @@ export const notes: NotesInterface[] = [
     markdownPath: "assets/forms/reactive-using-error-codes.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-using-error-codes.md",
-    section: "Using error codes",
+    section: "Custom error message",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
     bPath:
