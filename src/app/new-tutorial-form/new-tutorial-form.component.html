@@ -1,22 +1,63 @@
-<h1>New tutorial form</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>New tutorial</h1>
+      <button (click)="testProfile()" class="btn btn-primary">
+        Test profile
+      </button>
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="chapter"> chapter </label>
+          <input
+            type="text"
+            id="chapter"
+            formControlName="chapter"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label for="title"> title </label>
+          <input
+            type="text"
+            id="title"
+            formControlName="title"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group">
+          <label for="aPath"> aPath </label>
+          <input
+            type="text"
+            id="aPath"
+            formControlName="aPath"
+            class="form-control"
+          />
+        </div>
 
-<label for="">
-  chapter
-  <input type="text" name="" id="" />
-</label>
-<label for="">
-  title
-  <input type="text" name="" id="" />
-</label>
-<label for="">
-  aPath
-  <input type="text" name="" id="" />
-</label>
-<label for="">
-  bPath
-  <input type="text" name="" id="" />
-</label>
-<label for="">
-  Markdown
-  <textarea name="" id="" cols="30" rows="10"></textarea>
-</label>
+        <div class="form-group">
+          <label for="bPath"> bPath </label>
+          <input
+            type="text"
+            id="bPath"
+            formControlName="bPath"
+            class="form-control"
+          />
+        </div>
+
+        <div class="form-group">
+          <md-editor
+            name="Content"
+            [(ngModel)]="content"
+            formControlName="markdown"
+          >
+          </md-editor>
+        </div>
+
+        <button class="btn btn-primary" type="submit" [disabled]="form.invalid">
+          Create new tutorial
+        </button>
+        <button (click)="reset()" class="btn btn-danger">Reset</button>
+      </form>
+    </div>
+  </div>
+</div>
