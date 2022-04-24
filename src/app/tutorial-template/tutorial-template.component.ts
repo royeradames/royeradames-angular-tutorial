@@ -20,7 +20,7 @@ export class TutorialTemplateComponent {
   meta: MetaInterface;
   notesNav = notesNav();
   id: string;
-  title: string;
+  section: string;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -28,11 +28,11 @@ export class TutorialTemplateComponent {
     private route: ActivatedRoute
   ) {
     this.meta = this.getMeta(notes);
-    this.title = this.meta.section;
+    this.section = this.meta.section;
     this.id = this.generateTitleId();
     this.router.events.subscribe(() => {
       this.meta = this.getMeta(notes);
-      this.title = this.meta.section;
+      this.section = this.meta.section;
     });
 
     // when redirected to home remove redirected path

@@ -8,7 +8,7 @@ import { MetaInterface } from "../tutorial-template.component";
   styleUrls: ["./table-of-content.component.scss"],
 })
 export class TableOfContentComponent {
-  @Input() title = "";
+  @Input() section = "";
   @Input() notesNav: NotesNav[] = [];
   isHidingNav = true;
 }
