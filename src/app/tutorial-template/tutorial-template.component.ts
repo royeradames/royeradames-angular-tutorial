@@ -32,6 +32,7 @@ export class TutorialTemplateComponent {
     this.id = this.generateTitleId();
     this.router.events.subscribe(() => {
       this.meta = this.getMeta(notes);
+      this.title = this.meta.section;
     });
 
     // when redirected to home remove redirected path
