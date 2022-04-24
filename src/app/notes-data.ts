@@ -423,10 +423,10 @@ export const notes: NotesInterface[] = [
   },
   {
     chapter: "Reactive form",
-    domainPath: "reactive-creating-custom-validators",
-    markdownPath: "assets/forms/reactive-creating-custom-validators.md",
+    domainPath: "reactive-custom-validators",
+    markdownPath: "assets/forms/reactive-custom-validators.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-creating-custom-validators.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-custom-validators.md",
     section: "Creating custom validators",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-drgzut?embed=1&file=src/app/app.component.ts",
@@ -435,10 +435,10 @@ export const notes: NotesInterface[] = [
   },
   {
     chapter: "Reactive form",
-    domainPath: "reactive-custom-error-message",
-    markdownPath: "assets/forms/reactive-custom-error-message.md",
+    domainPath: "reacting-custom-error-message",
+    markdownPath: "assets/forms/reacting-custom-error-message.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-custom-error-message.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reacting-custom-error-message.md",
     section: "Custom error message",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
