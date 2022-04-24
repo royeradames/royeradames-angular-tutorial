@@ -41,7 +41,7 @@ code {
   position: relative;
   border-radius: 0.3em;
   margin: 0 0.2rem;
-  color: var(--sidebar-text);
+  color: var(--sidebar-text) !important;
   background: rgba(0, 0, 0, 0.12);
   padding: 0.2em 0.4em 0.3em;
   white-space: nowrap;
@@ -57,4 +57,8 @@ blockquote {
   max-width: var(--linemax);
   background-color: #0000002b;
   color: var(--sidebar-text);
+}
+
+p {
+  font-size: 18px;
 }

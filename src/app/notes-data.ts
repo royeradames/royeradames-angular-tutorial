@@ -2,7 +2,6 @@ import { Routes } from "@angular/router";
 import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 
 export interface NotesInterface {
-  id: number;
   chapter: string;
   section: string;
   aPath: string;
@@ -14,7 +13,6 @@ export interface NotesInterface {
 
 export const notes: NotesInterface[] = [
   {
-    id: 6,
     domainPath: "",
     chapter: "Introduction",
     section: "Welcome to Angular",
@@ -27,7 +25,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/welcome-to-angular.md",
   },
   {
-    id: 1,
     domainPath: "setting-up-and-loading-routes",
     chapter: "Routing",
     section: "Setting up and loading routes",
@@ -40,7 +37,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/setting-up-routes.md&hideExplorer=1",
   },
   {
-    id: 2,
     domainPath: "links",
     chapter: "Routing",
     section: "Links",
@@ -53,7 +49,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/router-link.md",
   },
   {
-    id: 3,
     domainPath: "relative-vs-absolute-path",
     chapter: "Routing",
     section: "Relative vs absolute path",
@@ -66,7 +61,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/relative-vs-absolute-path.md",
   },
   {
-    id: 4,
     domainPath: "styling-active-router-links",
     chapter: "Routing",
     section: "Styling active router links",
@@ -79,7 +73,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/styling-active-router-links.md",
   },
   {
-    id: 5,
     domainPath: "navigating-with-javascript",
     chapter: "Routing",
     section: "Navigating with Javascript",
@@ -92,7 +85,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/navigating-programmatically.md",
   },
   {
-    id: 7,
     domainPath: "route-parameters",
     chapter: "Routing",
     section: "Route parameters",
@@ -105,7 +97,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/route-parameters.md",
   },
   {
-    id: 8,
     domainPath: "query-parameters",
     chapter: "Routing",
     section: "Query parameters",
@@ -118,7 +109,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/query-parameters.md",
   },
   {
-    id: 9,
     domainPath: "nested-routes",
     chapter: "Routing",
     section: "Nested routes",
@@ -131,7 +121,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/nested-routes.md",
   },
   {
-    id: 10,
     domainPath: "redirecting-and-wildcard-routes",
     chapter: "Routing",
     section: "Redirecting and wildcard routes",
@@ -144,7 +133,6 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/redirecting-and-wildcard-routes.md",
   },
   {
-    id: 11,
     chapter: "Routing",
     domainPath: "outsourcing-the-routes-configuration",
     markdownPath: "assets/routing/outsourcing-the-routes-configuration.md",
@@ -157,7 +145,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-czd2hz?embed=1&file=src/app/app-routing.module.ts",
   },
   {
-    id: 12,
     chapter: "Routing",
     domainPath: "guards-loading-route",
     markdownPath: "assets/routing/guards-loading-route.md",
@@ -170,7 +157,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-kmdu7i?embed=1&file=src/app/auth.service.ts",
   },
   {
-    id: 13,
     chapter: "Routing",
     domainPath: "guards-leaving-route",
     markdownPath: "assets/routing/guards-leaving-route.md",
@@ -183,7 +169,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-ycas2f?embed=1&file=src/app/servers/edit-server/edit-server.component.ts",
   },
   {
-    id: 14,
     chapter: "Routing",
     domainPath: "passing-static-data-from-route-to-component",
     markdownPath:
@@ -197,7 +182,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-rjacpn?embed=1&file=src/app/app-routing.module.ts",
   },
   {
-    id: 15,
     chapter: "Routing",
     domainPath: "resolving-dynamic-data-with-the-resolve-guard",
     markdownPath:
@@ -211,7 +195,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-imgwe8?embed=1&file=src/app/servers/server/server-resolver.service.ts",
   },
   {
-    id: 16,
     chapter: "Routing",
     domainPath: "understanding-location-strategies",
     markdownPath: "assets/routing/understanding-location-strategies.md",
@@ -224,7 +207,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-xxsbvw?embed=1&file=src/app/app-routing.module.ts",
   },
   {
-    id: 17,
     chapter: "Form",
     domainPath: "angular-forms-introduction",
     markdownPath: "assets/forms/angular-forms-introduction.md",
@@ -235,7 +217,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 18,
     chapter: "Template driven form",
     domainPath: "td-creating-the–form–and-registering-the-controls",
     markdownPath:
@@ -249,7 +230,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-xuhc5x?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 19,
     chapter: "Template driven form",
     domainPath: "td-submitting-and-using-the-form",
     markdownPath: "assets/forms/td-submitting-and-using-the-form.md",
@@ -262,7 +242,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-bhmsih?devToolsHeight=33&embed=1&file=src/app/app.component.html",
   },
   {
-    id: 20,
     chapter: "Template driven form",
     domainPath: "td-adding-validation-to-check-user-input",
     markdownPath: "assets/forms/td-adding-validation-to-check-user-input.md",
@@ -275,7 +254,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-fdatjy?devToolsHeight=33&embed=1&file=src/app/app.component.html",
   },
   {
-    id: 21,
     chapter: "Template driven form",
     domainPath: "td-using-the-form-state",
     markdownPath: "assets/forms/td-using-the-form-state.md",
@@ -288,7 +266,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-7ldd6r?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 22,
     chapter: "Template driven form",
     domainPath: "td-outputting-validation-error-messages",
     markdownPath: "assets/forms/td-outputting-validation-error-messages.md",
@@ -301,7 +278,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-c2p9c7?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 23,
     chapter: "Template driven form",
     domainPath: "td-set-default-values-with-ngModel-property",
     markdownPath: "assets/forms/td-set-default-values-with-ngModel-property.md",
@@ -314,7 +290,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-bbekcq?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 24,
     chapter: "Template driven form",
     domainPath: "td-using-ngmodel-with-two-way-binding",
     markdownPath: "assets/forms/td-using-ngmodel-with-two-way-binding.md",
@@ -327,7 +302,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-c8vdcs?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 25,
     chapter: "Template driven form",
     domainPath: "td-grouping-form-controls",
     markdownPath: "assets/forms/td-grouping-form-controls.md",
@@ -340,7 +314,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-a4iavg?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 26,
     chapter: "Template driven form",
     domainPath: "td-handling-radio-buttons",
     markdownPath: "assets/forms/td-handling-radio-buttons.md",
@@ -353,7 +326,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-j4486h?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 27,
     chapter: "Template driven form",
     domainPath: "td-setting-and-patching-form-values",
     markdownPath: "assets/forms/td-setting-and-patching-form-values.md",
@@ -366,7 +338,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-peqgu7?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 28,
     chapter: "Template driven form",
     domainPath: "td-using-form-data",
     markdownPath: "assets/forms/td-using-form-data.md",
@@ -379,7 +350,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-tmij5r?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 28,
     chapter: "Template driven form",
     domainPath: "td-resetting-forms",
     markdownPath: "assets/forms/td-resetting-forms.md",
@@ -392,7 +362,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-yixav6?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 29,
     chapter: "Reactive form",
     domainPath: "reactive-setup",
     markdownPath: "assets/forms/reactive-setup.md",
@@ -405,46 +374,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-ugcary?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 30,
-    chapter: "Reactive form",
-    domainPath: "reactive-creating-a-form-in-code",
-    markdownPath: "assets/forms/reactive-creating-a-form-in-code.md",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-creating-a-form-in-code.md",
-    section: "Creating a form in code",
-    aPath:
-      "https://stackblitz.com/edit/angular-ivy-zpfgun?embed=1&file=src/app/app.component.ts",
-    bPath:
-      "https://stackblitz.com/edit/angular-ivy-axq2h2?embed=1&file=src/app/app.component.ts",
-  },
-  {
-    id: 31,
-    chapter: "Reactive form",
-    domainPath: "reactive-syncing-html-and-form",
-    markdownPath: "assets/forms/reactive-syncing-html-and-form.md",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-syncing-html-and-form.md",
-    section: "Syncing HTML and form",
-    aPath:
-      "https://stackblitz.com/edit/angular-ivy-ebrhaa?embed=1&file=src/app/app.component.html",
-    bPath:
-      "https://stackblitz.com/edit/angular-ivy-xczfh9?embed=1&file=src/app/app.component.html",
-  },
-  {
-    id: 32,
-    chapter: "Reactive form",
-    domainPath: "reactive-submitting-the-form",
-    markdownPath: "assets/forms/reactive-submitting-the-form.md",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-submitting-the-form.md",
-    section: "Submitting the form",
-    aPath:
-      "https://stackblitz.com/edit/angular-ivy-6hhazz?file=src/app/app.component.html",
-    bPath:
-      "https://stackblitz.com/edit/angular-ivy-bfnr4p?embed=1&file=src/app/app.component.html",
-  },
-  {
-    id: 33,
     chapter: "Reactive form",
     domainPath: "reactive-adding-validation",
     markdownPath: "assets/forms/reactive-adding-validation.md",
@@ -457,7 +386,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-ip6tjv?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 34,
     chapter: "Reactive form",
     domainPath: "reactive-getting-access-to-controls",
     markdownPath: "assets/forms/reactive-getting-access-to-controls.md",
@@ -470,7 +398,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-k4rycu?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 35,
     chapter: "Reactive form",
     domainPath: "reactive-grouping-controls",
     markdownPath: "assets/forms/reactive-grouping-controls.md",
@@ -483,7 +410,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-ryqiht?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 36,
     chapter: "Reactive form",
     domainPath: "reactive-arrays-of-form-controls",
     markdownPath: "assets/forms/reactive-arrays-of-form-controls.md",
@@ -496,7 +422,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-6sypwa?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 37,
     chapter: "Reactive form",
     domainPath: "reactive-creating-custom-validators",
     markdownPath: "assets/forms/reactive-creating-custom-validators.md",
@@ -509,7 +434,6 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-w5euj6?embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 38,
     chapter: "Reactive form",
     domainPath: "reactive-custom-error-message",
     markdownPath: "assets/forms/reactive-custom-error-message.md",
@@ -522,21 +446,18 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-go658y?embed=1&file=src/app/app.component.html",
   },
   {
-    id: 38,
     chapter: "Reactive form",
-    domainPath: "reactive-reacting-to-status-or-value-changes",
-    markdownPath:
-      "assets/forms/reactive-reacting-to-status-or-value-changes.md",
+    domainPath: "reacting-to-status-or-value-changes",
+    markdownPath: "assets/forms/reacting-to-status-or-value-changes.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-reacting-to-status-or-value-changes.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reacting-to-status-or-value-changes.md",
     section: "Reacting to status or value changes",
     aPath:
-      "https://stackblitz.com/edit/angular-ivy-tqxa86?embed=1&file=src/app/app.component.ts",
+      "https://stackblitz.com/edit/angular-ivy-tqxa86?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
     bPath:
-      "https://stackblitz.com/edit/angular-ivy-aml5u7?embed=1&file=src/app/app.component.ts",
+      "https://stackblitz.com/edit/angular-ivy-aml5u7?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
   },
   {
-    id: 39,
     chapter: "Reactive form",
     domainPath: "reactive-setting-and-patching-values",
     markdownPath: "assets/forms/reactive-setting-and-patching-values.md",
