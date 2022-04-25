@@ -501,8 +501,10 @@ export const notes: NotesInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/using-rxjs-operators-to-transform-response-data.md",
     section: "Using RxJs operators to transform response data",
-    aPath: "",
-    bPath: "",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-1op1wp?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-yjhtta?embed=1&file=src/app/app.component.ts",
   },
 ];
 
