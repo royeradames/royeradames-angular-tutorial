@@ -8,7 +8,7 @@ Transform the response data from an object to a list of records with RxJS operat
 
 ```ts
 this.http
-  .get(
+  .get<{ [key: string]: Post }>(
     'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json'
   )
   .pipe(

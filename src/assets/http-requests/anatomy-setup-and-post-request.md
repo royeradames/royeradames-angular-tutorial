@@ -16,8 +16,9 @@ Enable Angular http requests
 - `HttpClientModule`
 
 Send Post Request
-- `private http: HttpClient` `this.http.post(url, data, options)` `.subscribe(data => {...})`
+- `private http: HttpClient` `this.http.post<type of response>(url, data, options)` `.subscribe(data => {...})`
 
+> All http methods response type can be assign with generic type `.<http request><type of response>`
 
 ## Practice 
 
