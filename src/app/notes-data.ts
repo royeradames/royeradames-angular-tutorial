@@ -469,6 +469,41 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-dy8vrc?embed=1&file=src/app/app.component.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-anatomy-setup-and-post-request",
+    markdownPath: "assets/http-requests/anatomy-setup-and-post-request.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/anatomy-setup-and-post-request.md",
+    section: "anatomy-setup-and-post-request",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-z15ggu?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-3zzler?embed=1&file=src/app/app.component.ts",
+  },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-getting-data",
+    markdownPath: "assets/http-requests/getting-data.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/getting-data.md",
+    section: "Getting data",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-vfe4hm?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-heatfw?embed=1&file=src/app/app.component.ts",
+  },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-using-rxjs-operators-to-transform-response-data",
+    markdownPath:
+      "assets/http-requests/using-rxjs-operators-to-transform-response-data.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/using-rxjs-operators-to-transform-response-data.md",
+    section: "Using RxJs operators to transform response data",
+    aPath: "",
+    bPath: "",
+  },
 ];
 
 export interface NotesNav {
