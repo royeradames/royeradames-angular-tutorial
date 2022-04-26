@@ -541,6 +541,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-pev6kf?embed=1&file=src/app/app.component.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-subscribe-http-request-in-the-service",
+    markdownPath:
+      "assets/http-requests/subscribe-http-request-in-the-service.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/subscribe-http-request-in-the-service.md",
+    section: "Subscribe HTTP request in the service",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-57wvqr?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-gp4zh3?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
+  },
 ];
 
 export interface NotesNav {
