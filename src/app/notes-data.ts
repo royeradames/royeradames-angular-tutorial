@@ -543,16 +543,27 @@ export const notes: NotesInterface[] = [
   },
   {
     chapter: "HTTP requests",
-    domainPath: "http-requests-subscribe-http-request-in-the-service",
-    markdownPath:
-      "assets/http-requests/subscribe-http-request-in-the-service.md",
+    domainPath: "http-requests-subscribe-http-request-in-service",
+    markdownPath: "assets/http-requests/subscribe-http-request-in-service.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/subscribe-http-request-in-the-service.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/subscribe-http-request-in-service.md",
     section: "Subscribe HTTP request in the service",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-57wvqr?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-gp4zh3?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
+  },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-error-handling-before-subscription",
+    markdownPath: "assets/http-requests/error-handling-before-subscription.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/error-handling-before-subscription.md",
+    section: "Error handling before subscription",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-4ke8b5?embed=1&file=src/app/posts.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-bmawrf?embed=1&file=src/app/posts.service.ts",
   },
 ];
 
