@@ -1,10 +1,18 @@
 We can add query params in the URL string or we can use HttpParams and pass it in the option `params`.
 
-`let searchParams = new HttpParams();`
+Inline query params
 
-`new HttpParams().append('print', 'pretty')`
+`URL?key=value`
 
-`{ params: searchParams }`
+Query params in option object
+
+```ts
+let searchParams = new HttpParams();
+
+new HttpParams().append('print', 'pretty')
+
+{ params: searchParams }
+```
 
 ## Practice 
 
