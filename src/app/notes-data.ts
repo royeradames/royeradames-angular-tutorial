@@ -577,6 +577,18 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-xqpeyy?embed=1&file=src/app/posts.service.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-adding-query-params",
+    markdownPath: "assets/http-requests/adding-query-params.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/adding-query-params.md",
+    section: "Adding query params",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-t8avkn?embed=1&file=src/app/posts.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-txifxl?embed=1&file=src/app/posts.service.ts",
+  },
 ];
 
 export interface NotesNav {
