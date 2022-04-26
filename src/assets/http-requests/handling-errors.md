@@ -19,8 +19,15 @@ onFetchPosts() {
       this.isFetching = false;
       this.loadedPosts = posts;
     },
-    (error) => (this.error = error.message)
+    (error) => {
+      this.error = error.message;
+      this.isFetching = false;
+    }
   );
+}
+
+onHandleError() {
+  this.error = null;
 }
 ```
 
@@ -31,5 +38,6 @@ app.component.html
 <div class="alert alert-danger" *ngIf="error">
   <h1>An Error Occurred!</h1>
   <p>{{error}}</p>
+  <button class="btn btn-danger" (click)="onHandleError()" >Okay</button>
 </div>
 ```
