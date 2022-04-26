@@ -589,6 +589,19 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-txifxl?embed=1&file=src/app/posts.service.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-observing-different-types-of-responses",
+    markdownPath:
+      "assets/http-requests/observing-different-types-of-responses.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/observing-different-types-of-responses.md",
+    section: "Observing different types of responses",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-bdzwcm?embed=1&file=src/app/posts.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-r3rqxc?embed=1&file=src/app/posts.service.ts",
+  },
 ];
 
 export interface NotesNav {
