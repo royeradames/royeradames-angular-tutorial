@@ -614,6 +614,20 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-koprlg?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath:
+      "http-requests-setup-interceptors-and-manipulating-request-object",
+    markdownPath:
+      "assets/http-requests/setup-interceptors-and-manipulating-request-object.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/setup-interceptors-and-manipulating-request-object.md",
+    section: "Setup interceptors and manipulating request object",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-7n5i9s?embed=1&file=src/app/app.module.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-ied5me?embed=1&file=src/app/auth-interceptor.service.ts",
+  },
 ];
 
 export interface NotesNav {
