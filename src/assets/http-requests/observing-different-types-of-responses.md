@@ -10,6 +10,9 @@ Normally Angular parses the response body and if we want to get access to the wh
 
 Type enumeration for the different kinds of `HttpEvent`
 
+
+> tap allows you to do something and then automatically lets the response pass through
+
 ```ts
 export declare enum HttpEventType {
   /**
