@@ -475,7 +475,7 @@ export const notes: NotesInterface[] = [
     markdownPath: "assets/http-requests/anatomy-setup-and-post-request.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/anatomy-setup-and-post-request.md",
-    section: "anatomy-setup-and-post-request",
+    section: "Anatomy setup and post request",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-z15ggu?embed=1&file=src/app/app.module.ts",
     bPath:
@@ -517,6 +517,18 @@ export const notes: NotesInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-jhgsjs?embed=1&file=src/app/app.component.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-edyd4c?embed=1&file=src/app/app.component.ts",
+  },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-delete-request",
+    markdownPath: "assets/http-requests/delete-request.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/delete-request.md",
+    section: "Delete request",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-38qlja?embed=1&file=src/app/posts.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-nkugiv?embed=1&file=src/app/posts.service.ts",
   },
 ];
 
