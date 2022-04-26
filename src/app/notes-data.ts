@@ -506,6 +506,18 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-yjhtta?embed=1&file=src/app/app.component.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-showing-a-loading-indicator",
+    markdownPath: "assets/http-requests/showing-a-loading-indicator.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/showing-a-loading-indicator.md",
+    section: "Showing a loading indicator",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-jhgsjs?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-edyd4c?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export interface NotesNav {
