@@ -6,15 +6,25 @@ on the subscribe we can assign the data to a variable and go from there.
 
 After a post get the post data and show it the response has string.
 
+posts.service.ts
+  
+```ts
+fetchPosts() {
+  return this.http
+    .get<{ [key: string]: Post }>(
+      'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json'
+    )
+}
+```
+
 app.component.ts
 
 ```ts
-this.http
-  .get(
-    'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json'
-  )
-  .subscribe((data) => {
+onFetchPosts() {
+  // Send Http request
+  this.postsService.fetchPosts().subscribe((data) => {
     this.post = JSON.stringify(data);
     this.cannotClearPost = false;
   });
+}
 ```

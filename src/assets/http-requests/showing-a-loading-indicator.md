@@ -1,5 +1,21 @@
-We can add a loading indicator by toggling a boolean value next to the http request and inside the subscription response, and showing an indicator depending on the value.
+To show or hide a loading indicator we create a boolean property that initialize has false. Then can add a loading indicator by toggling a boolean value next to the http request and inside the subscription response, and showing an indicator depending on the value.
 
+```ts
+isLoading = false;
+
+onFetch(){
+  isLoading = true;
+  this.http.get("url").subscribe(() => {
+    isLoading = false;
+    ...
+  });
+}
+```
+
+```html
+*ngIf="isLoading"
+*ngIf="!isLoading"
+```
 ## Practice 
 
 Show an loading indicator 
@@ -10,26 +26,10 @@ isFetching = false;
 onFetchPosts() {
   // Send Http request
   this.isFetching = true;
-  this.http
-    .get<{ [key: string]: Post }>(
-      'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json'
-    )
-    .pipe(
-      map((responseData) => {
-        // convert incoming data into a list of records
-        const postsArray: Post[] = [];
-        for (const key in responseData) {
-          // make sure it doesn't use a prototype
-          if (responseData.hasOwnProperty(key))
-            postsArray.push({ ...responseData[key], id: key });
-        }
-        return postsArray;
-      })
-    )
-    .subscribe((posts) => {
-      this.isFetching = false;
-      this.loadedPosts = posts;
-    });
+  this.postsService.fetchPosts().subscribe((posts) => {
+    this.isFetching = false;
+    this.loadedPosts = posts;
+  });
 }
 ```
 

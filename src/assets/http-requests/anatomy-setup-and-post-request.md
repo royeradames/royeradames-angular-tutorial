@@ -15,10 +15,16 @@ Anatomy of a Http Request
 Enable Angular http requests
 - `HttpClientModule`
 
+
+
 Send Post Request
 - `private http: HttpClient` `this.http.post<type of response>(url, data, options)` `.subscribe(data => {...})`
 
 > All http methods response type can be assign with generic type `.<http request><type of response>`
+
+> HTTP request are writing in services
+
+> Best practice to let the component handle the subscription so that they can respond to the respond data. Keeps your component clean.
 
 ## Practice 
 
@@ -29,20 +35,30 @@ import { HttpClientModule } from '@angular/common/http';
 imports: [BrowserModule, FormsModule, HttpClientModule]
 ```
 
+posts.service.ts
+
+```ts
+constructor(private http: HttpClient) {}
+
+createAndStorePost(postData: Post) {
+  return this.http.post(
+    'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json',
+    postData
+  );
+}
+```
+
 app.component.ts
 
 ```ts
-import { HttpClient } from '@angular/common/http';
+constructor(private http: HttpClient, private postsService: PostsService) {}
 
-constructor(private http: HttpClient) {}
-
-onCreatePost(postData: { title: string; content: string }) {
+onCreatePost(postData: Post) {
   // Send Http request
-  this.http
-    .post(
-      'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json',
-      postData
-    )
-    .subscribe((responseData) => (this.response = JSON.stringify(responseData)));
+  this.postsService
+    .createAndStorePost(postData)
+    .subscribe(
+      (responseData) => (this.response = JSON.stringify(responseData))
+    );
 }
 ```

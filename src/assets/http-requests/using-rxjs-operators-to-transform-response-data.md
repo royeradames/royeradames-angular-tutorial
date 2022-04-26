@@ -6,10 +6,11 @@ We can transform the response data with `.pipe()` and `map` from `rxjs/operators
 
 Transform the response data from an object to a list of records with RxJS operators, and display the response data
 
+posts.service.ts
+
 ```ts
-onFetchPosts() {
-  // Send Http request
-  this.http
+fetchPosts() {
+  return this.http
     .get<{ [key: string]: Post }>(
       'https://angular-the-complete-gui-42271-default-rtdb.firebaseio.com/posts.json'
     )
@@ -24,18 +25,24 @@ onFetchPosts() {
         }
         return postsArray;
       })
-    )
-    .subscribe((posts) => {
-      console.log(posts);
-      this.loadedPosts = posts;
-      console.log(this.loadedPosts);
-    });
+    );
+}
+```
+
+app.component.ts
+
+```ts
+onFetchPosts() {
+  // Send Http request
+  this.postsService.fetchPosts().subscribe((posts) => {
+    this.loadedPosts = posts;
+  });
 }
 
 onClearPosts() {
-    // Send Http request
-    this.loadedPosts = [];
-  }
+  // Send Http request
+  this.loadedPosts = [];
+}
 ```
 
 ```html
