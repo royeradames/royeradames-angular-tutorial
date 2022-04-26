@@ -495,12 +495,11 @@ export const notes: NotesInterface[] = [
   },
   {
     chapter: "HTTP requests",
-    domainPath: "http-requests-using-rxjs-operators-to-transform-response-data",
-    markdownPath:
-      "assets/http-requests/using-rxjs-operators-to-transform-response-data.md",
+    domainPath: "http-requests-transform-response-data",
+    markdownPath: "assets/http-requests/transform-response-data.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/using-rxjs-operators-to-transform-response-data.md",
-    section: "Using RxJs operators to transform response data",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/transform-response-data.md",
+    section: "Transform response data",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-1op1wp?embed=1&file=src/app/app.component.ts",
     bPath:
