@@ -529,6 +529,18 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-nkugiv?embed=1&file=src/app/posts.service.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-handling-errors",
+    markdownPath: "assets/http-requests/handling-errors.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/handling-errors.md",
+    section: "Handling errors",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-prepxy?embed=1&file=src/app/app.component.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-pev6kf?embed=1&file=src/app/app.component.ts",
+  },
 ];
 
 export interface NotesNav {
