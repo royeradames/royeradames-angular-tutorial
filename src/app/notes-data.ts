@@ -602,6 +602,18 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-r3rqxc?embed=1&file=src/app/posts.service.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-changing-the-response-body-type",
+    markdownPath: "assets/http-requests/changing-the-response-body-type.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/changing-the-response-body-type.md",
+    section: "Changing the response body type",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-k7q37x?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-koprlg?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
+  },
 ];
 
 export interface NotesNav {
