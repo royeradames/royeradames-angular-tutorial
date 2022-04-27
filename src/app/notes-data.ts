@@ -628,6 +628,18 @@ export const notes: NotesInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-ivy-ied5me?embed=1&file=src/app/auth-interceptor.service.ts",
   },
+  {
+    chapter: "HTTP requests",
+    domainPath: "http-requests-auth-interceptors",
+    markdownPath: "assets/http-requests/auth-interceptors.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/auth-interceptors.md",
+    section: "Response Interceptors",
+    aPath:
+      "https://stackblitz.com/edit/angular-ivy-r8useb?embed=1&file=src/app/auth-interceptor.service.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-ivy-7gvydn?embed=1&file=src/app/auth-interceptor.service.ts",
+  },
 ];
 
 export interface NotesNav {
