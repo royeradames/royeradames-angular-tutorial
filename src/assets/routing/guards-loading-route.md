@@ -4,7 +4,7 @@ A guard always need to be a service.
 To guard a parent level route path you need to use `canActivate` in the parent route, and pass a class service that implements `CanActivate`.
 To guard a child level route path you need to use `canActivateChild` in the parent route, and pass a class service that implements `CanActivateChild`
 
-Guard
+Create Guard
 
 ```ts
 @Injectable()
@@ -23,6 +23,10 @@ export class AuthGuard implements CanActivate {
   }
 }
 ```
+
+Inform Angular about Guard in `.module.ts`
+  
+`providers: [<your guard>],`
 
 Implement guard in `Routes`
 
