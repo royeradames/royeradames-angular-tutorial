@@ -1,6 +1,5 @@
 import { Component, Input } from "@angular/core";
 import { NotesNav } from "src/app/notes-data";
-import { MetaInterface } from "../tutorial-template.component";
 
 @Component({
   selector: "app-table-of-content",
