@@ -1,6 +1,7 @@
 Fetches data **before** displaying the route. Great for simplifying HTTP requests. Alternative you can fetch the data in the constructor with a spinner. 
 
-`resolve` 
+Resolve
+
 - must set a service that handles the logic. **No need for observables** because it executed each time
 - in route sets the return service value in `activateRoute data` object
 - can get the `this.route.data` when `private route: ActivatedRoute`
@@ -31,13 +32,19 @@ resolve(route: ActivatedRouteSnapshot,state: RouterStateSnapshot): Server |Obser
 }
 ```
 
-`app.module.ts`
-`providers: [ServersService, AuthService, AuthGuard, CanDeactivateGuard, ServerResolver],`
+app.module.ts
 
-`app-routing-module.ts`
-`{ path: ':id', component: ServerComponent, resolve: { server: ServerResolver} },`
+```ts
+providers: [ServersService, AuthService, AuthGuard, CanDeactivateGuard, ServerResolver],
+```
 
-`server,component.ts`
+app-routing-module.ts
+
+```ts
+{ path: ':id', component: ServerComponent, resolve: { server: ServerResolver} },
+```
+
+server.component.ts
 
 ```ts
 ngOnInit() {
