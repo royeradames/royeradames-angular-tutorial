@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
+import { NewTutorialService } from "../tutorial.service";
 @Component({
   selector: "app-new-tutorial-form",
   templateUrl: "./new-tutorial-form.component.html",
@@ -9,7 +10,7 @@ export class NewTutorialFormComponent {
   form: FormGroup;
   innitContent = "";
   content = `# this is a test\n\n## Pratice\n`;
-  constructor() {
+  constructor(private newTutorialService: NewTutorialService) {
     this.form = new FormGroup({
       chapter: new FormControl(null, [Validators.required]),
       title: new FormControl(null, [Validators.required]),
@@ -21,6 +22,14 @@ export class NewTutorialFormComponent {
 
   onSubmit() {
     console.log(this.form.value);
+    this.newTutorialService.addTutorial(this.form.value).subscribe(
+      (res) => {
+        console.log(res);
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
     this.form.reset();
   }
 
@@ -35,6 +44,6 @@ export class NewTutorialFormComponent {
   }
 
   reset() {
-    this.form.reset();
+    if (confirm("Are you sure you want to reset?")) this.form.reset();
   }
 }
