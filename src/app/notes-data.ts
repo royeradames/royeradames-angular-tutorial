@@ -85,16 +85,16 @@ export const notes: NotesInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/navigating-programmatically.md",
   },
   {
-    domainPath: "route-parameters",
+    domainPath: "route-parameters-and-reloaded-components",
     chapter: "Routing",
-    section: "Route parameters",
+    section: "Route parameters and reloaded components",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-vuymfc?embed=1&file=src/app/users/user/user.component.ts",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-mii2hv?embed=1&file=src/app/users/user/user.component.ts",
-    markdownPath: "assets/routing/route-parameters.md",
+    markdownPath: "assets/routing/route-parameters-and-reloaded-components.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/route-parameters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/route-parameters-and-reloaded-components.md",
   },
   {
     domainPath: "query-parameters",
