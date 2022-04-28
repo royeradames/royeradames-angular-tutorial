@@ -4,6 +4,8 @@ A guard always need to be a service.
 To guard a parent level route path you need to use `canActivate` in the parent route, and pass a class service that implements `CanActivate`.
 To guard a child level route path you need to use `canActivateChild` in the parent route, and pass a class service that implements `CanActivateChild`
 
+Guard
+
 ```ts
 @Injectable()
 export class AuthGuard implements CanActivate {
@@ -16,11 +18,19 @@ export class AuthGuard implements CanActivate {
   ): Observable<boolean> | Promise<boolean> | boolean {
     return this.authService.isAuthenticated().then((authenticated: boolean) => {
       if (authenticated) return true
-      this.router.navigate(['/'])
+      this.router.navigate([<Redirect path>])
     })
   }
 }
 ```
+
+Implement guard in `Routes`
+
+```ts
+canActivate: [AuthGuard],
+canActivateChild: [AuthGuard],
+```
+
 
 ## Practice 
 
@@ -64,13 +74,13 @@ export class AuthGuard implements CanActivate, CanActivateChild {
 
 ```
 
-`auth.server.ts`
+auth.server.ts
 
 ```ts
 providers: [ServersService, AuthService, AuthGuard],
 ```
 
-`app-routing.module.ts`
+app-routing.module.ts
 
 ```ts
 {
@@ -86,4 +96,4 @@ providers: [ServersService, AuthService, AuthGuard],
 ```
 Comment out canActivate or canActivateChild to see the differences. 
 
-Click on the servers table will take you to the home page after 8s. 8s is how long the authentication check takes.
+Click on the servers table will take you to the home page after 8s. The 8s is how long the authentication check takes.
