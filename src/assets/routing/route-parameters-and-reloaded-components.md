@@ -1,3 +1,5 @@
+We can pass data through the page URL and use it to load data to our components.
+
 Encode data within the path
 
 `path: 'users/:id'`
