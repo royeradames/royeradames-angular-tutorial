@@ -16,11 +16,11 @@
           />
         </div>
         <div class="form-group">
-          <label for="title"> title </label>
+          <label for="section"> Section </label>
           <input
             type="text"
-            id="title"
-            formControlName="title"
+            id="section"
+            formControlName="section"
             class="form-control"
           />
         </div>
@@ -58,6 +58,14 @@
         </button>
         <button (click)="reset()" class="btn btn-danger">Reset</button>
       </form>
+
+      <div *ngIf="error.length > 0">
+        <div class="alert alert-danger">
+          <strong>Error!</strong> {{ error }}
+        </div>
+      </div>
     </div>
+
+    <article markdown [data]="markdownText"></article>
   </div>
 </div>
