@@ -38,7 +38,6 @@ export class TutorialService {
   constructor(private http: HttpClient) {
     this.http.get<TutorialInterface>(`${url}/tutorials/8`).subscribe({
       next: (data) => {
-        console.log("TutorialService data", data);
         this.currentTutorial = data.markdown;
         this.meta.currentTutorial = data.markdown;
       },
@@ -61,7 +60,6 @@ export class TutorialService {
         .replace(/\s+/g, "-")
         .toLowerCase()}`,
     };
-    console.log(createTutorial);
     return this.http.post(`${url}/tutorials`, createTutorial);
   }
 

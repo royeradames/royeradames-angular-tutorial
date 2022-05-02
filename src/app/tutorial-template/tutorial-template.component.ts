@@ -67,7 +67,6 @@ export class TutorialTemplateComponent {
 
   private loadNote(notes: NotesInterface[]): NotesInterface {
     const currentDomainPath = this.route.snapshot.params["title"];
-    console.log(currentDomainPath);
     const note = notes.find((note) => note.domainPath === currentDomainPath);
     if (note === undefined) return notes[0];
     return note;

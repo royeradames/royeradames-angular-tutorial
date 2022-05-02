@@ -1,6 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
+import { lastValueFrom } from "rxjs";
 import { TutorialInterface, TutorialService, url } from "../tutorial.service";
 @Component({
   selector: "app-new-tutorial-form",
@@ -51,13 +52,17 @@ export class NewTutorialFormComponent {
     });
   }
 
-  testProfile() {
+  async testProfile() {
+    const tutorial = await lastValueFrom(
+      this.http.get<TutorialInterface>(`${url}/tutorials/8`)
+    );
+
     this.form.patchValue({
-      chapter: "1",
-      section: "test",
-      aPath: "test",
-      bPath: "test",
-      markdown: `# Profile this is a test\n\n## Pratice\n`,
+      chapter: tutorial?.chapter,
+      section: tutorial?.section,
+      aPath: tutorial?.aPath,
+      bPath: tutorial?.bPath,
+      markdown: tutorial?.markdown,
     });
   }
 
