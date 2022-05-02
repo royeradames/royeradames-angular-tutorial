@@ -1,6 +1,6 @@
 export interface NewTutorialInterface {
   chapter: string;
-  title: string;
+  section: string;
   aPath: string;
   bPath: string;
   markdown: string;
