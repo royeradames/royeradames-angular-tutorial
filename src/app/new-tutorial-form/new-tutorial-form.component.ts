@@ -24,13 +24,10 @@ export class NewTutorialFormComponent {
 
   constructor(
     private tutorialService: TutorialService,
-    private http: HttpClient,
-    private notesService: NotesService
+    private http: HttpClient
   ) {}
 
-  async ngOnInit() {
-    this.notesService.exportNotes();
-  }
+  async ngOnInit() {}
 
   onSubmit() {
     this.tutorialService.addTutorial(this.form.value).subscribe({
