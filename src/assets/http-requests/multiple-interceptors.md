@@ -1,4 +1,4 @@
-We can have multiple interceptors. We need a class that implements an interceptors and in teh `module.ts` let angular know about it. **Order Matters.**
+We can have multiple interceptors. We need a class that implements an interceptors and in the `module.ts` let angular know about it. **Order Matters.**
 
 ## Practice 
 
