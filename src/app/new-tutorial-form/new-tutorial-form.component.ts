@@ -2,7 +2,6 @@ import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { lastValueFrom } from "rxjs";
-import { NotesService } from "../notes.service";
 import { TutorialInterface, TutorialService, url } from "../tutorial.service";
 @Component({
   selector: "app-new-tutorial-form",
