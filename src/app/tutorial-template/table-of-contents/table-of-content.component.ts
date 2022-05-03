@@ -24,7 +24,7 @@ export class TableOfContentComponent {
     this.route.params.subscribe((params) => {
       this.section =
         this.notesNav.find((note) => note.link === `/${params["title"]}`)
-          ?.name || "???";
+          ?.name || "Params title doesn't equal note link";
     });
   }
 }
