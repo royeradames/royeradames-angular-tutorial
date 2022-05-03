@@ -1,5 +1,7 @@
 import { Component, Input } from "@angular/core";
-import { NotesNav } from "src/app/notes.service";
+import { ActivatedRoute } from "@angular/router";
+import { NotesNav, NotesService } from "src/app/notes.service";
+import { TutorialService } from "src/app/tutorial.service";
 
 @Component({
   selector: "app-table-of-content",
@@ -7,7 +9,22 @@ import { NotesNav } from "src/app/notes.service";
   styleUrls: ["./table-of-content.component.scss"],
 })
 export class TableOfContentComponent {
-  @Input() section = "";
-  @Input() notesNav: NotesNav[] = [];
+  section = "";
+  notesNav: NotesNav[] = [];
+
   isHidingNav = true;
+
+  constructor(
+    private tutorialService: TutorialService,
+    private notesService: NotesService,
+    private route: ActivatedRoute
+  ) {
+    this.notesNav = this.notesService.notesNav();
+
+    this.route.params.subscribe((params) => {
+      this.section =
+        this.notesNav.find((note) => note.link === `/${params["title"]}`)
+          ?.name || "???";
+    });
+  }
 }
