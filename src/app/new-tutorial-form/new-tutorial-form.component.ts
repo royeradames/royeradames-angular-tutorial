@@ -9,36 +9,21 @@ import { TutorialInterface, TutorialService, url } from "../tutorial.service";
   styleUrls: ["./new-tutorial-form.component.scss"],
 })
 export class NewTutorialFormComponent {
-  form: FormGroup;
+  form = new FormGroup({
+    chapter: new FormControl(null, [Validators.required]),
+    section: new FormControl(null, [Validators.required]),
+    aPath: new FormControl(null, [Validators.required]),
+    bPath: new FormControl(null, [Validators.required]),
+    markdown: new FormControl(null, [Validators.required]),
+  });
   innitContent = "";
-  content = `# this is a test\n\n## Pratice\n`;
   error = "";
   markdownText = "";
 
   constructor(
     private tutorialService: TutorialService,
     private http: HttpClient
-  ) {
-    this.form = new FormGroup({
-      chapter: new FormControl(null, [Validators.required]),
-      section: new FormControl(null, [Validators.required]),
-      aPath: new FormControl(null, [Validators.required]),
-      bPath: new FormControl(null, [Validators.required]),
-      markdown: new FormControl(null, [Validators.required]),
-    });
-
-    this.http.get<TutorialInterface>(`${url}/tutorials/8`).subscribe({
-      next: (data) => {
-        this.markdownText = data.markdown;
-      },
-      error: (err) => {
-        console.log(err);
-      },
-      complete: () => {
-        console.log("complete TutorialService");
-      },
-    });
-  }
+  ) {}
 
   onSubmit() {
     this.tutorialService.addTutorial(this.form.value).subscribe({
@@ -54,7 +39,7 @@ export class NewTutorialFormComponent {
 
   async testProfile() {
     const tutorial = await lastValueFrom(
-      this.http.get<TutorialInterface>(`${url}/tutorials/8`)
+      this.http.get<TutorialInterface>(`${url}/tutorials/1`)
     );
 
     this.form.patchValue({
