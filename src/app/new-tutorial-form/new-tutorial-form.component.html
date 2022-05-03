@@ -45,7 +45,12 @@
         </div>
 
         <div class="form-group">
-          <md-editor name="Content" formControlName="markdown"> </md-editor>
+          <md-editor
+            name="Content"
+            formControlName="markdown"
+            [(ngModel)]="content"
+          >
+          </md-editor>
         </div>
 
         <button class="btn btn-primary" type="submit" [disabled]="form.invalid">

@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
-import { NotesInterface, notesNav, notes } from "../notes-data";
+import { NotesInterface, NotesService } from "../notes.service";
 
 export interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
   showText: string;
@@ -18,20 +18,21 @@ export interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
 })
 export class TutorialTemplateComponent {
   meta: MetaInterface;
-  notesNav = notesNav();
+  notesNav = this.notesService.notesNav();
   id: string;
   section: string;
 
   constructor(
     private sanitizer: DomSanitizer,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private notesService: NotesService
   ) {
-    this.meta = this.getMeta(notes);
+    this.meta = this.getMeta(this.notesService.notes);
     this.section = this.meta.section;
     this.id = this.generateTitleId();
     this.router.events.subscribe(() => {
-      this.meta = this.getMeta(notes);
+      this.meta = this.getMeta(this.notesService.notes);
       this.section = this.meta.section;
     });
 

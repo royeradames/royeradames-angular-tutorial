@@ -1,5 +1,5 @@
 import { Component, Input } from "@angular/core";
-import { NotesNav } from "src/app/notes-data";
+import { NotesNav } from "src/app/notes.service";
 
 @Component({
   selector: "app-table-of-content",

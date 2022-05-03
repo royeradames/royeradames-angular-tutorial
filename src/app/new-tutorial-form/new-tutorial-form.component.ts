@@ -2,6 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { lastValueFrom } from "rxjs";
+import { NotesService } from "../notes.service";
 import { TutorialInterface, TutorialService, url } from "../tutorial.service";
 @Component({
   selector: "app-new-tutorial-form",
@@ -19,11 +20,17 @@ export class NewTutorialFormComponent {
   innitContent = "";
   error = "";
   markdownText = "";
+  content = "";
 
   constructor(
     private tutorialService: TutorialService,
-    private http: HttpClient
+    private http: HttpClient,
+    private notesService: NotesService
   ) {}
+
+  async ngOnInit() {
+    this.notesService.exportNotes();
+  }
 
   onSubmit() {
     this.tutorialService.addTutorial(this.form.value).subscribe({
