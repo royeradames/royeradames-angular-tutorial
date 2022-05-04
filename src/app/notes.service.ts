@@ -48,17 +48,8 @@ export class NotesService {
   }
   notesNav(): NotesNav[] {
     let previousChapter = "";
-    let chapterNumber = 1;
-    const alphabetStart = 64;
-    const alphabetEnd = 90;
-    let utfLetter = alphabetStart;
-    const decoder = new TextDecoder();
     return this.notes.map((note) => {
       const isNewChapter = note.chapter != previousChapter;
-      const resetLetter = utfLetter === alphabetEnd || isNewChapter;
-      if (resetLetter) utfLetter = alphabetStart;
-
-      const alphabetLetter = decoder.decode(new Uint8Array([++utfLetter]));
 
       const nav: NotesNav = {
         domainPath: "/" + note.domainPath,
@@ -66,11 +57,7 @@ export class NotesService {
         chapter: isNewChapter ? note.chapter : undefined,
       };
 
-      if (isNewChapter) {
-        previousChapter = note.chapter;
-        chapterNumber++;
-      }
-
+      if (isNewChapter) previousChapter = note.chapter;
       return nav;
     });
   }
