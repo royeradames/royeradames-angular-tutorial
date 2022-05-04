@@ -14,10 +14,9 @@ export interface NotesInterface {
 }
 
 export interface NotesNav {
-  link: string;
-  name: string;
+  domainPath: string;
+  section: string;
   chapter?: string;
-  chapterNumber?: number;
 }
 
 @Injectable({
@@ -55,7 +54,6 @@ export class NotesService {
     let utfLetter = alphabetStart;
     const decoder = new TextDecoder();
     return this.notes.map((note) => {
-      //
       const isNewChapter = note.chapter != previousChapter;
       const resetLetter = utfLetter === alphabetEnd || isNewChapter;
       if (resetLetter) utfLetter = alphabetStart;
@@ -63,10 +61,9 @@ export class NotesService {
       const alphabetLetter = decoder.decode(new Uint8Array([++utfLetter]));
 
       const nav: NotesNav = {
-        link: "/" + note.domainPath,
-        name: `${alphabetLetter}. ${note.section}`,
+        domainPath: "/" + note.domainPath,
+        section: note.section,
         chapter: isNewChapter ? note.chapter : undefined,
-        chapterNumber: isNewChapter ? chapterNumber : undefined,
       };
 
       if (isNewChapter) {
