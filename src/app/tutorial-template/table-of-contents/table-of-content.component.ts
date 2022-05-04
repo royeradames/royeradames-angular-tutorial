@@ -23,8 +23,10 @@ export class TableOfContentComponent {
 
     this.route.params.subscribe((params) => {
       this.section =
-        this.notesNav.find((note) => note.domainPath === `/${params["title"]}`)
-          ?.section || "Params title doesn't equal note link";
+        this.notesNav.find((note) => {
+          const currentDomain = `/${params["title"] ? params["title"] : ""}`;
+          return note.domainPath === currentDomain;
+        })?.section || "Params title doesn't equal note link";
     });
   }
 }
