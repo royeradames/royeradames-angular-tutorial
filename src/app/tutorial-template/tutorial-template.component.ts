@@ -18,9 +18,6 @@ export interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
 })
 export class TutorialTemplateComponent {
   meta: MetaInterface;
-  notesNav = this.notesService.notesNav();
-  id: string;
-  section: string;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -29,11 +26,8 @@ export class TutorialTemplateComponent {
     private notesService: NotesService
   ) {
     this.meta = this.getMeta(this.notesService.notes);
-    this.section = this.meta.section;
-    this.id = this.generateTitleId();
     this.router.events.subscribe(() => {
       this.meta = this.getMeta(this.notesService.notes);
-      this.section = this.meta.section;
     });
 
     // when redirected to home remove redirected path
@@ -52,17 +46,6 @@ export class TutorialTemplateComponent {
     }
   }
 
-  private generateTitleId(): string {
-    return (
-      "#" +
-      this.notesNav
-        .find(
-          (note) =>
-            note.section === `${this.meta.chapter} / ${this.meta.section}`
-        )
-        ?.domainPath?.replace("/", "")
-    );
-  }
   private trustUrl(url: string): SafeResourceUrl {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
