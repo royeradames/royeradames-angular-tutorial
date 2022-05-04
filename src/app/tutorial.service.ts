@@ -3,6 +3,7 @@ import { Injectable } from "@angular/core";
 
 // import { url } from "../../serverInformation";
 import { NewTutorialInterface } from "./new-tutorial.interface";
+import { TableOfContentInterface } from "./notes.service";
 export const url = "http://localhost:3001";
 
 export type Technology =
@@ -65,5 +66,11 @@ export class TutorialService {
 
   updateTutorial(tutorialId: number, newTutorial: NewTutorialInterface) {
     return this.http.put(`${url}/tutorials/${tutorialId}`, newTutorial);
+  }
+
+  getTableOfContent() {
+    return this.http.get<TableOfContentInterface[]>(
+      `${url}/tutorials/angular/table-of-contents`
+    );
   }
 }

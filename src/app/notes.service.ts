@@ -13,7 +13,8 @@ export interface NotesInterface {
   domainPath: string;
 }
 
-export interface NotesNav {
+export interface TableOfContentInterface {
+  id: number;
   domainPath: string;
   section: string;
   chapter?: string;
@@ -46,12 +47,13 @@ export class NotesService {
       console.log(`${index}`, post);
     });
   }
-  notesNav(): NotesNav[] {
+  notesNav(): TableOfContentInterface[] {
     let previousChapter = "";
-    return this.notes.map((note) => {
+    return this.notes.map((note, index) => {
       const isNewChapter = note.chapter != previousChapter;
 
-      const nav: NotesNav = {
+      const nav: TableOfContentInterface = {
+        id: index,
         domainPath: "/" + note.domainPath,
         section: note.section,
         chapter: isNewChapter ? note.chapter : undefined,
