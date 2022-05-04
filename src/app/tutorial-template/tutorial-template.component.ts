@@ -57,9 +57,10 @@ export class TutorialTemplateComponent {
       "#" +
       this.notesNav
         .find(
-          (note) => note.name === `${this.meta.chapter} / ${this.meta.section}`
+          (note) =>
+            note.section === `${this.meta.chapter} / ${this.meta.section}`
         )
-        ?.link?.replace("/", "")
+        ?.domainPath?.replace("/", "")
     );
   }
   private trustUrl(url: string): SafeResourceUrl {

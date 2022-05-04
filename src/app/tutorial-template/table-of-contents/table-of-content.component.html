@@ -1,17 +1,17 @@
 <article class="table-of-contents">
   <nav class="navigation" [ngClass]="{ hide: isHidingNav }">
-    <div *ngFor="let noteNav of notesNav">
+    <div *ngFor="let noteNav of notesNav; index as i">
       <button disabled *ngIf="noteNav.chapter" class="chapter">
-        {{ noteNav.chapterNumber }}. {{ noteNav.chapter }}
+        {{ noteNav.chapter }}
       </button>
       <a
-        [id]="'#' + noteNav.link.replace('/', '')"
-        [routerLink]="noteNav.link"
+        [id]="'#' + noteNav.domainPath.replace('/', '')"
+        [routerLink]="noteNav.domainPath"
         class="navigation-link"
         routerLinkActive="active"
         (click)="isHidingNav = !isHidingNav"
         [routerLinkActiveOptions]="{ exact: true }"
-        >{{ noteNav.name }}</a
+        >{{ i + 1 }}. {{ noteNav.section }}</a
       >
     </div>
   </nav>
