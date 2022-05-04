@@ -80,9 +80,8 @@ export class NotesService {
       chapter: "Introduction",
       section: "Welcome to Angular",
       aPath:
-        "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.html",
-      bPath:
-        "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.html",
+        "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.ts&view=preview",
+
       markdownPath: "assets/routing/welcome-to-angular.md",
       editPath:
         "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/welcome-to-angular.md",
