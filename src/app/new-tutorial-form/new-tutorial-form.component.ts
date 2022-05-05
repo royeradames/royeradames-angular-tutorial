@@ -2,6 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { lastValueFrom } from "rxjs";
+import { NotesService } from "../notes.service";
 import { TutorialInterface, TutorialService, url } from "../tutorial.service";
 @Component({
   selector: "app-new-tutorial-form",
@@ -23,7 +24,8 @@ export class NewTutorialFormComponent {
 
   constructor(
     private tutorialService: TutorialService,
-    private http: HttpClient
+    private http: HttpClient,
+    private notes: NotesService
   ) {}
 
   async ngOnInit() {}
@@ -56,5 +58,9 @@ export class NewTutorialFormComponent {
 
   reset() {
     if (confirm("Are you sure you want to reset?")) this.form.reset();
+  }
+
+  exportTutorials() {
+    this.notes.exportNotes();
   }
 }

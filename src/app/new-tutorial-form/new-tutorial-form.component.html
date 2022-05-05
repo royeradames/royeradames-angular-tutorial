@@ -5,6 +5,9 @@
       <button (click)="testProfile()" class="btn btn-primary">
         Test profile
       </button>
+      <button (click)="exportTutorials()" class="btn btn-primary">
+        Export tutorials
+      </button>
       <form [formGroup]="form" (ngSubmit)="onSubmit()">
         <div class="form-group">
           <label for="chapter"> chapter </label>
@@ -65,7 +68,5 @@
         </div>
       </div>
     </div>
-
-    <!-- <article markdown [data]="markdownText"></article> -->
   </div>
 </div>
