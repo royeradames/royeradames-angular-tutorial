@@ -716,6 +716,18 @@ export class NotesService {
       aPath:
         "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/main-testing.ts",
     },
+    {
+      chapter: "Unit testing",
+      domainPath: "unit-testing-unit-testing-fundamentals",
+      markdownPath: "assets/http-requests/unit-testing-fundamentals.md",
+      editPath:
+        "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/unit-testing-fundamentals.md",
+      section: "Unit testing fundamentals",
+      aPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-qvirpk?embed=1&file=src/app/01-fundamentals/compute.spec.ts",
+      bPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-weqmbf?embed=1&file=src/app/01-fundamentals/compute.spec.ts",
+    },
   ];
 
   chapter = [
