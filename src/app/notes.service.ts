@@ -728,6 +728,18 @@ export class NotesService {
       bPath:
         "https://stackblitz.com/edit/jasmine-in-angular-weqmbf?embed=1&file=src/app/01-fundamentals/compute.spec.ts",
     },
+    {
+      chapter: "Unit testing",
+      domainPath: "unit-testing-working-with-strings-and-arrays",
+      markdownPath: "assets/http-requests/working-with-strings-and-arrays.md",
+      editPath:
+        "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-strings-and-arrays.md",
+      section: "Working with strings and arrays",
+      aPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-aqkfk5?embed=1&file=src/app/02-arrays-and-strings/greet.spec.ts",
+      bPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-m2knic?embed=1&file=src/app/02-arrays-and-strings/getCurrencies.spec.ts",
+    },
   ];
 
   chapter = [
