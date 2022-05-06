@@ -752,6 +752,18 @@ export class NotesService {
       bPath:
         "https://stackblitz.com/edit/jasmine-in-angular-rhj2ry?embed=1&file=src/app/03-setup-and-terdown/vote.component.spec.ts",
     },
+    {
+      chapter: "Unit testing",
+      domainPath: "unit-testing-working-with-forms",
+      markdownPath: "assets/http-requests/working-with-forms.md",
+      editPath:
+        "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-forms.md",
+      section: "Working with forms",
+      aPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-w5xzx9?embed=1&file=src/main-testing.ts",
+      bPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-zkehdk?embed=1&file=src/main-testing.ts",
+    },
   ];
 
   chapter = [
