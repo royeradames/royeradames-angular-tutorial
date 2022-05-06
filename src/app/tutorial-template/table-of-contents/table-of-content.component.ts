@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-import { TableOfContentInterface } from "src/app/notes.service";
-import { TutorialService } from "src/app/tutorial.service";
+import { NotesService, TableOfContentInterface } from "src/app/notes.service";
 
 @Component({
   selector: "app-table-of-content",
@@ -10,20 +9,14 @@ import { TutorialService } from "src/app/tutorial.service";
 })
 export class TableOfContentComponent {
   section = "";
-  notesNav: TableOfContentInterface[] = [];
+  notesNav: TableOfContentInterface[] = this.notesService.notesNav();
 
   isHidingNav = true;
 
   constructor(
-    private tutorialService: TutorialService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private notesService: NotesService
   ) {
-    this.tutorialService.getTableOfContent().subscribe({
-      next: (data) => {
-        this.notesNav = data;
-      },
-    });
-
     this.route.params.subscribe((params) => {
       this.section =
         this.notesNav.find((note) => {
