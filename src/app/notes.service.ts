@@ -706,6 +706,16 @@ export class NotesService {
       bPath:
         "https://stackblitz.com/edit/angular-ivy-qz4hv4?devToolsHeight=33&embed=1&file=src/app/auth-interceptor.service.ts",
     },
+    {
+      chapter: "Unit testing",
+      domainPath: "unit-testing-types-of-tests",
+      markdownPath: "assets/http-requests/types-of-tests.md",
+      editPath:
+        "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/types-of-tests.md",
+      section: "Types of tests",
+      aPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/main-testing.ts",
+    },
   ];
 
   chapter = [
