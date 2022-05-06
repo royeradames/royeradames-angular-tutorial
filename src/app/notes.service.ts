@@ -740,6 +740,18 @@ export class NotesService {
       bPath:
         "https://stackblitz.com/edit/jasmine-in-angular-m2knic?embed=1&file=src/app/02-arrays-and-strings/getCurrencies.spec.ts",
     },
+    {
+      chapter: "Unit testing",
+      domainPath: "unit-testing-setup-and-tear-down",
+      markdownPath: "assets/http-requests/setup-and-tear-down.md",
+      editPath:
+        "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/setup-and-tear-down.md",
+      section: "Setup and tear down",
+      aPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-5qkkf6?embed=1&file=src/app/03-setup-and-terdown/vote.component.spec.ts",
+      bPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-rhj2ry?embed=1&file=src/app/03-setup-and-terdown/vote.component.spec.ts",
+    },
   ];
 
   chapter = [
