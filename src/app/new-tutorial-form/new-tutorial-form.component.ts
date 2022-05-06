@@ -33,7 +33,7 @@ export class NewTutorialFormComponent {
   onSubmit() {
     this.tutorialService.addTutorial(this.form.value).subscribe({
       next: (data) => {
-        console.log("data", data);
+        confirm(`The form data is: ${JSON.stringify(data)}`);
       },
       error: (err) => (this.error = JSON.stringify(err)),
       complete: () => {

@@ -1,9 +1,11 @@
 import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
-import { NotesInterface, NotesService } from "../notes.service";
+import { TutorialInterface } from "../data/tutorial";
+import { NotesService } from "../notes.service";
 
-export interface MetaInterface extends Omit<NotesInterface, "aPath" | "bPath"> {
+export interface MetaInterface
+  extends Omit<TutorialInterface, "aPath" | "bPath"> {
   showText: string;
   resetText: string;
   currentText: string;
@@ -31,7 +33,7 @@ export class TutorialTemplateComponent {
     });
 
     // when redirected to home remove redirected path
-    if (this.meta.domainPath === "") this.router.navigate(["/"]);
+    if (this.meta["domainPath"] === "") this.router.navigate(["/"]);
   }
 
   showReset(): void {
@@ -50,14 +52,14 @@ export class TutorialTemplateComponent {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
-  private loadNote(notes: NotesInterface[]): NotesInterface {
+  private loadNote(notes: TutorialInterface[]): TutorialInterface {
     const currentDomainPath = this.route.snapshot.params["title"];
     const note = notes.find((note) => note.domainPath === currentDomainPath);
     if (note === undefined) return notes[0];
     return note;
   }
 
-  private getMeta(notes: NotesInterface[]) {
+  private getMeta(notes: TutorialInterface[]) {
     const currentTutorial = this.loadNote(notes);
     return {
       ...currentTutorial,

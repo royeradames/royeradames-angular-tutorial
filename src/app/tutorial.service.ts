@@ -36,20 +36,7 @@ export class TutorialService {
     currentTutorial: "",
   };
 
-  constructor(private http: HttpClient) {
-    // this.http.get<TutorialInterface>(`${url}/tutorials/8`).subscribe({
-    //   next: (data) => {
-    //     this.currentTutorial = data.markdown;
-    //     this.meta.currentTutorial = data.markdown;
-    //   },
-    //   error: (err) => {
-    //     console.log(err);
-    //   },
-    //   complete: () => {
-    //     console.log("complete TutorialService");
-    //   },
-    // });
-  }
+  constructor(private http: HttpClient) {}
 
   addTutorial(newTutorial: NewTutorialInterface) {
     const createTutorial: CreateTutorialInterface = {

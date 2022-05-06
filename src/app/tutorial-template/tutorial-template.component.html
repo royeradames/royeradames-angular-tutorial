@@ -7,14 +7,14 @@
         <a class="new-tutorial improve-document" routerLink="/new"
           >New tutorial</a
         >
-        <article markdown [src]="meta.markdownPath"></article>
+        <article markdown [src]="meta['markdownPath']"></article>
         <hr />
         <article class="controls">
           <button class="show-reset" (click)="showReset()" *ngIf="meta.bPath">
             {{ meta.currentText }}
           </button>
         </article>
-        <a class="improve-document" [href]="meta.editPath" target="_black"
+        <a class="improve-document" [href]="meta['editPath']" target="_black"
           >Edit this chapter</a
         >
       </div>
