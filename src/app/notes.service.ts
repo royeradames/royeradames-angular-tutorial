@@ -764,6 +764,18 @@ export class NotesService {
       bPath:
         "https://stackblitz.com/edit/jasmine-in-angular-zkehdk?embed=1&file=src/main-testing.ts",
     },
+    {
+      chapter: "Unit testing",
+      domainPath: "unit-testing-working-with-event-emitters",
+      markdownPath: "assets/http-requests/working-with-event-emitters.md",
+      editPath:
+        "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-event-emitters.md",
+      section: "Working with event emitters",
+      aPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-qqawn5?embed=1&file=src/app/05-event-emitters/vote.component.spec.ts",
+      bPath:
+        "https://stackblitz.com/edit/jasmine-in-angular-ky9qfd?embed=1&file=src/app/05-event-emitters/vote.component.spec.ts",
+    },
   ];
 
   chapter = [
