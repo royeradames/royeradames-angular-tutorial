@@ -718,4 +718,16 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-ky9qfd?embed=1&file=src/app/05-event-emitters/vote.component.spec.ts",
   },
+  {
+    chapter: "Unit testing",
+    domainPath: "unit-testing-working-with-spies",
+    markdownPath: "assets/http-requests/working-with-spies.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-spies.md",
+    section: "Working with spies",
+    aPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-e6hb1t?embed=1&file=src/main-testing.ts",
+    bPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-r8bqsj?embed=1&file=src/main-testing.ts",
+  },
 ];
