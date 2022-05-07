@@ -34,6 +34,21 @@ In angular, is testing a component.ts with a fakeService and/or fakeRouter. (wit
 - Super fast
 - Don't give us mich confident 
 
+
+### Limitations
+
+Works with:
+
+- State changes
+- Forms
+- Events (output properties)
+- Services
+
+Doesn't work with:
+
+- Routers
+- Template bindings
+
 ## Integration Tests
 
 Test a component with external resources (e.g. file system, database, API endpoints).
