@@ -742,6 +742,18 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-nzn1ya?embed=1&file=src/app/06-services/todos.component.spec.ts",
   },
+  {
+    chapter: "Unit testing",
+    domainPath: "unit-testing-working-with-confirmation-boxes",
+    markdownPath: "assets/http-requests/working-with-confirmation-boxes.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-confirmation-boxes.md",
+    section: "Working with Confirmation Boxes",
+    aPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-ro9w6r?embed=1&file=src/app/06-services/todos.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-y5u48u?embed=1&file=src/app/06-services/todo.service.ts",
+  },
 ];
 
 /*
