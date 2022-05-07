@@ -49,6 +49,18 @@ Doesn't work with:
 - Routers
 - Template bindings
 
+### Code coverage
+
+`ng test --code-coverage`
+
+Open `coverage/index.html`
+
+#### How much code coverage?
+
+Ideally, 100% coverage.
+At lest 70% coverage.
+If constrain, then only focus on the key features. Things that take long to test manually.
+
 ## Integration Tests
 
 Test a component with external resources (e.g. file system, database, API endpoints).
