@@ -737,8 +737,10 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/interaction-testing.md",
     section: "Interaction testing",
-    aPath: "",
-    bPath: "",
+    aPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-q72zqj?embed=1&file=src/app/06-services/todos.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-nzn1ya?embed=1&file=src/app/06-services/todos.component.spec.ts",
   },
 ];
 
