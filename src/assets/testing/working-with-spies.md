@@ -2,7 +2,6 @@ We can fake a service with spies.
 
 `spyOn(<service instance>, <method or variable>).and.callFake(<function that return a value for the service method or variable>)`
 
-``
 ## Practice
 
 Fake the component service and test the component todo.

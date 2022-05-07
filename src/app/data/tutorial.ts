@@ -730,4 +730,29 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-r8bqsj?embed=1&file=src/main-testing.ts",
   },
+  {
+    chapter: "Unit testing",
+    domainPath: "unit-testing-interaction-testing",
+    markdownPath: "assets/http-requests/interaction-testing.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/interaction-testing.md",
+    section: "Interaction testing",
+    aPath: "",
+    bPath: "",
+  },
 ];
+
+/*
+  {
+    chapter: "Unit testing",
+    domainPath: "unit-testing-working-with-spies",
+    markdownPath: "assets/http-requests/working-with-spies.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-spies.md",
+    section: "",
+    aPath:
+      "",
+    bPath:
+      "",
+  },
+*/
