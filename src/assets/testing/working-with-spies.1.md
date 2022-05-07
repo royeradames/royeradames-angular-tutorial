@@ -5,6 +5,7 @@
 - `Observable.throw(error)` fake service and throw an error
   - statis import require `import 'rxjs/add/observable/throw';`
 - `expect(<value>).toBeGreaterThan(<value>)` to check if a value is greater than another
+- `.returnValue(<value>)` to return a value from a spy
 
 ## Practice
 
