@@ -656,7 +656,7 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/types-of-tests.md",
     section: "Types of tests",
     aPath:
-      "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/app/app.component.ts&view=preview",
+      "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/app/app.component.spec.ts&view=both",
   },
   {
     chapter: "Unit testing",
