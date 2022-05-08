@@ -756,6 +756,18 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-y5u48u?embed=1&file=src/app/06-services/todo.service.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-the-setup-code",
+    markdownPath: "assets/testing/unit-testing/working-with-spies.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/the-setup-code.md",
+    section: "The setup code",
+    aPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-cpyd6m?embed=1&file=src/app/1-voter/voter.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-ka6odk?embed=1&file=src/app/1-voter/voter.component.spec.ts",
+  },
 ];
 
 /*xw
@@ -764,7 +776,7 @@ export const tutorials: TutorialInterface[] = [
     domainPath: "unit-testing-working-with-spies",
     markdownPath: "assets/testing/unit-testing/working-with-spies.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-spies.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/the-setup-code.md",
     section: "",
     aPath:
       "",
