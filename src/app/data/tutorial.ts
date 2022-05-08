@@ -651,12 +651,12 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Testing",
     domainPath: "unit-testing-types-of-tests",
-    markdownPath: "assets/testing/unit-testing/types-of-tests.md",
+    markdownPath: "assets/testing/types-of-tests.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/types-of-tests.md",
     section: "Types of tests",
     aPath:
-      "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/main-testing.ts",
+      "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/app/app.component.ts&view=preview",
   },
   {
     chapter: "Unit testing",
