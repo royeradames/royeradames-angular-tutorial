@@ -3,22 +3,6 @@
 - Integration
 - End-to-end
 
-```ts
-export class VoteComponent {
-  totalVotes: number;
-
-  update() {
-    this.totalVotes++;
-  }
-}
-```
-
-```html
-{{ totalVotes }}
-
-<button (click)="upVote()"> Up </button>
-```
-
 ## In this tutorial
 
 - Integration tests: components + template
@@ -57,9 +41,9 @@ Open `coverage/index.html`
 
 #### How much code coverage?
 
-Ideally, 100% coverage.
-At lest 70% coverage.
-If constrain, then only focus on the key features. Things that take long to test manually.
+- Ideally, 100% coverage.
+- At lest 70% coverage.
+- If constrain, then only focus on the key features. Things that take long to test manually.
 
 ## Integration Tests
 
@@ -69,7 +53,7 @@ In angular, its testing the component.ts and component.html.
 
 ## End-to-end tests
 
-Test teh entire application as a whole
+Test the entire application as a whole
 
 - More confidence
 - Very slow

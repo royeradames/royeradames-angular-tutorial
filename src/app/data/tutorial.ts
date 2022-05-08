@@ -649,11 +649,11 @@ export const tutorials: TutorialInterface[] = [
       "https://stackblitz.com/edit/angular-ivy-qz4hv4?devToolsHeight=33&embed=1&file=src/app/auth-interceptor.service.ts",
   },
   {
-    chapter: "Unit testing",
+    chapter: "Testing",
     domainPath: "unit-testing-types-of-tests",
     markdownPath: "assets/testing/unit-testing/types-of-tests.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/types-of-tests.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/types-of-tests.md",
     section: "Types of tests",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/main-testing.ts",
