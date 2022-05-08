@@ -651,9 +651,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-types-of-tests",
-    markdownPath: "assets/http-requests/types-of-tests.md",
+    markdownPath: "assets/testing/unit-testing/types-of-tests.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/types-of-tests.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/types-of-tests.md",
     section: "Types of tests",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/main-testing.ts",
@@ -661,9 +661,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-unit-testing-fundamentals",
-    markdownPath: "assets/http-requests/unit-testing-fundamentals.md",
+    markdownPath: "assets/testing/unit-testing/unit-testing-fundamentals.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/unit-testing-fundamentals.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/unit-testing-fundamentals.md",
     section: "Unit testing fundamentals",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-qvirpk?embed=1&file=src/app/01-fundamentals/compute.spec.ts",
@@ -673,9 +673,10 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-working-with-strings-and-arrays",
-    markdownPath: "assets/http-requests/working-with-strings-and-arrays.md",
+    markdownPath:
+      "assets/testing/unit-testing/working-with-strings-and-arrays.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-strings-and-arrays.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-strings-and-arrays.md",
     section: "Working with strings and arrays",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-aqkfk5?embed=1&file=src/app/02-arrays-and-strings/greet.spec.ts",
@@ -685,9 +686,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-setup-and-tear-down",
-    markdownPath: "assets/http-requests/setup-and-tear-down.md",
+    markdownPath: "assets/testing/unit-testing/setup-and-tear-down.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/setup-and-tear-down.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/setup-and-tear-down.md",
     section: "Setup and tear down",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-5qkkf6?embed=1&file=src/app/03-setup-and-terdown/vote.component.spec.ts",
@@ -697,9 +698,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-working-with-forms",
-    markdownPath: "assets/http-requests/working-with-forms.md",
+    markdownPath: "assets/testing/unit-testing/working-with-forms.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-forms.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-forms.md",
     section: "Working with forms",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-w5xzx9?embed=1&file=src/main-testing.ts",
@@ -709,9 +710,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-working-with-event-emitters",
-    markdownPath: "assets/http-requests/working-with-event-emitters.md",
+    markdownPath: "assets/testing/unit-testing/working-with-event-emitters.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-event-emitters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-event-emitters.md",
     section: "Working with event emitters",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-qqawn5?embed=1&file=src/app/05-event-emitters/vote.component.spec.ts",
@@ -721,9 +722,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-working-with-spies",
-    markdownPath: "assets/http-requests/working-with-spies.md",
+    markdownPath: "assets/testing/unit-testing/working-with-spies.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-spies.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-spies.md",
     section: "Working with spies",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-e6hb1t?embed=1&file=src/main-testing.ts",
@@ -733,9 +734,9 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-interaction-testing",
-    markdownPath: "assets/http-requests/interaction-testing.md",
+    markdownPath: "assets/testing/unit-testing/interaction-testing.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/interaction-testing.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/interaction-testing.md",
     section: "Interaction testing",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-q72zqj?embed=1&file=src/app/06-services/todos.component.spec.ts",
@@ -745,9 +746,10 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-working-with-confirmation-boxes",
-    markdownPath: "assets/http-requests/working-with-confirmation-boxes.md",
+    markdownPath:
+      "assets/testing/unit-testing/working-with-confirmation-boxes.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-confirmation-boxes.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-confirmation-boxes.md",
     section: "Working with Confirmation Boxes",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-ro9w6r?embed=1&file=src/app/06-services/todos.component.spec.ts",
@@ -756,13 +758,13 @@ export const tutorials: TutorialInterface[] = [
   },
 ];
 
-/*
+/*xw
   {
     chapter: "Unit testing",
     domainPath: "unit-testing-working-with-spies",
-    markdownPath: "assets/http-requests/working-with-spies.md",
+    markdownPath: "assets/testing/unit-testing/working-with-spies.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/working-with-spies.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-spies.md",
     section: "",
     aPath:
       "",
