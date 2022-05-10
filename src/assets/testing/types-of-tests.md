@@ -3,6 +3,7 @@
 - Integration
 - End-to-end
 
+> When testing text always check for the text containing something instead of a exact match. Makes your test less fragile.
 ## In this tutorial
 
 - Integration tests: components + template

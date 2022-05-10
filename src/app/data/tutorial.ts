@@ -768,15 +768,28 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-ka6odk?embed=1&file=src/app/1-voter/voter.component.spec.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "unit-testing-testing-property-and-class-bindings",
+    markdownPath:
+      "assets/testing/unit-testing/testing-property-and-class-bindings.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
+    section: "Testing property and class bindings",
+    aPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-48nkgs?embed=1&file=src/app/1-voter/voter.component.spec.ts&hideExplorer=1",
+    bPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-tnbhpi?embed=1&file=src/main-testing.ts&hideExplorer=1",
+  },
 ];
 
 /*xw
   {
-    chapter: "Unit testing",
-    domainPath: "unit-testing-working-with-spies",
-    markdownPath: "assets/testing/unit-testing/working-with-spies.md",
+    chapter: "Integration testing",
+    domainPath: "unit-testing-testing-property-and-class-bindings",
+    markdownPath: "assets/testing/unit-testing/testing-property-and-class-bindings.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/the-setup-code.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
     section: "",
     aPath:
       "",
