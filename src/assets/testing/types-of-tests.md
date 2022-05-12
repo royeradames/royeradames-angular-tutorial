@@ -4,6 +4,9 @@
 - End-to-end
 
 > When testing text always check for the text containing something instead of a exact match. Makes your test less fragile.
+
+> Integration test in angular can be handle by the generate spec file, and the unit testing can be handle by creating a file `<component name>.unit.spec.ts`
+> Or handle all unit and integration testing in the generated spec file.
 ## In this tutorial
 
 - Integration tests: components + template
@@ -11,7 +14,7 @@
 
 ## Unit Tests
 
-Test a componenet in isolation, without external resources (e.g. file system, database, API endpoints).
+Test a component in isolation, without external resources (e.g. file system, database, API endpoints).
 
 In angular, is testing a component.ts with a fakeService and/or fakeRouter. (without its template)
 
