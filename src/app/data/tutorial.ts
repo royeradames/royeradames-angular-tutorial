@@ -770,9 +770,9 @@ export const tutorials: TutorialInterface[] = [
   },
   {
     chapter: "Integration testing",
-    domainPath: "unit-testing-testing-property-and-class-bindings",
+    domainPath: "integration-testing-testing-property-and-class-bindings",
     markdownPath:
-      "assets/testing/unit-testing/testing-property-and-class-bindings.md",
+      "assets/testing/integration-testing/testing-property-and-class-bindings.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
     section: "Testing property and class bindings",
@@ -786,8 +786,8 @@ export const tutorials: TutorialInterface[] = [
 /*xw
   {
     chapter: "Integration testing",
-    domainPath: "unit-testing-testing-property-and-class-bindings",
-    markdownPath: "assets/testing/unit-testing/testing-property-and-class-bindings.md",
+    domainPath: "integration-testing-testing-property-and-class-bindings",
+    markdownPath: "assets/testing/integration-testing/testing-property-and-class-bindings.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
     section: "",
