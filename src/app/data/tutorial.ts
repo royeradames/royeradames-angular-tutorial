@@ -777,9 +777,9 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
     section: "Testing property and class bindings",
     aPath:
-      "https://stackblitz.com/edit/jasmine-in-angular-48nkgs?embed=1&file=src/app/1-voter/voter.component.spec.ts&hideExplorer=1",
+      "https://stackblitz.com/edit/jasmine-in-angular-48nkgs?embed=1&file=src/app/1-voter/voter.component.spec.ts",
     bPath:
-      "https://stackblitz.com/edit/jasmine-in-angular-tnbhpi?embed=1&file=src/main-testing.ts&hideExplorer=1",
+      "https://stackblitz.com/edit/jasmine-in-angular-tnbhpi?embed=1&file=src/main-testing.ts",
   },
 ];
 
