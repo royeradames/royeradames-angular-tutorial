@@ -781,6 +781,19 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-tnbhpi?embed=1&file=src/main-testing.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-testing-event-bindings",
+    markdownPath:
+      "assets/testing/integration-testing/testing-event-bindings.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-event-bindings.md",
+    section: "Testing event bindings",
+    aPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-qqg9vi?embed=1&file=src/app/1-voter/voter.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/jasmine-in-angular-jppkp2?embed=1&file=src/app/1-voter/voter.component.html",
+  },
 ];
 
 /*xw
