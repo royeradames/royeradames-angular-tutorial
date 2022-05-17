@@ -794,6 +794,19 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/jasmine-in-angular-jppkp2?embed=1&file=src/app/1-voter/voter.component.html",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-providing-the-dependencies",
+    markdownPath:
+      "assets/testing/integration-testing/providing-the-dependencies.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/providing-the-dependencies.md",
+    section: "Providing the dependencies",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-7rqnh8?embed=1&file=src/app/2-todos/todos.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-3ppv9w?embed=1&file=src/app/2-todos/todos.component.spec.ts",
+  },
 ];
 
 /*xw
