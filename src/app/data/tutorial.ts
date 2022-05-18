@@ -820,6 +820,18 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-qbhrwj?embed=1&file=src/app/2-todos/todos.component.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-providing-stubs",
+    markdownPath: "assets/testing/integration-testing/providing-stubs.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/providing-stubs.md",
+    section: "Providing stubs",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-sjuwew?embed=1&file=src/app/user-details/user-details.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-8eapid?embed=1&file=src/app/user-details/user-details.component.spec.ts",
+  },
 ];
 
 /*
