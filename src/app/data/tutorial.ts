@@ -807,9 +807,22 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-3ppv9w?embed=1&file=src/app/2-todos/todos.component.spec.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-getting-the-dependencies",
+    markdownPath:
+      "assets/testing/integration-testing/getting-the-dependencies.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/getting-the-dependencies.md",
+    section: "Getting the dependencies",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-ps33lc?embed=1&file=src/app/2-todos/todos.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-qbhrwj?embed=1&file=src/app/2-todos/todos.component.ts",
+  },
 ];
 
-/*xw
+/*
   {
     chapter: "Integration testing",
     domainPath: "integration-testing-testing-property-and-class-bindings",
