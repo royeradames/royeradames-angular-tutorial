@@ -845,6 +845,19 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-3mo7g5?embed=1&file=src/app/user-details/user-details.component.spec.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-dealing-with-route-parameters",
+    markdownPath:
+      "assets/testing/integration-testing/dealing-with-route-parameters.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/dealing-with-route-parameters.md",
+    section: "Dealing with route parameters",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-2wdpw3?embed=1&file=src/app/user-details/user-details.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-j4fy2c?embed=1&file=src/app/user-details/user-details.component.spec.ts",
+  },
 ];
 
 /*
