@@ -858,6 +858,19 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-j4fy2c?embed=1&file=src/app/user-details/user-details.component.spec.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-testing-router-outlet-components",
+    markdownPath:
+      "assets/testing/integration-testing/testing-router-outlet-components.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-router-outlet-components.md",
+    section: "Testing router outlet components",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-tdp4rz?embed=1&file=src/app/app.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-d4uaf8?embed=1&file=src/app/app.component.spec.ts",
+  },
 ];
 
 /*
