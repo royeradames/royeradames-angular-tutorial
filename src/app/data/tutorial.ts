@@ -884,6 +884,19 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-yrzbyd?embed=1&file=src/app/nav/nav.component.spec.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-testing-attribute-directives",
+    markdownPath:
+      "assets/testing/integration-testing/testing-attribute-directives.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-attribute-directives.md",
+    section: "Testing attribute directives",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-hjxa1v?embed=1&file=src/app/highlight.directive.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-dvqrme?embed=1&file=src/app/highlight.directive.spec.ts",
+  },
 ];
 
 /*
