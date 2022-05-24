@@ -897,6 +897,19 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-dvqrme?embed=1&file=src/app/highlight.directive.spec.ts",
   },
+  {
+    chapter: "Integration testing",
+    domainPath: "integration-testing-dealing-with-asynchronous-operations",
+    markdownPath:
+      "assets/testing/integration-testing/dealing-with-asynchronous-operations.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/dealing-with-asynchronous-operations.md",
+    section: "Dealing with asynchronous operations",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-fuzibp?embed=1&file=src/app/todos/todos.component.spec.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-ozvmfk?embed=1&file=src/app/todos/todos.component.spec.ts",
+  },
 ];
 
 /*
