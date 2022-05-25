@@ -910,15 +910,28 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-ozvmfk?embed=1&file=src/app/todos/todos.component.spec.ts",
   },
+  {
+    chapter: "End-to-end testing",
+    domainPath: "end-to-end-testing-basic-protractor-configuration",
+    markdownPath:
+      "assets/testing/end-to-end-testing/basic-protractor-configuration.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end-testing/basic-protractor-configuration.md",
+    section: "Basic protractor configuration",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-aahexv?embed=1&file=e2e/protractor.conf.js",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-xt7vzm?embed=1&file=e2e/protractor.conf.js",
+  },
 ];
 
 /*
   {
-    chapter: "Integration testing",
-    domainPath: "integration-testing-testing-property-and-class-bindings",
-    markdownPath: "assets/testing/integration-testing/testing-property-and-class-bindings.md",
+    chapter: "End-to-end testing",
+    domainPath: "end-to-end-testing-testing-property-and-class-bindings",
+    markdownPath: "assets/testing/end-to-end-testing/testing-property-and-class-bindings.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end-testing/testing-property-and-class-bindings.md",
     section: "",
     aPath:
       "",
