@@ -1,3 +1,11 @@
+> Protractor has been depreciated in favor of third party tools like cypress.io. Since Angular 12.
+
+> Common error: Driver and browser versions are not compatible.
+> `Error: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 102
+Current browser version is 101.0.4951.64 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome`
+
+> E2E testing cannot be done in the browser, yet.
+
 Protractor is Angular's official end-to-end testing framework. The Angular team made Protractor specifically for Angular apps, with full support for how Angular compiles these apps and generates DOM structures. Angular includes Protractor by default when you generate new projects using the CLI tool and it configures most of the settings for you so you can start testing your code right away. 
 
 Here is a quick look at the Protractor's config file and `tsconfig.json`. They are located in the top level e-to-e folder.

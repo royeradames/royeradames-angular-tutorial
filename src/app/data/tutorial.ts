@@ -911,27 +911,40 @@ export const tutorials: TutorialInterface[] = [
       "https://stackblitz.com/edit/angular-webcontainer-template-ozvmfk?embed=1&file=src/app/todos/todos.component.spec.ts",
   },
   {
-    chapter: "End-to-end testing",
-    domainPath: "end-to-end-testing-basic-protractor-configuration",
+    chapter: "protractor",
+    domainPath: "protractor-basic-protractor-configuration",
     markdownPath:
-      "assets/testing/end-to-end-testing/basic-protractor-configuration.md",
+      "assets/testing/end-to-end/protractor/basic-protractor-configuration.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end-testing/basic-protractor-configuration.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/protractor/basic-protractor-configuration.md",
     section: "Basic protractor configuration",
     aPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-aahexv?embed=1&file=e2e/protractor.conf.js",
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-xt7vzm?embed=1&file=e2e/protractor.conf.js",
   },
+  {
+    chapter: "protractor",
+    domainPath: "protractor-testing-without-page-and-class-bindings",
+    markdownPath:
+      "assets/testing/end-to-end/protractor/testing-without-page-and-class-bindings.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/protractor/without-page-and-class-bindings.md",
+    section: "Without page objects",
+    aPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-yjj1zq?file=e2e/src/app.po.ts",
+    bPath:
+      "https://stackblitz.com/edit/angular-webcontainer-template-6wu4br?embed=1&file=e2e/src/app.e2e-spec.ts",
+  },
 ];
 
 /*
   {
-    chapter: "End-to-end testing",
-    domainPath: "end-to-end-testing-testing-property-and-class-bindings",
-    markdownPath: "assets/testing/end-to-end-testing/testing-property-and-class-bindings.md",
+    chapter: "",
+    domainPath: "protractor-",
+    markdownPath: "assets/testing/end-to-end/",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end-testing/testing-property-and-class-bindings.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/",
     section: "",
     aPath:
       "",

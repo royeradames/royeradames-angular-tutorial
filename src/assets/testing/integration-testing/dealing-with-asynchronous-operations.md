@@ -22,7 +22,7 @@ it('should load todos from the server (fakeAsync)', fakeAsync(() => {
 
 
 > Previous could had been handle with async but now async is deprecated 
-> ```ts
+```ts
 it('should load todos from the server (async)', async(() => {
   const service = TestBed.get(TodoService);
   spyOn(service, 'getTodosPromise').and.returnValue(
