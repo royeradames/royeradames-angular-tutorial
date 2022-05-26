@@ -1,11 +1,15 @@
 E2e test cannot be run in the browser. We will need to download a GitHub project and run its test locally.
 
+
+
 ## setup
 - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
 - Start `target-app`
 - open `02_01/Start` in the vscode terminal
 
 ## Practice
+
+Install a standalone version of Cypress and create our first new test.
 
 - innit package.json `npm init -y`
 - install cypress `npm i cypress -D`
