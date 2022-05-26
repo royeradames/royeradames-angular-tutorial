@@ -1,11 +1,12 @@
 export interface TutorialInterface {
   chapter: string;
   section: string;
-  aPath: string;
+  aPath?: string;
   bPath?: string;
   markdownPath: string;
   editPath: string;
   domainPath: string;
+  githubPath?: string;
 }
 
 export const tutorials: TutorialInterface[] = [
@@ -936,9 +937,26 @@ export const tutorials: TutorialInterface[] = [
     bPath:
       "https://stackblitz.com/edit/angular-webcontainer-template-6wu4br?embed=1&file=e2e/src/app.e2e-spec.ts",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-installing-and-opening",
+    markdownPath: "assets/testing/end-to-end/cypress/installing-and-opening.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
+    section: "Installing and opening",
+  },
 ];
 
 /*
+  {
+    chapter: "",
+    domainPath: "cypress-",
+    markdownPath: "assets/testing/end-to-end/",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/",
+    section: "",
+    githubPath: "",
+  },
   {
     chapter: "",
     domainPath: "protractor-",
