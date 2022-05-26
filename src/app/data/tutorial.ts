@@ -940,10 +940,19 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "cypress",
     domainPath: "cypress-installing-and-opening",
-    markdownPath: "assets/testing/end-to-end/cypress/installing-and-opening.md",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
     section: "Installing and opening",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-first-test",
+    markdownPath: "assets/testing/end-to-end/cypress/installing-and-opening.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
+    section: "Writing our first cypress test",
   },
 ];
 
