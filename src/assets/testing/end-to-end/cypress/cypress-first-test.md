@@ -1,7 +1,7 @@
 > ## setup
 > `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
 > Start `target-app`
-> open `02_01/Start` in the vscode terminal
+> open `02_02/Start` in the vscode terminal
 
 If you're familiar with the Mocha test framework, the syntax for organizing your Cypress tests will look very familiar. And that's because it is Mocha.
 
@@ -21,6 +21,8 @@ All cypress commands start with `cy`.
 ## Practice
 
 Check that the heading text contains the correct title
+
+> see solution on `02_02/End`
 
 ```ts
 describe("Heading text", () => {
