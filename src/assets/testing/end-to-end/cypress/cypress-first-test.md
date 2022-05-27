@@ -17,6 +17,7 @@ All cypress commands start with `cy`.
 - `cy.visit()` goes to the provided URL
 - `.invoke()` is used to invoke a command on the element
 - `.should()` is used to assert that the element has the expected state
+- [`.contains()`](https://docs.cypress.io/api/commands/contains#Syntax) is used to assert that the element contains the expected text. 
 
 ## Practice
 
