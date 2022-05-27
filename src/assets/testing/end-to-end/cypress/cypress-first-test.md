@@ -2,6 +2,7 @@
 > `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
 > Start `target-app`
 > open `02_02/Start` in the vscode terminal
+> `npm i && npx cypress open`
 
 If you're familiar with the Mocha test framework, the syntax for organizing your Cypress tests will look very familiar. And that's because it is Mocha.
 

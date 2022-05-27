@@ -2,6 +2,7 @@
 > `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
 > Start `target-app`
 > open `02_03/Start` in the vscode terminal
+> `npm i && npx cypress open`
 
 `cy.get(<selector>).type(<string>)`
 We select an input and insert the string
