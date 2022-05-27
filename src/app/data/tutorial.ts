@@ -987,6 +987,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-command-results.md",
     section: "Working with command results",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-beforeEach-hook",
+    markdownPath: "assets/testing/end-to-end/cypress/beforeEach-hook.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/beforeEach-hook.md",
+    section: "BeforeEach hook",
+  },
 ];
 
 /*
