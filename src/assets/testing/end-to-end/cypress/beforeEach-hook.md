@@ -1,7 +1,7 @@
 > ## setup
 > `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
 > Start `target-app`
-> open `02_06/Start` in the vscode terminal
+> open `02_07/Start` in the vscode terminal
 > `npm i && npx cypress open`
 
 We can use `beforeEach()` to run code before each test.
@@ -9,7 +9,7 @@ We can use `beforeEach()` to run code before each test.
 
 ## Practice
 
-> See solution on `02_06/End`
+> See solution on `02_07/End`
 
 1. Duplicate `aliasing.spec.js` and rename to `before-each.spec.js`
 2. Move `.visit()`, and aliases to a `beforeEach()`
