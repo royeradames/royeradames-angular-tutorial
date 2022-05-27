@@ -978,6 +978,15 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/aliasing-elements.md",
     section: "Aliasing elements",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-working-with-command-results",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/working-with-command-results.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-command-results.md",
+    section: "Working with command results",
+  },
 ];
 
 /*
