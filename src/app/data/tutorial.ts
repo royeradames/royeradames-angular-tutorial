@@ -954,6 +954,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/cypress-first-test.md",
     section: "Writing our first cypress test",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-testing-text-input",
+    markdownPath: "assets/testing/end-to-end/cypress/testing-text-input.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/testing-text-input.md",
+    section: "Testing text input",
+  },
 ];
 
 /*
