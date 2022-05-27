@@ -970,6 +970,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/selecting-elements.md",
     section: "Selecting elements",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-aliasing-elements",
+    markdownPath: "assets/testing/end-to-end/cypress/aliasing-elements.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/aliasing-elements.md",
+    section: "Aliasing elements",
+  },
 ];
 
 /*
