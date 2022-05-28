@@ -1021,6 +1021,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/triggering-other-actions.md",
     section: "Triggering other actions",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-common-assertions",
+    markdownPath: "assets/testing/end-to-end/cypress/common-assertions.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/common-assertions.md",
+    section: "Common assertions",
+  },
 ];
 
 /*
