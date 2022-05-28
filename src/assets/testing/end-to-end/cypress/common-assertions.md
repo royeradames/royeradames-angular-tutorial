@@ -1,9 +1,3 @@
-> ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `03_03/Start` in the vscode terminal
-> `npm i && npx cypress open`
-
 ## Checking length
 
 - `.should('have.length', <number>)`
