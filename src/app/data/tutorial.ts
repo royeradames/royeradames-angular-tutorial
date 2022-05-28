@@ -1003,6 +1003,15 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/setting-a-base-url.md",
     section: "Setting a base URL",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-interacting-with-elements",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/interacting-with-elements.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/interacting-with-elements.md",
+    section: "Interacting with elements",
+  },
 ];
 
 /*
