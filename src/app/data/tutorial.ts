@@ -1012,6 +1012,15 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/interacting-with-elements.md",
     section: "Interacting with elements",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-triggering-other-actions",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/triggering-other-actions.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/triggering-other-actions.md",
+    section: "Triggering other actions",
+  },
 ];
 
 /*
