@@ -1037,6 +1037,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/automatic-retrying.md",
     section: "Automatic retrying",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-debugging-in-cypress",
+    markdownPath: "assets/testing/end-to-end/cypress/debugging-in-cypress.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/debugging-in-cypress.md",
+    section: "Debugging in cypress",
+  },
 ];
 
 /*
