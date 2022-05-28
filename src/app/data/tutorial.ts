@@ -1029,6 +1029,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/common-assertions.md",
     section: "Common assertions",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-automatic-retrying",
+    markdownPath: "assets/testing/end-to-end/cypress/automatic-retrying.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/automatic-retrying.md",
+    section: "Automatic retrying",
+  },
 ];
 
 /*
