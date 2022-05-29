@@ -1053,6 +1053,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/environment-variables.md",
     section: "Environment variables",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-test-doubles",
+    markdownPath: "assets/testing/end-to-end/cypress/test-doubles.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/test-doubles.md",
+    section: "Test doubles",
+  },
 ];
 
 /*
