@@ -1045,6 +1045,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/debugging-in-cypress.md",
     section: "Debugging in cypress",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-environment-variables",
+    markdownPath: "assets/testing/end-to-end/cypress/environment-variables.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/environment-variables.md",
+    section: "Environment variables",
+  },
 ];
 
 /*
