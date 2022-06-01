@@ -1094,28 +1094,13 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/typing-special-characters.md",
     section: "Typing special characters",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-activating-code-completion",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/activating-code-completion.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/activating-code-completion.md",
+    section: "Activating code completion",
+  },
 ];
-
-/*
-  {
-    chapter: "",
-    domainPath: "cypress-",
-    markdownPath: "assets/testing/end-to-end/",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/",
-    section: "",
-    githubPath: "",
-  },
-  {
-    chapter: "",
-    domainPath: "protractor-",
-    markdownPath: "assets/testing/end-to-end/",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/",
-    section: "",
-    aPath:
-      "",
-    bPath:
-      "",
-  },
-*/
