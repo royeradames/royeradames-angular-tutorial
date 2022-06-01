@@ -940,33 +940,167 @@ export const tutorials: TutorialInterface[] = [
   {
     chapter: "cypress",
     domainPath: "cypress-installing-and-opening",
-    markdownPath: "assets/testing/end-to-end/cypress/installing-and-opening.md",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
     section: "Installing and opening",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-first-test",
+    markdownPath: "assets/testing/end-to-end/cypress/cypress-first-test.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/cypress-first-test.md",
+    section: "Writing our first cypress test",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-testing-text-input",
+    markdownPath: "assets/testing/end-to-end/cypress/testing-text-input.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/testing-text-input.md",
+    section: "Testing text input",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-selecting-elements",
+    markdownPath: "assets/testing/end-to-end/cypress/selecting-elements.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/selecting-elements.md",
+    section: "Selecting elements",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-aliasing-elements",
+    markdownPath: "assets/testing/end-to-end/cypress/aliasing-elements.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/aliasing-elements.md",
+    section: "Aliasing elements",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-working-with-command-results",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/working-with-command-results.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-command-results.md",
+    section: "Working with command results",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-beforeEach-hook",
+    markdownPath: "assets/testing/end-to-end/cypress/beforeEach-hook.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/beforeEach-hook.md",
+    section: "BeforeEach hook",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-setting-a-base-url",
+    markdownPath: "assets/testing/end-to-end/cypress/setting-a-base-url.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/setting-a-base-url.md",
+    section: "Setting a base URL",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-interacting-with-elements",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/interacting-with-elements.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/interacting-with-elements.md",
+    section: "Interacting with elements",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-triggering-other-actions",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/triggering-other-actions.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/triggering-other-actions.md",
+    section: "Triggering other actions",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-common-assertions",
+    markdownPath: "assets/testing/end-to-end/cypress/common-assertions.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/common-assertions.md",
+    section: "Common assertions",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-automatic-retrying",
+    markdownPath: "assets/testing/end-to-end/cypress/automatic-retrying.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/automatic-retrying.md",
+    section: "Automatic retrying",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-debugging-in-cypress",
+    markdownPath: "assets/testing/end-to-end/cypress/debugging-in-cypress.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/debugging-in-cypress.md",
+    section: "Debugging in cypress",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-environment-variables",
+    markdownPath: "assets/testing/end-to-end/cypress/environment-variables.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/environment-variables.md",
+    section: "Environment variables",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-test-doubles",
+    markdownPath: "assets/testing/end-to-end/cypress/test-doubles.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/test-doubles.md",
+    section: "Test doubles",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-wrap-command",
+    markdownPath: "assets/testing/end-to-end/cypress/wrap-command.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/wrap-command.md",
+    section: "Wrap command",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-and-command",
+    markdownPath: "assets/testing/end-to-end/cypress/and-command.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/and-command.md",
+    section: "And command",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-filter-and-not-command",
+    markdownPath: "assets/testing/end-to-end/cypress/filter-and-not-command.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/filter-and-not-command.md",
+    section: "Filter and not command",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-typing-special-characters",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/typing-special-characters.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/typing-special-characters.md",
+    section: "Typing special characters",
+  },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-activating-code-completion",
+    markdownPath:
+      "assets/testing/end-to-end/cypress/activating-code-completion.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/activating-code-completion.md",
+    section: "Activating code completion",
+  },
 ];
-
-/*
-  {
-    chapter: "",
-    domainPath: "cypress-",
-    markdownPath: "assets/testing/end-to-end/",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/",
-    section: "",
-    githubPath: "",
-  },
-  {
-    chapter: "",
-    domainPath: "protractor-",
-    markdownPath: "assets/testing/end-to-end/",
-    editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/",
-    section: "",
-    aPath:
-      "",
-    bPath:
-      "",
-  },
-*/
