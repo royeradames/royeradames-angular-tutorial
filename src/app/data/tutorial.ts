@@ -1061,6 +1061,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/test-doubles.md",
     section: "Test doubles",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-wrap-command",
+    markdownPath: "assets/testing/end-to-end/cypress/wrap-command.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/wrap-command.md",
+    section: "Wrap command",
+  },
 ];
 
 /*
