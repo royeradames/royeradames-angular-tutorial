@@ -1077,6 +1077,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/and-command.md",
     section: "And command",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-filter-and-not-command",
+    markdownPath: "assets/testing/end-to-end/cypress/filter-and-not-command.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/filter-and-not-command.md",
+    section: "Filter and not command",
+  },
 ];
 
 /*
