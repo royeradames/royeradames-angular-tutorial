@@ -1069,6 +1069,14 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/wrap-command.md",
     section: "Wrap command",
   },
+  {
+    chapter: "cypress",
+    domainPath: "cypress-and-command",
+    markdownPath: "assets/testing/end-to-end/cypress/and-command.md",
+    editPath:
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/and-command.md",
+    section: "And command",
+  },
 ];
 
 /*
