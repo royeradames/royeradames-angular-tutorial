@@ -9,12 +9,14 @@ import { AppRoutesModule } from "./app-routes.module";
 import { TableOfContentComponent } from "./tutorial-template/table-of-contents/table-of-content.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { LMarkdownEditorModule } from "ngx-markdown-editor";
+import { NavigationButtonsComponent } from "./tutorial-template/navigation-buttons/navigation-buttons.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     TutorialTemplateComponent,
     TableOfContentComponent,
+    NavigationButtonsComponent,
   ],
   imports: [
     MarkdownModule.forRoot({ loader: HttpClient }),

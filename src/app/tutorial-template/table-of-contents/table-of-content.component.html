@@ -17,18 +17,13 @@
   </nav>
   <hr *ngIf="!isHidingNav" />
 
-  <article class="navigation-buttons">
-    <a [routerLink]="previousTutorialLink" *ngIf="previousTutorialLink"
-      >Previous</a
-    >
+  <app-navigation-buttons>
     <a (click)="isHidingNav = !isHidingNav">
       <h1 class="title">
         <span class="icon"></span>
         {{ section }}
       </h1>
     </a>
-    <a [routerLink]="nextTutorialLink" *ngIf="nextTutorialLink">Next</a>
-  </article>
-
+  </app-navigation-buttons>
   <hr />
 </article>

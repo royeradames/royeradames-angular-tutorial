@@ -15,6 +15,10 @@ export interface TableOfContentInterface {
   providedIn: "root",
 })
 export class NotesService {
+  meta = {
+    previousTutorialLink: "",
+    nextTutorialLink: "",
+  };
   constructor(
     private http: HttpClient,
     private tutorialService: TutorialService

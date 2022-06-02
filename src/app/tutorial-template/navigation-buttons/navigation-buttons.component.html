@@ -1,0 +1,8 @@
+<article class="navigation-buttons">
+  <a [routerLink]="meta.previousTutorialLink" *ngIf="meta.previousTutorialLink"
+    >Previous</a
+  >
+  <ng-content></ng-content>
+
+  <a [routerLink]="meta.nextTutorialLink" *ngIf="meta.nextTutorialLink">Next</a>
+</article>

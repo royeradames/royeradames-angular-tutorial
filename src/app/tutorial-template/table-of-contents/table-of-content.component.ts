@@ -12,8 +12,6 @@ export class TableOfContentComponent {
   notesNav: TableOfContentInterface[] = this.notesService.notesNav();
 
   isHidingNav = true;
-  previousTutorialLink = "";
-  nextTutorialLink = "";
 
   constructor(
     private route: ActivatedRoute,
@@ -25,10 +23,13 @@ export class TableOfContentComponent {
         const isInCurrentDomain = note.domainPath === currentDomain;
         if (isInCurrentDomain) {
           const maxIndex = this.notesNav.length - 1;
+
           this.section = note.section;
-          this.previousTutorialLink =
+
+          this.notesService.meta.previousTutorialLink =
             index - 1 >= 0 ? `${this.notesNav[index - 1].domainPath}` : "";
-          this.nextTutorialLink =
+
+          this.notesService.meta.nextTutorialLink =
             index + 1 <= maxIndex
               ? `${this.notesNav[index + 1].domainPath}`
               : "";
