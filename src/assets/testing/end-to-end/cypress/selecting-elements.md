@@ -12,7 +12,7 @@ Other but not recommend ways to select elements are by HTML, HTML and CSS nth-of
 ## Using HTML tag
 
 Dependent on the state of the app.
-![select by html](images/select-by-html.png)
+![select by html](assets/testing/end-to-end/cypress/images/select-by-html.png)
 
 I will select all the instances of the tag. 
 It will fail when trying to type on multiple elements on the same time.

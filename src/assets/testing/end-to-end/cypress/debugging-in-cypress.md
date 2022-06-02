@@ -6,7 +6,7 @@
 
 We can use the `.debug()` command to debug a failing test. The browser console will have access to the current selected element. We can also use the cypress panel to see what happen before the test fails.
 
-![debug](images/debugging-in-cypress/debug.png)
+![debug](assets/testing/end-to-end/cypress/images/debugging-in-cypress/debug.png)
 
 > Need to have chrome dev tools open for debug() to pause chrome
 

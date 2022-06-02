@@ -3,7 +3,6 @@
 - `.should('have.length', <number>)`
 
 ![check-the-number-of-items.png](assets/testing/end-to-end/cypress/images/common-assertions/check-the-number-of-items.png)
-<!-- <img src="assets/testing/end-to-end/cypress/images/common-assertions/check-the-number-of-items.png" alt="check-the-number-of-items.png" style="width:100%" class="image"> -->
 ## Checking existence
 
 - `.should('exist')`
