@@ -16,11 +16,19 @@
     </div>
   </nav>
   <hr *ngIf="!isHidingNav" />
-  <a (click)="isHidingNav = !isHidingNav">
-    <h1 class="title">
-      <span class="icon"></span>
-      {{ section }}
-    </h1>
-  </a>
+
+  <article class="menu-buttons">
+    <a [routerLink]="previousTutorialLink" *ngIf="previousTutorialLink"
+      >Previous</a
+    >
+    <a (click)="isHidingNav = !isHidingNav">
+      <h1 class="title">
+        <span class="icon"></span>
+        {{ section }}
+      </h1>
+    </a>
+    <a [routerLink]="nextTutorialLink" *ngIf="nextTutorialLink">Next</a>
+  </article>
+
   <hr />
 </article>
