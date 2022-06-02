@@ -1,4 +1,4 @@
-![test doubles](images/test-doubles.png)
+![test doubles](assets/testing/end-to-end/cypress/images/test-doubles.png)
 
 Are methods primarly used for unit testing but they have some use cases in e2e testing. 
 - Mocking an error from the server 
