@@ -2,8 +2,8 @@
 
 - `.should('have.length', <number>)`
 
-![check-the-number-of-items.png](images/common-assertions/check-the-number-of-items.png)
-
+![check-the-number-of-items.png](assets/testing/end-to-end/cypress/images/common-assertions/check-the-number-of-items.png)
+<!-- <img src="assets/testing/end-to-end/cypress/images/common-assertions/check-the-number-of-items.png" alt="check-the-number-of-items.png" style="width:100%" class="image"> -->
 ## Checking existence
 
 - `.should('exist')`
@@ -16,7 +16,7 @@
 
 ## Checking CSS classes
 
-![checking-css-class](images/common-assertions/checking-css-class.png)
+![checking-css-class](assets/testing/end-to-end/cypress/images/common-assertions/checking-css-class.png)
 
 `should('have.class', 'list-item-selected')`
 
