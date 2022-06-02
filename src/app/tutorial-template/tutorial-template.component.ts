@@ -20,7 +20,7 @@ export interface MetaInterface
 })
 export class TutorialTemplateComponent {
   meta: MetaInterface;
-  hasPlayground: boolean;
+  playgroundExist: boolean;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -31,12 +31,14 @@ export class TutorialTemplateComponent {
     this.meta = this.getMeta(this.notesService.notes);
     this.router.events.subscribe(() => {
       this.meta = this.getMeta(this.notesService.notes);
+      this.playgroundExist = this.meta.aPath.toString().length > 74;
     });
 
     // when redirected to home remove redirected path
     if (this.meta["domainPath"] === "") this.router.navigate(["/"]);
 
-    this.hasPlayground = this.meta.aPath.toString().length > 74;
+    this.playgroundExist = this.meta.aPath.toString().length > 74;
+    console.log(this.playgroundExist);
   }
 
   showReset(): void {
