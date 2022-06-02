@@ -6,7 +6,6 @@ import { MarkdownModule } from "ngx-markdown";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 import { AppRoutesModule } from "./app-routes.module";
-import { NewTutorialFormComponent } from "./new-tutorial-form/new-tutorial-form.component";
 import { TableOfContentComponent } from "./tutorial-template/table-of-contents/table-of-content.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { LMarkdownEditorModule } from "ngx-markdown-editor";
@@ -15,7 +14,6 @@ import { LMarkdownEditorModule } from "ngx-markdown-editor";
   declarations: [
     AppComponent,
     TutorialTemplateComponent,
-    NewTutorialFormComponent,
     TableOfContentComponent,
   ],
   imports: [

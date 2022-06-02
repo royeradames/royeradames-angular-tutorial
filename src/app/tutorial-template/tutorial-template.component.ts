@@ -63,12 +63,12 @@ export class TutorialTemplateComponent {
     const currentTutorial = this.loadNote(notes);
     return {
       ...currentTutorial,
-      aPath: this.trustUrl(currentTutorial.aPath),
+      aPath: this.trustUrl(currentTutorial.aPath || ""),
       bPath:
         currentTutorial.bPath === undefined
           ? undefined
           : this.trustUrl(currentTutorial.bPath),
-      playgroundPath: this.trustUrl(currentTutorial.aPath),
+      playgroundPath: this.trustUrl(currentTutorial.aPath || ""),
       showText: "Show me",
       resetText: "Reset",
       currentText: "Show me",
