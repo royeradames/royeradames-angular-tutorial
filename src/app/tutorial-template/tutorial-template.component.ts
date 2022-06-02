@@ -20,6 +20,7 @@ export interface MetaInterface
 })
 export class TutorialTemplateComponent {
   meta: MetaInterface;
+  hasPlayground: boolean;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -34,6 +35,8 @@ export class TutorialTemplateComponent {
 
     // when redirected to home remove redirected path
     if (this.meta["domainPath"] === "") this.router.navigate(["/"]);
+
+    this.hasPlayground = this.meta.aPath.toString().length > 74;
   }
 
   showReset(): void {

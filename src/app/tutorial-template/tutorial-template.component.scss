@@ -1,9 +1,12 @@
 .tutorial {
   display: grid;
-  grid-template: "notes playground" 100vh/ 30vw 70vw;
+  &-playground {
+    grid-template: "notes playground" 100vh/ 30vw 70vw;
+  }
   border-right: 1px solid var(--second);
   background-color: var(--second);
   color: rgba(255, 255, 255, 0.75);
+  min-height: 100vh;
 }
 
 .notes {

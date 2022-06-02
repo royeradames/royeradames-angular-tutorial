@@ -1,5 +1,8 @@
 <main id="main">
-  <article class="tutorial">
+  <article
+    class="tutorial"
+    [ngClass]="{ 'tutorial-playground': hasPlayground }"
+  >
     <article class="notes">
       <app-table-of-content></app-table-of-content>
 
