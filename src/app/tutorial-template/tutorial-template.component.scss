@@ -35,9 +35,11 @@
   font-size: var(--h5);
   font-weight: 300;
   color: #ffffffb3;
+  height: 3.6rem;
+  width: 8.4rem;
 
   font-family: inherit;
-  font-size: inherit;
+  font-size: 1.4rem;
   border: none;
   color: currentColor;
   cursor: pointer;
@@ -49,7 +51,7 @@
 }
 
 .improve-document {
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   opacity: 0.3;
   padding: 0 0.1em 0 1.2em;
