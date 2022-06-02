@@ -17,5 +17,5 @@ Install a standalone version of Cypress and create our first new test.
 - open cypress interface `npx cypress open`
 - delete the documentation test that came with cypress. Make `/cypress/integration` empty.
 - Create our first test `cypress/integration/first-test.spec.js`
-  ![first test](./first-test.png)
+  ![first test](assets/testing/end-to-end/cypress/installing-and-opening/first-test.png)
   - You will notice that it appears in cypress and if we lick run, it will notify that it's empty.
