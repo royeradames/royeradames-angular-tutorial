@@ -25,7 +25,7 @@ export class NotesService {
       const post = {
         chapter: note.chapter,
         section: note.section,
-        aPath: note.aPath,
+        aPath: note.aPath || "",
         bPath: note.bPath || "",
         markdown: await lastValueFrom(
           this.http.get(note.markdownPath, {
