@@ -1,7 +1,6 @@
 .navigation {
   display: flex;
   flex-direction: column;
-
   font-size: var(--h5);
 
   &-link {
@@ -16,6 +15,18 @@
       color: var(--prime);
       background-color: var(--sidebar-text);
     }
+  }
+
+  &-list {
+    z-index: 2;
+  }
+
+  &-close {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
   }
 }
 
