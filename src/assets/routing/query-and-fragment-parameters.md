@@ -1,26 +1,29 @@
-Handling query params `?key=value&otherKey:otherValue`, commonly for APIs. The query can be set, capture, and preserve.
+Handling query params (`?key=value&otherKey:otherValue`) are commonly use in APIs. The query can be set, capture, and preserve. Fragments URL (`/#heading1`) is a link which jumps to a content which contains the id mentioned in the fragment of Angular router. It is a internal page reference, some times called a name anchor.
 
-`routerLink`
-`queryParams`
-`fragment`
-`queryParamsHandling`
+- `routerLink`
+- `queryParams`
+- `fragment`
+- `queryParamsHandling`
 
-## Set
+## Setting query and fragment parameters
 
-In angular we use `queryParams` and `fragment` directive which binds to the `routerLink` directive.
+`queryParams` and `fragment` directive which binds to the `routerLink` directive.
 
-`[queryParams]="{allowEdit : '1'}"` => `?allowEdit=1`
-
-`fragment="loading"` => `?allowEdit=1#loading`
-
-### routerLink
-
-```ts
-this.router.navigate(['/servers', id, 'edit'], {
-  queryParams: { allowEdit: '1' },
-  fragment: 'loading',
-});
+```html
+ <a
+    [routerLink]="['/servers', 5]"
+    [queryParams]="{ allowEdit: '1' }"
+    fragment="loading"
+    href="#"
+    class="list-group-item"
+    *ngFor="let server of servers"
+  >
+    A link with query params and fragment parameters 
+  </a>
 ```
+
+Results in URL `RootURL/servers/5?allowEdit=1#loading`
+
 
 ### Programmatically navigating
 
@@ -31,7 +34,7 @@ this.router.navigate(['/servers', id, 'edit'], {
 });
 ```
 
-## Capture
+## Programmatically use and subscribe to query params and fragments
 
 ```ts
 private route: ActivatedRoute
@@ -42,9 +45,9 @@ this.route.queryParams.subscribe();
 this.route.fragment.subscribe();
 ```
 
-## Preserve
+## Preserve params when navigating
 
-If you want to `preserve` or `merge` you query when navigation away from your component then
+If you want to `preserve` or `merge` your query when navigation away from your component then
 
 `QueryParamsHandling = 'merge' | 'preserve' | ''`
 
@@ -56,7 +59,9 @@ onEdit(){
 
 ## Practice
 
-`app.module.ts`
+Add a query, and fragment param to the `/servers` route. Then navigate to server panel and inspect the URL.
+
+### `app.module.ts`
 
 ```ts
 const appRoutes: Routes = [
@@ -113,7 +118,9 @@ onEdit(){
 ```
 
 `home.component.html`
-`<button class="btn btn-primary" (click)="onLoadServer(1)">Load Server 1</button>`
+```ts
+<button class="btn btn-primary" (click)="onLoadServer(1)">Load Server 1</button>
+```
 
 `home.component.ts`
 
@@ -144,4 +151,3 @@ constructor(
   }
 ```
 
-Navigate to server and select a server and see the console log output.

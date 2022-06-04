@@ -94,16 +94,16 @@ export const tutorials: TutorialInterface[] = [
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/route-parameters-and-reloaded-components.md",
   },
   {
-    domainPath: "query-parameters",
+    domainPath: "query-and-fragment-parameters",
     chapter: "Routing",
-    section: "Query parameters",
+    section: "Query and fragment parameters",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
     bPath:
       "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
-    markdownPath: "assets/routing/query-parameters.md",
+    markdownPath: "assets/routing/query-and-fragment-parameters.md",
     editPath:
-      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/query-parameters.md",
+      "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/query-and-fragment-parameters.md",
   },
   {
     domainPath: "nested-routes",
