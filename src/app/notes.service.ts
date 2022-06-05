@@ -17,6 +17,7 @@ export interface TableOfContentInterface {
 export class NotesService {
   meta = {
     previousTutorialLink: "",
+    currentTutorialLink: "",
     nextTutorialLink: "",
   };
   constructor(

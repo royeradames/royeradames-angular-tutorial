@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 import { NotesService, TableOfContentInterface } from "src/app/notes.service";
+import { ViewportScroller } from "@angular/common";
 
 @Component({
   selector: "app-table-of-content",
@@ -13,6 +14,7 @@ export class TableOfContentComponent {
 
   isHidingNav = true;
 
+  meta = this.notesService.meta;
   constructor(
     private route: ActivatedRoute,
     private notesService: NotesService
@@ -28,6 +30,9 @@ export class TableOfContentComponent {
 
           this.notesService.meta.previousTutorialLink =
             index - 1 >= 0 ? `${this.notesNav[index - 1].domainPath}` : "";
+
+          this.notesService.meta.currentTutorialLink =
+            index - 1 >= 0 ? `${this.notesNav[index].domainPath}` : "";
 
           this.notesService.meta.nextTutorialLink =
             index + 1 <= maxIndex
