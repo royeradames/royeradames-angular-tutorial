@@ -1,19 +1,19 @@
 import { NgModule } from "@angular/core";
-import { RouterModule } from "@angular/router";
+import { RouterModule, Routes } from "@angular/router";
 import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 
-@NgModule({
-  imports: [
-    RouterModule.forRoot([
-      { path: "", component: TutorialTemplateComponent },
-      {
-        path: ":title",
-        component: TutorialTemplateComponent,
-      },
+const routes: Routes = [
+  { path: "", component: TutorialTemplateComponent },
+  {
+    path: ":title",
+    component: TutorialTemplateComponent,
+  },
 
-      { path: "**", redirectTo: "" },
-    ]),
-  ],
+  { path: "**", redirectTo: "" },
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
 export class AppRoutesModule {}
