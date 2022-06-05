@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `03_05/Start` in the vscode terminal
-> `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `03_05/Start` in the vscode terminal
+> - `npm i && npx cypress open`
 
 We can use the `.debug()` command to debug a failing test. The browser console will have access to the current selected element. We can also use the cypress panel to see what happen before the test fails.
 

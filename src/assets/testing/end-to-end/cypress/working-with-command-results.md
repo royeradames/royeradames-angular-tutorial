@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `02_06/Start` in the vscode terminal
-> `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `02_06/Start` in the vscode terminal
+> - `npm i && npx cypress open`
 
 We are able to use a `.then()` to have access to the dom element that cypress command returns.
 

@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `03_02/Start` in the vscode terminal
-> `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `03_02/Start` in the vscode terminal
+> - `npm i && npx cypress open`
 
 
 When we need specific actions to be use, we use `.trigger(<any event>)` command. Create for precise mouse combination.

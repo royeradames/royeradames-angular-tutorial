@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `03_01/Start` in the vscode terminal
-> `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `03_01/Start` in the vscode terminal
+> - `npm i && npx cypress open`
 
 There are many commands that cypress provided to interact with our application. 
 

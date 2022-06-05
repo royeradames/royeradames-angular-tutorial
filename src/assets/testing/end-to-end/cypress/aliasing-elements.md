@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `02_05/Start` in the vscode terminal
-> `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `02_05/Start` in the vscode terminal
+> - `npm i && npx cypress open`
 
 We can do aliases for complex selectors to simplify our code.
 
@@ -13,8 +13,8 @@ To use the alias we need to use `@` before the alias name.
 `cy.get('@charsLeftSpan')`
 
 > `const charsLeftSpan = await cy.get('[data-cy="<name>"]');`
-> storing the select element in a variable doesn't work due cypress async nature
-> await doesn't work because cypress commands are not technically promises
+> - storing the select element in a variable doesn't work due cypress async nature
+> - await doesn't work because cypress commands are not technically promises
 
 ## Practice
 

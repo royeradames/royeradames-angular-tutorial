@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `04_05/Start` in the vscode terminal 
-> Run `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `04_05/Start` in the vscode terminal 
+> - Run `npm i && npx cypress open`
 
 Cypress comes with TypeScript type declarations included. Modern text editors can use these type declarations to [show IntelliSense inside spec files](https://docs.cypress.io/guides/tooling/IDE-integration#Writing-Tests).
 

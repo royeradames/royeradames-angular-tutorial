@@ -1,8 +1,8 @@
 > ## setup
-> `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
-> Start `target-app`
-> open `02_04/Start` in the vscode terminal
-> `npm i && npx cypress open`
+> - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
+> - Start `target-app`
+> - open `02_04/Start` in the vscode terminal
+> - `npm i && npx cypress open`
 
 The best way to select element in our test is by using special attribute on our elements. Recommended by cypress.
 
