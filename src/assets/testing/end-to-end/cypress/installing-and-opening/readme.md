@@ -1,8 +1,21 @@
-E2e test cannot be run in the browser. We will need to download a GitHub project and run its test locally.
 
 
+> E2e test cannot be run in the browser so we cannot have it pre-install has other Angular . We will need to setup a GitHub project and run the test locally.
 
-## setup
+## Install Cypress on an already existing project
+
+`ng add @cypress/schematic`
+
+This will install Cypress, add scripts for running Cypress in run and open mode, scaffold base Cypress files and directories, and (optional) prompt you to remove Protractor and reconfigure the default ng e2e command to use Cypress.
+
+[Resource](https://docs.cypress.io/guides/end-to-end-testing/protractor-to-cypress#Getting-Started)
+
+With our schematic installed and Protractor removed, you can run Cypress in open mode with the following command:
+
+`ng e2e`
+
+> Note: you need to run the target-project from the github to follow the rest of the tutorial.
+## Setup
 - `gh repo clone royeradames/end-to-end-javascript-testing-with-cypress`
 - Start `target-app`
 - open `02_01/Start` in the vscode terminal
