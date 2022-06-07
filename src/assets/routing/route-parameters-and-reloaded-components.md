@@ -4,10 +4,14 @@ Encode data within the path
 
 `path: 'users/:id'`
 
-Capture path data
+## Capture path data
 
-`private route: ActivatedRoute`
-`this.route.snapshot.params['id']`
+```ts
+private route: ActivatedRoute
+this.route.snapshot.params['id']
+```
+
+## Reload components
 
 To be able to update reloaded component you need to subscribe to the `route.params` and update the component with the new data.
 
@@ -22,7 +26,7 @@ this.route.params.subscribe((params: Params) => {
 
 You don't need to subscribe if your component will not reload itself.
 
-All params are string
+## All params are string
 
 `+` can convert a string number to a number 
 - `const id = +this.route.snapshot.params['id']`

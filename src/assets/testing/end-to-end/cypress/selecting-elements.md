@@ -8,6 +8,13 @@ The best way to select element in our test is by using special attribute on our 
 
 `data-cy="<name of element selector>"`
 
+> We can dynamically bind to the attribute with `[attr.data-cy]="<variable>"`
+
+
+![selecting-elements](assets/testing/end-to-end/cypress/images/selecting-elements.png)
+
+[Link](https://docs.cypress.io/guides/references/best-practices#How-It-Works)
+
 Other but not recommend ways to select elements are by HTML, HTML and CSS nth-of-type, CSS classes, HTML IDs, and selecting text.
 ## Using HTML tag
 
