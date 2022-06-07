@@ -1,0 +1,8 @@
+.arrow {
+  height: 2rem;
+  fill: var(--sidebar-text);
+
+  &:hover {
+    fill: var(--back);
+  }
+}

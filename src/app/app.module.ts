@@ -10,6 +10,7 @@ import { TableOfContentComponent } from "./tutorial-template/table-of-contents/t
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { LMarkdownEditorModule } from "ngx-markdown-editor";
 import { NavigationButtonsComponent } from "./tutorial-template/navigation-buttons/navigation-buttons.component";
+import { ArrowComponent } from './svg/arrow/arrow.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NavigationButtonsComponent } from "./tutorial-template/navigation-butto
     TutorialTemplateComponent,
     TableOfContentComponent,
     NavigationButtonsComponent,
+    ArrowComponent,
   ],
   imports: [
     MarkdownModule.forRoot({ loader: HttpClient }),

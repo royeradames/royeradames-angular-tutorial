@@ -1,8 +1,17 @@
-<article class="navigation-buttons">
-  <a [routerLink]="meta.previousTutorialLink" *ngIf="meta.previousTutorialLink"
-    >Previous</a
+<article class="navigation-buttons" [attr.data-cy]="dataCy">
+  <a
+    [routerLink]="'/' + meta.previousTutorialLink"
+    *ngIf="meta.previousTutorialLink"
+    data-cy="previous-tutorial"
   >
+    <app-arrow></app-arrow>
+  </a>
   <ng-content></ng-content>
 
-  <a [routerLink]="meta.nextTutorialLink" *ngIf="meta.nextTutorialLink">Next</a>
+  <a
+    [routerLink]="'/' + meta.nextTutorialLink"
+    *ngIf="meta.nextTutorialLink"
+    data-cy="next-tutorial"
+    ><app-arrow style="transform: rotate(180deg)"></app-arrow
+  ></a>
 </article>
