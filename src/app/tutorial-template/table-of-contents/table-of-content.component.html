@@ -1,30 +1,29 @@
-<article class="table-of-contents">
-  <nav class="navigation" [ngClass]="{ hide: isHidingNav }">
-    <div *ngFor="let noteNav of notesNav; index as i" class="navigation-list">
-      <button disabled *ngIf="noteNav.chapter" class="chapter">
-        {{ noteNav.chapter }}
-      </button>
-      <a
-        [id]="'#' + noteNav.domainPath.replace('/', '')"
-        [routerLink]="noteNav.domainPath"
-        class="navigation-link"
-        routerLinkActive="active"
-        (click)="isHidingNav = !isHidingNav"
-        [routerLinkActiveOptions]="{ exact: true }"
-        >{{ i + 1 }}. {{ noteNav.section }}</a
+<app-navigation-buttons
+  dataCy="navigation-buttons-top"
+  class="table-of-contents"
+>
+  <div>
+    <select
+      for="navigation"
+      data-cy="section"
+      (change)="navigateTo($event)"
+      [(ngModel)]="meta.currentTutorialLink"
+      class="navigation-menu"
+    >
+      <optgroup
+        *ngFor="let notesNav of notesNavOptgroup"
+        [label]="notesNav.label"
       >
-    </div>
-    <div class="navigation-close" (click)="isHidingNav = !isHidingNav"></div>
-  </nav>
-  <hr *ngIf="!isHidingNav" />
-
-  <app-navigation-buttons>
-    <a (click)="isHidingNav = !isHidingNav">
-      <h1 class="title">
-        <span class="icon"></span>
-        {{ section }}
-      </h1>
-    </a>
-  </app-navigation-buttons>
-  <hr />
-</article>
+        {{ notesNav.label }}
+        <option
+          *ngFor="let options of notesNav.options; index as i"
+          class="title"
+          [value]="options.domainPath"
+        >
+          {{ i + 1 }}. {{ options.section }}
+        </option>
+      </optgroup>
+    </select>
+  </div>
+</app-navigation-buttons>
+<hr />

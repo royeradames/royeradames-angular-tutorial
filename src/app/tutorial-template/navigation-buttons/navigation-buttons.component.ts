@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 import { NotesService } from "src/app/notes.service";
 
 @Component({
@@ -8,6 +8,7 @@ import { NotesService } from "src/app/notes.service";
 })
 export class NavigationButtonsComponent implements OnInit {
   meta = this.notesService.meta;
+  @Input() dataCy = "";
   constructor(private notesService: NotesService) {}
 
   ngOnInit(): void {}

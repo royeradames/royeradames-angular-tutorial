@@ -1,7 +1,7 @@
 .tutorial {
   display: grid;
   &-playground {
-    grid-template: "notes playground" 100vh/ 30vw 70vw;
+    grid-template: "notes playground" 100vh/ 35vw 65vw;
   }
   border-right: 1px solid var(--second);
   background-color: var(--second);
@@ -68,4 +68,12 @@
 
 .new-tutorial {
   display: block;
+}
+
+.title {
+  color: var(--sidebar-text);
+  font-size: 1.6rem;
+  text-decoration: none;
+  cursor: pointer;
+  overflow-wrap: break-word;
 }

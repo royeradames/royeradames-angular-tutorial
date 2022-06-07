@@ -10,16 +10,27 @@
         <article markdown [src]="meta['markdownPath']"></article>
         <hr />
         <article class="controls">
-          <button class="show-reset" (click)="showReset()" *ngIf="meta.bPath">
+          <button
+            class="show-reset"
+            (click)="showReset()"
+            *ngIf="meta.bPath"
+            data-cy="show-reset"
+          >
             {{ meta.currentText }}
           </button>
         </article>
-        <a class="improve-document" [href]="meta['editPath']" target="_black"
+        <a
+          class="improve-document"
+          [href]="meta['editPath']"
+          target="_black"
+          data-cy="edit-markdown"
           >Edit this chapter</a
         >
       </div>
       <hr />
-      <app-navigation-buttons></app-navigation-buttons>
+      <app-navigation-buttons
+        dataCy="navigation-buttons-bottom"
+      ></app-navigation-buttons>
     </article>
     <article class="playground">
       <iframe [src]="meta.playgroundPath"></iframe>

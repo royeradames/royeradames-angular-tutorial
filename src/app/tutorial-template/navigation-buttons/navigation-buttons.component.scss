@@ -1,8 +1,12 @@
 .navigation-buttons {
-  display: flex;
   text-align: center;
-  justify-content: space-around;
   align-items: center;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
   & a {
     color: var(--sidebar-text);
     font-size: 1.6rem;
@@ -12,5 +16,15 @@
     &:hover {
       color: var(--back);
     }
+  }
+}
+
+.icon {
+  height: 2rem;
+  fill: red;
+  transform: scale(-1, 1);
+
+  &:hover {
+    fill: var(--back);
   }
 }

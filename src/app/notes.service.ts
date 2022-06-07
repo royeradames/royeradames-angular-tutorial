@@ -1,7 +1,12 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { lastValueFrom } from "rxjs";
-import { TutorialInterface, tutorials } from "./data/tutorial";
+import {
+  TutorialInterface,
+  tutorials,
+  TutorialsOptgroup,
+  tutorialsOptgroup,
+} from "./data/tutorial";
 import { TutorialService } from "./tutorial.service";
 
 export interface TableOfContentInterface {
@@ -15,6 +20,7 @@ export interface TableOfContentInterface {
   providedIn: "root",
 })
 export class NotesService {
+  notesOptgroups: TutorialsOptgroup[] = tutorialsOptgroup;
   meta = {
     previousTutorialLink: "",
     currentTutorialLink: "",
@@ -25,7 +31,6 @@ export class NotesService {
     private tutorialService: TutorialService
   ) {}
   exportNotes() {
-    console.log(this.notes);
     this.notes.forEach(async (note, index) => {
       const post = {
         chapter: note.chapter,
@@ -40,8 +45,6 @@ export class NotesService {
       };
 
       await lastValueFrom(this.tutorialService.addTutorial(post));
-
-      console.log(`${index}`, post);
     });
   }
   notesNav(): TableOfContentInterface[] {
@@ -60,5 +63,6 @@ export class NotesService {
       return nav;
     });
   }
+
   notes: TutorialInterface[] = tutorials;
 }
