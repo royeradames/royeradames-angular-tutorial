@@ -1,11 +1,21 @@
 
 Link path can be relative or absolute.
 
-- Absolute path start with `/` and the path start at the domain name.
-- Relative can add or remove to the current path
-  - `../` removes
-  - Exclude `/` or `./` adds
 
+## routerLink
+```ts
+// If the first segment begins with /, the router will look up the route from the root of the app.
+<a routerLink="/"
+
+/* If the first segment begins with ./, or doesn't begin with a slash, the router will instead look in the children of the current activated route. */
+<a routerLink="link-without-slash"
+<a routerLink="./"
+
+// And if the first segment begins with ../, the router will go up one level.
+<a routerLink="../"
+```
+
+You can always add a `'/' + variable name` to make sure the path is absolute
 ## In servers.component.html
 
 ```ts

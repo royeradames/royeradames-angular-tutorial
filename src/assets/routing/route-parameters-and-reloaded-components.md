@@ -13,10 +13,11 @@ this.route.snapshot.params['id']
 
 ## Reload components
 
-To be able to update reloaded component you need to subscribe to the `route.params` and update the component with the new data.
+To be able to update reloaded component you need to subscribe to the subscription that initializes when the URL changes, and update the component with the new data
+For example, `route.params` emits new value when there is a new parameter in the URL:
 
 ```ts
-this.route.params.subscribe((params: Params) => {
+this.activeRoute.params.subscribe((params: Params) => {
   this.user = {
     id: params['id'],
     name: params['name'],
@@ -24,8 +25,10 @@ this.route.params.subscribe((params: Params) => {
 });
 ```
 
-You don't need to subscribe if your component will not reload itself.
+> You don't need to subscribe if your component will not reload itself.
 
+[Resources](https://angular.io/api/router/ActivatedRoute)
+```
 ## All params are string
 
 `+` can convert a string number to a number 
