@@ -38,7 +38,6 @@ export class TutorialTemplateComponent {
     if (this.meta["domainPath"] === "") this.router.navigate(["/"]);
 
     this.playgroundExist = this.meta.aPath.toString().length > 74;
-    console.log(this.playgroundExist);
   }
 
   showReset(): void {
