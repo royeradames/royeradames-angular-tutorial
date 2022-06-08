@@ -1,6 +1,6 @@
 <article class="navigation-buttons" [attr.data-cy]="dataCy">
   <a
-    [routerLink]="'/angular/' + meta.previousDomainPath"
+    [routerLink]="'/' + meta.previousDomainPath"
     *ngIf="meta.previousDomainPath"
     data-cy="previous-tutorial"
   >
@@ -10,7 +10,7 @@
   <ng-content></ng-content>
 
   <a
-    [routerLink]="'/angular/' + meta.nextDomainPath"
+    [routerLink]="'/' + meta.nextDomainPath"
     *ngIf="meta.nextDomainPath"
     data-cy="next-tutorial"
     ><ng-template [ngIf]="showText">Next</ng-template>

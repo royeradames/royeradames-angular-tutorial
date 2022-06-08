@@ -20,7 +20,7 @@ export class TableOfContentComponent {
   navigateTo(event: Event): void {
     const filterValue = (event.target as HTMLInputElement).value;
     if (filterValue) {
-      this.router.navigate(["angular", filterValue]);
+      this.router.navigate([filterValue]);
     }
   }
 }

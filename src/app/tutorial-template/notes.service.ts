@@ -80,7 +80,8 @@ export class NotesService {
     chapterList.forEach((chapter, chapterIndex) => {
       const sectionList = chapter.options;
       sectionList.forEach((section, sectionIndex) => {
-        const currentDomain: string = params["title"] || "";
+        const currentDomain: string =
+          `${params["technology"]}/${params["title"]}` || "";
         const isInCurrentDomain = section.domainPath === currentDomain;
         if (isInCurrentDomain) {
           currentTutorial.domainPath = section.domainPath;
