@@ -7,8 +7,9 @@ import { NotesService } from "src/app/tutorial-template/notes.service";
   styleUrls: ["./navigation-buttons.component.scss"],
 })
 export class NavigationButtonsComponent implements OnInit {
-  meta = this.notesService.meta;
+  meta = this.notesService.currentTutorial;
   @Input() dataCy = "";
+  @Input() showText = "";
   constructor(private notesService: NotesService) {}
 
   ngOnInit(): void {}
