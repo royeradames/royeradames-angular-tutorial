@@ -3,13 +3,12 @@ import { RouterModule, Routes } from "@angular/router";
 import { TutorialTemplateComponent } from "./tutorial-template/tutorial-template.component";
 
 const routes: Routes = [
-  { path: "", component: TutorialTemplateComponent },
   {
-    path: ":title",
+    path: ":technology/:title",
     component: TutorialTemplateComponent,
   },
 
-  { path: "**", redirectTo: "" },
+  { path: "**", redirectTo: "angular/welcome-to-angular" },
 ];
 
 @NgModule({
