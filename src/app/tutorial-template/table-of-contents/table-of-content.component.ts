@@ -17,14 +17,14 @@ export class TableOfContentComponent {
 
   isHidingNav = true;
 
-  meta = this.notesService.meta;
+  meta = this.notesService.currentTutorial;
 
   constructor(private notesService: NotesService, private router: Router) {}
 
   navigateTo(event: Event): void {
     const filterValue = (event.target as HTMLInputElement).value;
     if (filterValue) {
-      this.router.navigate([filterValue]);
+      this.router.navigate(["angular", filterValue]);
     }
   }
 }

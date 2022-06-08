@@ -1,22 +1,8 @@
 import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
-import { ActivatedRoute, Params, Router } from "@angular/router";
-import { Observable } from "rxjs/internal/Observable";
-import { TutorialInterface, TutorialsOptgroup } from "../data/tutorial";
+import { ActivatedRoute, Router } from "@angular/router";
+import { TutorialInterface } from "./data/tutorial";
 import { NotesService } from "./notes.service";
-
-export interface trackDomainsGroupInterface {
-  meta: {
-    previousTutorialLink: string;
-    currentTutorialLink: string;
-    nextTutorialLink: string;
-  };
-  params: Params;
-  note: TutorialInterface;
-  index: number;
-  options: TutorialInterface[];
-  tutorials: TutorialsOptgroup[];
-}
 
 export interface MetaInterface
   extends Omit<TutorialInterface, "aPath" | "bPath"> {
@@ -33,12 +19,12 @@ export interface MetaInterface
   styleUrls: ["./tutorial-template.component.scss"],
 })
 export class TutorialTemplateComponent {
-  meta = this.getMeta(this.notesService.notes);
+  meta = this.setCurrentTutorial(this.notesService.notes);
   playgroundExist = this.meta.aPath.toString().length > 74;
 
   notesNavOptgroup = this.notesService.notesOptgroups;
 
-  notesServiceMeta = this.notesService.meta;
+  currentTutorial = this.notesService.currentTutorial;
 
   constructor(
     private sanitizer: DomSanitizer,
@@ -50,15 +36,16 @@ export class TutorialTemplateComponent {
     if (this.meta["domainPath"] === "") this.router.navigate(["/"]);
 
     this.router.events.subscribe(() => {
-      this.meta = this.getMeta(this.notesService.notes);
+      this.meta = this.setCurrentTutorial(this.notesService.notes);
       this.playgroundExist = this.meta.aPath.toString().length > 74;
     });
 
-    this.trackDomainChange(
-      this.notesServiceMeta,
-      this.activatedRoute.params,
-      this.notesNavOptgroup,
-      this.setNotesServiceMeta
+    this.activatedRoute.params.subscribe((params) =>
+      this.notesService.setCurrentTutorial({
+        meta: this.currentTutorial,
+        params,
+        tutorials: this.notesNavOptgroup,
+      })
     );
   }
 
@@ -84,7 +71,7 @@ export class TutorialTemplateComponent {
     return note;
   }
 
-  private getMeta(notes: TutorialInterface[]) {
+  private setCurrentTutorial(notes: TutorialInterface[]) {
     const currentTutorial = this.loadNote(notes);
     return {
       ...currentTutorial,
@@ -98,57 +85,5 @@ export class TutorialTemplateComponent {
       resetText: "Reset",
       currentText: "Show me",
     };
-  }
-
-  private trackDomainChange(
-    meta: typeof this.notesServiceMeta,
-    params: Observable<Params>,
-    tutorials: TutorialsOptgroup[],
-    trackDomain: ({
-      options,
-      params,
-      note,
-      index,
-    }: trackDomainsGroupInterface) => void
-  ): void {
-    params.subscribe((params) => {
-      tutorials.forEach((group) =>
-        group.options.forEach((tutorial, index) =>
-          trackDomain({
-            meta,
-            tutorials,
-            options: group.options,
-            params,
-            note: tutorial,
-            index,
-          })
-        )
-      );
-    });
-  }
-
-  private setNotesServiceMeta({
-    meta,
-    tutorials,
-    options,
-    params,
-    note,
-    index,
-  }: trackDomainsGroupInterface): void {
-    const currentDomain = params["title"] || "";
-    const isInCurrentDomain = note.domainPath === currentDomain;
-    if (isInCurrentDomain) {
-      const maxOptionsIndex = options.length - 1;
-      const maxGroupIndex = tutorials.length - 1;
-
-      meta.previousTutorialLink =
-        index - 1 >= 0 ? `${options[index - 1].domainPath}` : "";
-
-      meta.currentTutorialLink =
-        index - 1 >= 0 ? `${options[index].domainPath}` : "";
-
-      meta.nextTutorialLink =
-        index + 1 <= maxOptionsIndex ? `${options[index + 1].domainPath}` : "";
-    }
   }
 }
