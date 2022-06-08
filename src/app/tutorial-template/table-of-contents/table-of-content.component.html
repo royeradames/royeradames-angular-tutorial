@@ -1,11 +1,12 @@
 <app-navigation-buttons
-  dataCy="navigation-buttons-top"
+  dataCyPrevious="menu-previous"
+  dataCyNext="menu-next"
   class="table-of-contents"
 >
   <div>
     <select
       for="navigation"
-      data-cy="section"
+      data-cy="sections"
       (change)="navigateTo($event)"
       [(ngModel)]="meta.currentDomainPath"
       class="navigation-menu"

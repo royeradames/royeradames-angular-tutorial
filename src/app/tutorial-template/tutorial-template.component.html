@@ -7,14 +7,18 @@
       <app-table-of-content></app-table-of-content>
 
       <div class="notes-markdown">
-        <article markdown [src]="currentTutorial['markdownPath']"></article>
+        <article
+          markdown
+          [src]="currentTutorial['markdownPath']"
+          data-cy="tutorial"
+        ></article>
         <hr />
         <article class="controls">
           <button
             class="show-reset"
             (click)="showReset()"
             *ngIf="currentTutorial.displayButton"
-            data-cy="show-reset"
+            data-cy="practice-button"
           >
             {{ currentTutorial.currentText }}
           </button>
@@ -23,18 +27,22 @@
           class="improve-document"
           [href]="currentTutorial['editPath']"
           target="_black"
-          data-cy="edit-markdown"
+          data-cy="edit-tutorial"
           >Edit this chapter</a
         >
       </div>
       <hr />
       <app-navigation-buttons
-        dataCy="navigation-buttons-bottom"
+        dataCyPrevious="footer-previous"
+        dataCyNext="footer-next"
         showText="true"
       ></app-navigation-buttons>
     </article>
     <article class="playground">
-      <iframe [src]="currentTutorial.currentPlaygroundPath"></iframe>
+      <iframe
+        [src]="currentTutorial.currentPlaygroundPath"
+        data-cy="playground"
+      ></iframe>
     </article>
   </article>
 </main>
