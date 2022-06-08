@@ -2,7 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 
 // import { url } from "../../serverInformation";
-import { NewTutorialInterface } from "./new-tutorial.interface";
+import { NewTutorialInterface } from "../new-tutorial.interface";
 import { TableOfContentInterface } from "./notes.service";
 export const url = "http://localhost:3001";
 

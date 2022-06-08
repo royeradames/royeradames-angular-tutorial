@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
 import { TutorialInterface } from "../data/tutorial";
-import { NotesService } from "../notes.service";
+import { NotesService } from "./notes.service";
 
 export interface MetaInterface
   extends Omit<TutorialInterface, "aPath" | "bPath"> {
@@ -46,10 +46,9 @@ export class TutorialTemplateComponent {
     if (showSolution) {
       this.meta.currentText = this.meta.resetText;
       this.meta.playgroundPath = this.meta.bPath;
-    } else {
-      this.meta.currentText = this.meta.showText;
-      this.meta.playgroundPath = this.meta.aPath;
     }
+    this.meta.currentText = this.meta.showText;
+    this.meta.playgroundPath = this.meta.aPath;
   }
 
   private trustUrl(url: string): SafeResourceUrl {

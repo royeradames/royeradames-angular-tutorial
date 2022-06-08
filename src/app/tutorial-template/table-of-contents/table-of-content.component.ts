@@ -2,7 +2,10 @@ import { Component } from "@angular/core";
 import { ActivatedRoute, Params, Router } from "@angular/router";
 import { Observable } from "rxjs/internal/Observable";
 import { TutorialInterface, TutorialsOptgroup } from "src/app/data/tutorial";
-import { NotesService, TableOfContentInterface } from "src/app/notes.service";
+import {
+  NotesService,
+  TableOfContentInterface,
+} from "src/app/tutorial-template/notes.service";
 
 interface trackDomainsGroupInterface {
   meta: {
@@ -14,6 +17,7 @@ interface trackDomainsGroupInterface {
   note: TutorialInterface;
   index: number;
   options: TutorialInterface[];
+  tutorials: TutorialsOptgroup[];
 }
 @Component({
   selector: "app-table-of-content",
@@ -52,7 +56,7 @@ export class TableOfContentComponent {
   private checkCurrentDomain(
     meta: typeof this.meta,
     params: Observable<Params>,
-    nav: TutorialsOptgroup[],
+    tutorials: TutorialsOptgroup[],
     trackDomain: ({
       options,
       params,
@@ -61,10 +65,11 @@ export class TableOfContentComponent {
     }: trackDomainsGroupInterface) => void
   ): void {
     params.subscribe((params) => {
-      nav.forEach((group) =>
+      tutorials.forEach((group) =>
         group.options.forEach((tutorial, index) =>
           trackDomain({
             meta,
+            tutorials,
             options: group.options,
             params,
             note: tutorial,
@@ -77,6 +82,7 @@ export class TableOfContentComponent {
 
   private trackDomainsGroup({
     meta,
+    tutorials,
     options,
     params,
     note,
@@ -85,7 +91,9 @@ export class TableOfContentComponent {
     const currentDomain = params["title"] || "";
     const isInCurrentDomain = note.domainPath === currentDomain;
     if (isInCurrentDomain) {
-      const maxIndex = options.length - 1;
+      const maxOptionsIndex = options.length - 1;
+      const maxGroupIndex = tutorials.length - 1;
+
       meta.previousTutorialLink =
         index - 1 >= 0 ? `${options[index - 1].domainPath}` : "";
 
@@ -93,7 +101,7 @@ export class TableOfContentComponent {
         index - 1 >= 0 ? `${options[index].domainPath}` : "";
 
       meta.nextTutorialLink =
-        index + 1 <= maxIndex ? `${options[index + 1].domainPath}` : "";
+        index + 1 <= maxOptionsIndex ? `${options[index + 1].domainPath}` : "";
     }
   }
 }

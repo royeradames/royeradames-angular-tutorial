@@ -6,7 +6,7 @@ import {
   tutorials,
   TutorialsOptgroup,
   tutorialsOptgroup,
-} from "./data/tutorial";
+} from "../data/tutorial";
 import { TutorialService } from "./tutorial.service";
 
 export interface TableOfContentInterface {

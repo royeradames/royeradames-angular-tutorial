@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from "@angular/core";
-import { NotesService } from "src/app/notes.service";
+import { NotesService } from "src/app/tutorial-template/notes.service";
 
 @Component({
   selector: "app-navigation-buttons",
