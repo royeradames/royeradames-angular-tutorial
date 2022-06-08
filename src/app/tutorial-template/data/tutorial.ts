@@ -1,12 +1,11 @@
 export interface TutorialInterface {
   chapter: string;
   section: string;
-  aPath?: string;
-  bPath?: string;
+  aPath: string;
+  bPath: string;
   markdownPath: string;
   editPath: string;
   domainPath: string;
-  githubPath?: string;
 }
 
 export interface TutorialsOptgroup {
@@ -19,11 +18,12 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
     label: "Introduction",
     options: [
       {
-        domainPath: "",
+        domainPath: "welcome-to-angular",
         chapter: "Introduction",
         section: "Welcome to Angular",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.ts&view=preview",
+        bPath: "",
 
         markdownPath: "assets/routing/welcome-to-angular.md",
         editPath:
@@ -231,6 +231,7 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         section: "Understanding location strategies",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
+        bPath: "",
       },
     ],
   },
@@ -701,6 +702,7 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         section: "Types of tests",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/app/app.component.spec.ts&view=both",
+        bPath: "",
       },
     ],
   },
@@ -1010,6 +1012,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
         section: "Installing and opening",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1018,6 +1022,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/cypress-first-test.md",
         section: "Writing our first cypress test",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1026,6 +1032,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/testing-text-input.md",
         section: "Testing text input",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1034,6 +1042,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/selecting-elements.md",
         section: "Selecting elements",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1042,6 +1052,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/aliasing-elements.md",
         section: "Aliasing elements",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1051,6 +1063,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-command-results.md",
         section: "Working with command results",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1059,6 +1073,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/beforeEach-hook.md",
         section: "BeforeEach hook",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1067,6 +1083,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/setting-a-base-url.md",
         section: "Setting a base URL",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1076,6 +1094,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/interacting-with-elements.md",
         section: "Interacting with elements",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1085,6 +1105,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/triggering-other-actions.md",
         section: "Triggering other actions",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1093,6 +1115,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/common-assertions.md",
         section: "Common assertions",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1101,6 +1125,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/automatic-retrying.md",
         section: "Automatic retrying",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1110,6 +1136,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/debugging-in-cypress.md",
         section: "Debugging in cypress",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1119,6 +1147,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/environment-variables.md",
         section: "Environment variables",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1127,6 +1157,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/test-doubles.md",
         section: "Test doubles",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1135,6 +1167,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/wrap-command.md",
         section: "Wrap command",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1143,6 +1177,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/and-command.md",
         section: "And command",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1152,6 +1188,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/filter-and-not-command.md",
         section: "Filter and not command",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1161,6 +1199,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/typing-special-characters.md",
         section: "Typing special characters",
+        aPath: "",
+        bPath: "",
       },
       {
         chapter: "cypress",
@@ -1170,6 +1210,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/activating-code-completion.md",
         section: "Activating code completion",
+        aPath: "",
+        bPath: "",
       },
     ],
   },
@@ -1185,6 +1227,7 @@ export const tutorials: TutorialInterface[] = [
     markdownPath: "assets/routing/welcome-to-angular.md",
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/welcome-to-angular.md",
+    bPath: "",
   },
   {
     domainPath: "setting-up-and-loading-routes",
@@ -1377,6 +1420,7 @@ export const tutorials: TutorialInterface[] = [
     section: "Understanding location strategies",
     aPath:
       "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
+    bPath: "",
   },
   {
     chapter: "Template driven form",
@@ -1823,6 +1867,7 @@ export const tutorials: TutorialInterface[] = [
     section: "Types of tests",
     aPath:
       "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/app/app.component.spec.ts&view=both",
+    bPath: "",
   },
   {
     chapter: "Unit testing",
@@ -2110,6 +2155,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
     section: "Installing and opening",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2118,6 +2165,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/cypress-first-test.md",
     section: "Writing our first cypress test",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2126,6 +2175,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/testing-text-input.md",
     section: "Testing text input",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2134,6 +2185,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/selecting-elements.md",
     section: "Selecting elements",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2142,6 +2195,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/aliasing-elements.md",
     section: "Aliasing elements",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2151,6 +2206,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-command-results.md",
     section: "Working with command results",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2159,6 +2216,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/beforeEach-hook.md",
     section: "BeforeEach hook",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2167,6 +2226,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/setting-a-base-url.md",
     section: "Setting a base URL",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2176,6 +2237,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/interacting-with-elements.md",
     section: "Interacting with elements",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2185,6 +2248,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/triggering-other-actions.md",
     section: "Triggering other actions",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2193,6 +2258,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/common-assertions.md",
     section: "Common assertions",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2201,6 +2268,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/automatic-retrying.md",
     section: "Automatic retrying",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2209,6 +2278,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/debugging-in-cypress.md",
     section: "Debugging in cypress",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2217,6 +2288,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/environment-variables.md",
     section: "Environment variables",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2225,6 +2298,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/test-doubles.md",
     section: "Test doubles",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2233,6 +2308,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/wrap-command.md",
     section: "Wrap command",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2241,6 +2318,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/and-command.md",
     section: "And command",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2249,6 +2328,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/filter-and-not-command.md",
     section: "Filter and not command",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2258,6 +2339,8 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/typing-special-characters.md",
     section: "Typing special characters",
+    aPath: "",
+    bPath: "",
   },
   {
     chapter: "cypress",
@@ -2267,5 +2350,7 @@ export const tutorials: TutorialInterface[] = [
     editPath:
       "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/activating-code-completion.md",
     section: "Activating code completion",
+    aPath: "",
+    bPath: "",
   },
 ];
