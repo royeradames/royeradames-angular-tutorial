@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
-import { TutorialInterface } from "./data/tutorial";
+import { TutorialInterface } from "./data/tutorials";
 import { NotesService } from "./notes.service";
 
 export interface MetaInterface

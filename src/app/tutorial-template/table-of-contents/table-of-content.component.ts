@@ -1,9 +1,6 @@
 import { Component } from "@angular/core";
 import { Router } from "@angular/router";
-import {
-  NotesService,
-  TableOfContentInterface,
-} from "src/app/tutorial-template/notes.service";
+import { NotesService } from "src/app/tutorial-template/notes.service";
 
 @Component({
   selector: "app-table-of-content",
@@ -12,7 +9,6 @@ import {
 })
 export class TableOfContentComponent {
   section = "";
-  notesNav: TableOfContentInterface[] = this.notesService.notesNav();
   notesNavOptgroup = this.notesService.notesOptgroups;
 
   isHidingNav = true;
