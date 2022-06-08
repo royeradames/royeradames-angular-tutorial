@@ -1,27 +1,27 @@
 <main id="main">
   <article
     class="tutorial"
-    [ngClass]="{ 'tutorial-playground': playgroundExist }"
+    [ngClass]="{ 'tutorial-playground': currentTutorial.playgroundExist }"
   >
     <article class="notes">
       <app-table-of-content></app-table-of-content>
 
       <div class="notes-markdown">
-        <article markdown [src]="meta['markdownPath']"></article>
+        <article markdown [src]="currentTutorial['markdownPath']"></article>
         <hr />
         <article class="controls">
           <button
             class="show-reset"
             (click)="showReset()"
-            *ngIf="meta.bPath"
+            *ngIf="currentTutorial.displayButton"
             data-cy="show-reset"
           >
-            {{ meta.currentText }}
+            {{ currentTutorial.currentText }}
           </button>
         </article>
         <a
           class="improve-document"
-          [href]="meta['editPath']"
+          [href]="currentTutorial['editPath']"
           target="_black"
           data-cy="edit-markdown"
           >Edit this chapter</a
@@ -34,7 +34,7 @@
       ></app-navigation-buttons>
     </article>
     <article class="playground">
-      <iframe [src]="meta.playgroundPath"></iframe>
+      <iframe [src]="currentTutorial.currentPlaygroundPath"></iframe>
     </article>
   </article>
 </main>

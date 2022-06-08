@@ -38,6 +38,7 @@ export interface CurrentTutorialInterface {
   resetText: string;
   currentText: string;
   playgroundExist: boolean;
+  displayButton: boolean;
 }
 export interface SetAdjacentDomainPathInterface {
   otherChapter: TutorialsOptgroup;
@@ -57,6 +58,7 @@ export class NotesService {
     editPath: "",
     showText: "Show me",
     resetText: "Reset",
+    displayButton: true,
     currentText: "Show me",
     aPath: this.trustUrl(""),
     bPath: this.trustUrl(""),
@@ -115,7 +117,6 @@ export class NotesService {
     tutorials: chapterList,
     params,
   }: TrackDomainsGroupInterface): void {
-    const maxChapterListIndex = chapterList.length - 1;
     chapterList.forEach((chapter, chapterIndex) => {
       const sectionList = chapter.options;
       sectionList.forEach((section, sectionIndex) => {
@@ -131,8 +132,10 @@ export class NotesService {
           currentTutorial.aPath = this.trustUrl(section.aPath);
           currentTutorial.bPath = this.trustUrl(section.bPath);
           currentTutorial.currentPlaygroundPath = currentTutorial.aPath;
-          currentTutorial.currentPlaygroundPath =
+          currentTutorial.playgroundExist =
             currentTutorial.aPath.toString().length > 74;
+          currentTutorial.displayButton =
+            currentTutorial.bPath.toString().length > 74;
           currentTutorial.previousDomainPath = this.setAdjacentDomainPath({
             otherChapter: chapterList[chapterIndex - 1],
             otherSection: sectionList[sectionIndex - 1],
@@ -155,7 +158,7 @@ export class NotesService {
     adjacent,
   }: SetAdjacentDomainPathInterface) {
     if (otherSection) return otherSection.domainPath;
-    else if (!!otherChapter) {
+    else if (otherChapter) {
       const otherChapterSectionIndex =
         adjacent === "previous" ? otherChapter.options.length - 1 : 0;
       const otherChapterSection =
