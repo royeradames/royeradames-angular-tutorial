@@ -1062,12 +1062,12 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       },
       {
         chapter: "cypress",
-        domainPath: "angular/cypress-working-with-command-results",
+        domainPath: "angular/cypress-working-with-.then-command-results",
         markdownPath:
-          "assets/testing/end-to-end/cypress/working-with-command-results.md",
+          "assets/testing/end-to-end/cypress/working-with-.then-command-results.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-command-results.md",
-        section: "Working with command results",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-.then-command-results.md",
+        section: "Working with .then command results",
         aPath: "",
         bPath: "",
       },
