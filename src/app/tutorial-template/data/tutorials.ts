@@ -654,7 +654,7 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath:
-          "/http-requests-setup-interceptors-and-manipulating-request-object",
+          "angular/http-requests-setup-interceptors-and-manipulating-request-object",
         markdownPath:
           "assets/http-requests/setup-interceptors-and-manipulating-request-object.md",
         editPath:
