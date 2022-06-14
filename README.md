@@ -1,37 +1,176 @@
-# Angular
 
-This directory is a brief example of an [Angular](https://angular.io/) app that can be deployed to Vercel with zero configuration.
+# Lessons learned
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+## Reverse array of elements traversal with Cypress
 
-## Deploy Your Own
+https://stackoverflow.com/questions/61329435/cypress-reverse-each
 
-Deploy your own Angular project with Vercel.
+the eq solution implemented with .each()
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/angular&template=angular)
+```ts
+cy.get('[data-cy="sections"] > optgroup > option').each(
+  (_$option, index, $list) => {
+    const firstIndex = 0;
+    const lastIndex = $list.length - 1;
+    const descendingIndex = lastIndex - index;
 
-_Live Example: https://angular-template.vercel.app_
+      cy.wrap($list).eq(descendingIndex).click({force:true})
+  
+  }
+);
+```
 
-## Development server
+Cons:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+$list: HTMLElement[] instead of JQuery<HTMLElement[]>
+We have to use javascript to get access the $list
+We cannot use $list[descendingIndex].text() or $list[descendingIndex].val()
+Instead we can use $list.innerHTML, $list.[descendingIndex].click() or ($list).value
+I recommend to use cy.wrap($list).(cypress command) for actions and if we need access to some string, number, or value, use javascript to get it from the $list.
 
-## Code scaffolding
+[Source](https://stackoverflow.com/a/72588477/3044126)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+v1
+```ts
+cy.get('[data-cy="sections"] > optgroup > option')
+    .its("length")
+    .then((numberOfItems) => {
+      for (var i = numberOfItems - 1; i >= 0; i--) {
+        // validate the current option is the selected option
+        cy.get('[data-cy="sections"] > optgroup > option')
+          .eq(i)
+          .then(($option) => {
+            cy.get('[data-cy="sections"] option:selected').contains(
+              $option.text()
+            );
+            cy.get('[data-cy="sections"] option:selected').should(
+              "have.value",
+              $option.val()
+            );
+          });
+        if (i !== 0) {
+          // don't click on the last option
+          cy.get('[data-cy="menu-previous"]').click();
+        }
+      }
+    });
+```
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Why use the .then() method?
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+get cypress to return an input (string, number, etc) to use it on a assertion
 
-## Further help
+```ts
+// todo: validate that the select has the current tutorial
+// Why use the .then() method? To get cypress to return an input (string, number, etc) to use it on a assertion
+cy.get('[data-cy="sections"] > optgroup > option')
+  .first()
+  .then(($option) => {
+    cy.get('[data-cy="sections"] option:selected').contains($option.text());
+    cy.get('[data-cy="sections"] option:selected').should(
+      "have.value",
+      $option.val()
+    );
+  });
+```
+## The .then() method are jquery methods
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[List of jquery methods](https://api.jquery.com/)
+
+## Current option matches the first option
+
+```ts
+// todo: validate that the select has the current tutorial
+// v1:
+cy.get('[data-cy="sections"] option:selected').then(($selectedOption) => {
+    // .val() => return the value of the selected option
+    // .text() => return the text of the selected option
+    console.log($selectedOption.text());
+    debugger;
+    cy.get('[data-cy="sections"]')
+      .select(0)
+      .should("have.value", $selectedOption.val());
+  });
+
+// v2
+// 3 layer deep getting the first option text
+cy.get('[data-cy="sections"]').within(() => {
+  cy.get("option").then(($option) => {
+    console.log(
+      cy
+        .wrap($option[0])
+        .invoke("text")
+        .then(($text) => {
+          debugger;
+          console.log($text);
+        })
+    );
+  });
+});
+// but is looks complex
+
+// v3
+// we can use css > nested child selector and base our selection on the semantic html structure
+  
+cy.get('[data-cy="sections"] > optgroup > option')
+  .first()
+  .then(($option) => {
+    console.log($option);
+    debugger;
+  });
+
+// but better would be if the target option would have a data-cy attribute
+// but due to the options being generated dynamically, adding a data-cy attribute can change more often than the structure of the html.
+```
+
+## .get and :nth-child()
+
+no spaces between tag and pseudo-class selector
+[Resource](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+
+```ts
+// works
+cy.get('[data-cy="sections"] > optgroup > option:nth-child(1)')
+
+// doesn't work
+cy.get('[data-cy="sections"] > optgroup > option :nth-child(1)')
+
+```
+
+## .eq, .first, .last can replace :nth-child
+
+[eq](https://docs.cypress.io/api/commands/eq)
+[first](https://docs.cypress.io/api/commands/first)
+[last](https://docs.cypress.io/api/commands/last)
+
+```ts
+// results of a list of the first element of each optgroup
+cy.get('[data-cy="sections"] > optgroup > option:nth-child(1)').then(
+  ($option) => {
+    console.log($option);
+    debugger;
+  }
+);
+
+// results the first option element of the list of sections
+cy.get('[data-cy="sections"] > optgroup > option')
+  .eq(0)
+  .then(($option) => {
+    console.log($option);
+    debugger;
+  });
+```
+
+## What does .eq() stand for?
+
+eq() makes sense if you know it's part of a related set of selectors (from the JQuery docs):
+
+> The index-related selectors (:eq(), :lt(), :gt(), :even, :odd) filter the set of elements that have matched the expressions that precede them.
+
+When lined up next to lt (less than), and gt (greater than), it's clear that it means equals, specifically "index equals n".
+
+[Source](https://stackoverflow.com/a/15059383/3044126)
