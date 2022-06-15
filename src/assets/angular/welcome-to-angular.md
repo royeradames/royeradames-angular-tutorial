@@ -7,7 +7,7 @@ To provides you the ability to build client-side web applications and manage the
 - [HTML](https://www.linkedin.com/learning/html-essential-training-4/)
 - [CSS](https://www.linkedin.com/learning/css-essential-training-3)
 - [JavaScript](https://www.linkedin.com/learning/javascript-essential-training)
-  - > Be most familiar with Javascript
+> Be most familiar with Javascript
 - [Typescript](https://www.linkedin.com/learning/typescript-essential-training-14687057/learning-typescript?autoplay=true&u=74416004)
   - A superset of JavaScript that gets compiled to JavaScript
 
