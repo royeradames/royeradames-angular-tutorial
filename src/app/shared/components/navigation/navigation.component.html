@@ -1,0 +1,34 @@
+<!-- <nav class={`nav ${props.menu ? props.menu : "" } ${ props.footer ? "footer__nav" : "" }`}> -->
+<nav class="nav {{ menu }}" [ngClass]="{ footer__nav: footer }">
+  <!-- <Link to="/" class={`nav__link ${props.footer ? "footer__nav-link" : "" }`}>
+  Home
+  </Link> -->
+  <a routerLink="/" class="nav__link" [ngClass]="{ 'footer__nav-link': footer }"
+    >Home</a
+  >
+
+  <!-- <Link to="/contact-me" class={`nav__link ${props.footer ? "footer__nav-link" : "" }`}>
+  Contact Me
+  </Link> -->
+  <a
+    routerLink="/contact-me"
+    class="nav__link"
+    [ngClass]="{ 'footer__nav-link': footer }"
+  >
+    Contact Me
+  </a>
+
+  <!-- <a href="https://royeraadames.medium.com/" target="_blank" rel="noreferrer" class={`nav__link ${props.footer
+    ? "footer__nav-link" : "" }`}>
+    Blog
+  </a> -->
+  <a
+    href="https://royeraadames.medium.com/"
+    target="_blank"
+    rel="noreferrer"
+    class="nav__link"
+    [ngClass]="{ 'footer__nav-link': footer }"
+  >
+    Blog
+  </a>
+</nav>

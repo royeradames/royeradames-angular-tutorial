@@ -1,0 +1,35 @@
+<header class="website__header header">
+  <a routerLink="/" class="header__logo">
+    <!-- <Logo /> -->
+    <app-svg-logo></app-svg-logo>
+  </a>
+  <!-- <Hamburger class={`header__hamburger ${isMenuOpen ? "header__hide" : "" }`} onClick={()=>
+     mobileMenuLogic(isMenuOpen, setIsMenuOpen)}
+     /> -->
+  <app-svg-hamburger
+    (click)="mobileMenuLogic()"
+    [isMenuOpen]="isMenuOpen"
+  ></app-svg-hamburger>
+  <!-- <Close class={`header__close ${isMenuOpen ? "" : "header__hide" }`} onClick={()=> mobileMenuLogic(isMenuOpen,
+       setIsMenuOpen)}
+       /> -->
+  <app-svg-close
+    (click)="mobileMenuLogic()"
+    [isMenuOpen]="isMenuOpen"
+  ></app-svg-close>
+
+  <!-- <Nav menu={`header__nav ${isMenuOpen ? " header__open" : "" }`} /> -->
+  <app-navigation
+    (click)="mobileMenuLogic()"
+    [menu]="isMenuOpen ? ' header__open' : ''"
+  ></app-navigation>
+
+  <!-- <div class={`header__close-anywhere ${isMenuOpen ? "" : "header__hide" }`} onClick={()=>
+         mobileMenuLogic(isMenuOpen, setIsMenuOpen)}
+         ></div> -->
+  <div
+    class="header__close-anywhere"
+    [ngClass]="{ header__hide: !isMenuOpen }"
+    (click)="mobileMenuLogic()"
+  ></div>
+</header>

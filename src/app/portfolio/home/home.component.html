@@ -1,0 +1,76 @@
+<!-- todo: wrap content in a header/footer layout component -->
+<!-- <Layout> -->
+<!-- ? is there a way to improve/setup for SEO? -->
+<!-- <SEO title="Home" description={`Intruduction page for ${author}.`} /> -->
+<main class="website__pages home">
+  <article class="home__welcome-message welcome-message">
+    <!-- todo: move image -->
+    <!-- <StaticImage
+            src="../images/homepage/image-homepage-hero@2x.jpg"
+            class="home__hero welcome-message__hero"
+            alt="Hero Image"
+          /> -->
+    <div class="welcome-message__call-to-action">
+      <h1 class="title home__title welcome-message__title">
+        Hey, I’m author and I love building beautiful websites
+      </h1>
+      <!-- todo: move button to its own component -->
+      <app-button></app-button>
+      <!-- <a href="#about">
+        <button class="button button-primary-normal button-primary-normal ">
+          <div
+            class="button__icon-background button-primary-normal__background button-primary-normal__background"
+          >
+            <app-down-arrow></app-down-arrow>
+             <DownArrow class="button__icon button-primary-normal__icon button-primary-normal__icon " /> 
+          </div>
+          <p
+            class="button__text button-primary-normal__text button-primary-normal__text"
+          >
+            About Me
+          </p>
+        </button>
+      </a> -->
+    </div>
+  </article>
+
+  <article class="home__about-me about-me" id="about">
+    <!-- todo: move image -->
+    <!-- <StaticImage
+            class="home__selfie about-me__selfie"
+            src="../images/homepage/royeradames-side-crop.jpg"
+            alt="Selfie image"
+          /> -->
+    <div
+      class="horizontal-line horizontal-line-first about-me__horizontal-line about-me__horizontal-line-top"
+    ></div>
+    <h2 class="title home__title about-me__title">About Me</h2>
+    <p class="home__message about-me__message">
+      I am a Full Stack Web Developer skilled in React.js, Typescript, Gatsby,
+      GraphQL, Node.js, and SQL. Passionate about breaking down complex problems
+      to find solutions, collaborating with other developers, and creating
+      front-end interfaces with the user in mind. I’m happy working remotely and
+      have experience in remote teams.
+    </p>
+    <div
+      class="horizontal-line horizontal-line-last about-me__horizontal-line about-me__horizontal-line-bottom"
+    ></div>
+  </article>
+
+  <!-- todo: move to its own component -->
+  <!-- <ConctactMeArticle page="home" /> -->
+  <article class="contact-me home__contact-me">
+    <h2 class="title home__title contact-me__title">
+      Interested in doing a project together?
+    </h2>
+    <div class="horizontal-line contact-me__horizontal-line"></div>
+    <a
+      routerLink="/contact-me"
+      class="contact-me__button"
+      (click)="handleClick()"
+    >
+      <button class="secondary-button secondary-normal">Contact Me</button>
+    </a>
+  </article>
+</main>
+<!-- </Layout> -->

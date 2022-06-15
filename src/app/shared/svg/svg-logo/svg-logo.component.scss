@@ -1,0 +1,12 @@
+.footer {
+  &__logo {
+    // layout
+    grid-area: logo;
+    // change logo color
+    fill: var(--white);
+
+    &:hover {
+      fill: var(--green);
+    }
+  }
+}

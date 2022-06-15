@@ -1,0 +1,15 @@
+.social-media {
+  /* center icon */
+  align-items: center;
+  &__icon {
+    /* keep the icons small */
+    width: 2.4rem;
+
+    // decoration
+    fill: var(--white);
+
+    &:hover {
+      fill: var(--green);
+    }
+  }
+}

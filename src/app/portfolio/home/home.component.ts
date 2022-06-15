@@ -1,0 +1,21 @@
+import { Component, OnInit } from "@angular/core";
+
+@Component({
+  selector: "app-home",
+  templateUrl: "./home.component.html",
+  styleUrls: [
+    "./home.component.scss",
+    "./website.component.scss",
+    "./welcome-message.component.scss",
+    "./about-me.component.scss",
+  ],
+})
+export class HomeComponent implements OnInit {
+  constructor() {}
+
+  ngOnInit(): void {}
+
+  handleClick(): void {
+    window.scroll(0, 0);
+  }
+}

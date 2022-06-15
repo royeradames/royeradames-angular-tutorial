@@ -1,0 +1,44 @@
+<!-- <article class={`social-media ${ props.page ? `${props.page}__social-media` : "" }`}> -->
+<article class="social-media {{ page }}__social-media">
+  <!-- {github ? (
+   <a href={socialLink("github")} target="_blank" rel="noreferrer">
+     <Github class={`social-media__icon social-media__github ${props.page}__social-media-icon`} />
+   </a>
+   ) : (
+   ""
+   )} -->
+
+  <a href="https://github.com/royeradames" target="_blank" rel="noreferrer">
+    <!-- <Github class={`social-media__icon social-media__github ${props.page}__social-media-icon`} /> -->
+    <app-svg-github [page]="page"></app-svg-github>
+  </a>
+
+  <!-- {linkedIn ? (
+   <a href={socialLink("linkedin")} target="_blank" rel="noreferrer">
+     <LinkedIn class={`social-media__icon social-media__github ${props.page}__social-media-icon`} />
+   </a>
+   ) : (
+   ""
+   )} -->
+
+  <a
+    href="https://www.linkedin.com/in/royer-adames/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <!-- <LinkedIn class={`social-media__icon social-media__github ${props.page}__social-media-icon`} /> -->
+    <app-svg-linkedin-icon [page]="page"></app-svg-linkedin-icon>
+  </a>
+
+  <!-- {blog ? (
+   <a href={socialLink("blog")} target="_blank" rel="noreferrer">
+     <Blog class={`social-media__icon social-media__github ${props.page}__social-media-icon`} />
+   </a>
+   ) : (
+   ""
+   )} -->
+
+  <a href="https://royeraadames.medium.com/" target="_blank" rel="noreferrer">
+    <!-- <Blog class={`social-media__icon social-media__github ${props.page}__social-media-icon`} /> -->
+  </a>
+</article>

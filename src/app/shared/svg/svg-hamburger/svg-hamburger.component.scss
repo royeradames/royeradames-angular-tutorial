@@ -1,0 +1,26 @@
+$tablet: 768px;
+
+.header {
+  &__hamburger {
+    // layout
+    grid-area: menu-icon;
+    justify-self: end;
+
+    // decoration
+    fill: var(--gray-blue-900);
+
+    &:hover {
+      // decoration
+      cursor: pointer;
+      fill: var(--green);
+    }
+
+    // hide icon
+    @media (min-width: $tablet) {
+      display: none;
+    }
+  }
+  &__hide {
+    display: none;
+  }
+}

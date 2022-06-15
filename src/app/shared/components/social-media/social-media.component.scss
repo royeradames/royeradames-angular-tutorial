@@ -1,0 +1,26 @@
+$tablet: 768px;
+
+.social-media {
+  /* side by side from left to right */
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1.5rem;
+
+  @media (min-width: $tablet) {
+    justify-self: end;
+  }
+
+  /* center icon */
+  align-items: center;
+  &__icon {
+    /* keep the icons small */
+    width: 2.4rem;
+
+    // decoration
+    fill: var(--white);
+
+    &:hover {
+      fill: var(--green);
+    }
+  }
+}

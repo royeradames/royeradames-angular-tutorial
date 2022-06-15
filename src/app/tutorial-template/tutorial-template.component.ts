@@ -28,9 +28,6 @@ export class TutorialTemplateComponent {
     private activatedRoute: ActivatedRoute,
     private notesService: NotesService
   ) {
-    // when redirected to home remove redirected path
-    if (this.currentTutorial["domainPath"] === "") this.router.navigate(["/"]);
-
     this.activatedRoute.params.subscribe((params) =>
       this.notesService.setCurrentTutorial({
         meta: this.currentTutorial,
@@ -38,6 +35,9 @@ export class TutorialTemplateComponent {
         tutorials: this.notesNavOptgroup,
       })
     );
+
+    // when redirected to home remove redirected path
+    if (this.currentTutorial.domainPath === "") this.router.navigate(["/"]);
   }
 
   showReset(): void {
