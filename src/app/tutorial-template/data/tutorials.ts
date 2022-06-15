@@ -25,9 +25,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-sszhpy?embed=1&file=src/app/app.component.ts&view=preview",
         bPath: "",
 
-        markdownPath: "assets/routing/welcome-to-angular.md",
+        markdownPath: "assets/angular/welcome-to-angular.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/welcome-to-angular.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/welcome-to-angular.md",
       },
     ],
   },
@@ -42,9 +42,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-2zan4p?embed=1&file=src/app/app.module.ts&hideExplorer=1",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-4rloit?embed=1&file=src/app/app.module.ts&hideExplorer=1",
-        markdownPath: "assets/routing/setting-up-routes.md",
+        markdownPath: "assets/angular/routing/setting-up-routes.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/setting-up-routes.md&hideExplorer=1",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/setting-up-routes.md&hideExplorer=1",
       },
       {
         domainPath: "angular/links",
@@ -54,9 +54,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-ou51xf?embed=1&file=src/app/app.component.html&hideExplorer=1",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-y71jmy?embed=1&file=src/app/app.component.html&hideExplorer=1",
-        markdownPath: "assets/routing/router-link.md",
+        markdownPath: "assets/angular/routing/router-link.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/router-link.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/router-link.md",
       },
       {
         domainPath: "angular/relative-vs-absolute-path",
@@ -66,9 +66,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-mdyp2r?file=src/app/servers/servers.component.html&hideExplorer=1",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-zrnbkv?embed=1&file=src/app/servers/servers.component.html",
-        markdownPath: "assets/routing/relative-vs-absolute-path.md",
+        markdownPath: "assets/angular/routing/relative-vs-absolute-path.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/relative-vs-absolute-path.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/relative-vs-absolute-path.md",
       },
       {
         domainPath: "angular/styling-active-router-links",
@@ -78,9 +78,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-8mcz3h?embed=1&file=src/app/app.component.html&hideExplorer=1",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-q3qvxv?embed=1&file=src/app/app.component.html&hideExplorer=1",
-        markdownPath: "assets/routing/styling-active-router-links.md",
+        markdownPath: "assets/angular/routing/styling-active-router-links.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/styling-active-router-links.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/styling-active-router-links.md",
       },
       {
         domainPath: "angular/navigating-with-javascript",
@@ -90,9 +90,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-l77w2z?embed=1&file=src/app/users/users.component.ts&devToolsHeight=33",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-vuymfc?embed=1&file=src/app/users/users.component.ts&devToolsHeight=33",
-        markdownPath: "assets/routing/navigating-programmatically.md",
+        markdownPath: "assets/angular/routing/navigating-programmatically.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/navigating-programmatically.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/navigating-programmatically.md",
       },
       {
         domainPath: "angular/route-parameters-and-reloaded-components",
@@ -103,9 +103,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         bPath:
           "https://stackblitz.com/edit/angular-ivy-mii2hv?embed=1&file=src/app/users/user/user.component.ts",
         markdownPath:
-          "assets/routing/route-parameters-and-reloaded-components.md",
+          "assets/angular/routing/route-parameters-and-reloaded-components.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/route-parameters-and-reloaded-components.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/route-parameters-and-reloaded-components.md",
       },
       {
         domainPath: "angular/query-and-fragment-parameters",
@@ -115,9 +115,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-p4mscs?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-whznye?embed=1&file=src/app/app.module.ts&devToolsHeight=33",
-        markdownPath: "assets/routing/query-and-fragment-parameters.md",
+        markdownPath: "assets/angular/routing/query-and-fragment-parameters.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/query-and-fragment-parameters.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/query-and-fragment-parameters.md",
       },
       {
         domainPath: "angular/nested-routes",
@@ -127,9 +127,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-xatedq?embed=1&file=src/app/app.module.ts",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-bsaf3p?embed=1&file=src/app/app.module.ts",
-        markdownPath: "assets/routing/nested-routes.md",
+        markdownPath: "assets/angular/routing/nested-routes.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/nested-routes.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/nested-routes.md",
       },
       {
         domainPath: "angular/redirecting-and-wildcard-routes",
@@ -139,16 +139,18 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-3oiczz?embed=1&file=src/app/app.module.ts",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-yydpre?embed=1&file=src/app/app.module.ts",
-        markdownPath: "assets/routing/redirecting-and-wildcard-routes.md",
+        markdownPath:
+          "assets/angular/routing/redirecting-and-wildcard-routes.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/redirecting-and-wildcard-routes.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/redirecting-and-wildcard-routes.md",
       },
       {
         chapter: "Routing",
         domainPath: "angular/outsourcing-the-routes-configuration",
-        markdownPath: "assets/routing/outsourcing-the-routes-configuration.md",
+        markdownPath:
+          "assets/angular/routing/outsourcing-the-routes-configuration.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/outsourcing-the-routes-configuration.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/outsourcing-the-routes-configuration.md",
         section: "Outsourcing the routes configuration",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-lqkinq?embed=1&file=src/app/app.module.ts",
@@ -158,9 +160,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Routing",
         domainPath: "angular/guards-loading-route",
-        markdownPath: "assets/routing/guards-loading-route.md",
+        markdownPath: "assets/angular/routing/guards-loading-route.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/guards-loading-route.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/guards-loading-route.md",
         section: "Guards loading route",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-u6pvhp?embed=1&file=src/app/app.module.ts",
@@ -170,9 +172,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Routing",
         domainPath: "angular/guards-leaving-route",
-        markdownPath: "assets/routing/guards-leaving-route.md",
+        markdownPath: "assets/angular/routing/guards-leaving-route.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/guards-leaving-route.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/guards-leaving-route.md",
         section: "Guards leaving route",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-hgl21t?embed=1&file=src/app/servers/edit-server/edit-server.component.ts",
@@ -183,9 +185,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Routing",
         domainPath: "angular/passing-static-data-from-route-to-component",
         markdownPath:
-          "assets/routing/passing-static-data-from-route-to-component.md",
+          "assets/angular/routing/passing-static-data-from-route-to-component.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/passing-static-data-from-route-to-component.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/passing-static-data-from-route-to-component.md",
         section: "Passing static data from route to component",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-snyzef?embed=1&file=src/app/app-routing.module.ts",
@@ -196,9 +198,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Routing",
         domainPath: "angular/resolving-dynamic-data-with-the-resolve-guard",
         markdownPath:
-          "assets/routing/resolving-dynamic-data-with-the-resolve-guard.md",
+          "assets/angular/routing/resolving-dynamic-data-with-the-resolve-guard.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/resolving-dynamic-data-with-the-resolve-guard.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/resolving-dynamic-data-with-the-resolve-guard.md",
         section: "Resolving dynamic data with the resolve guard",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-dcqt15?embed=1&file=src/app/servers/server/server.component.ts",
@@ -208,9 +210,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Routing",
         domainPath: "angular/understanding-location-strategies",
-        markdownPath: "assets/routing/understanding-location-strategies.md",
+        markdownPath:
+          "assets/angular/routing/understanding-location-strategies.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/routing/understanding-location-strategies.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/routing/understanding-location-strategies.md",
         section: "Understanding location strategies",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-pw5wac?embed=1&file=src/app/app-routing.module.ts",
@@ -225,9 +228,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Form",
         domainPath: "angular/angular-forms-introduction",
-        markdownPath: "assets/forms/angular-forms-introduction.md",
+        markdownPath: "assets/angular/forms/angular-forms-introduction.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/angular-forms-introduction.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/angular-forms-introduction.md",
         section: "Understanding location strategies",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
@@ -242,9 +245,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-creating-the–form–and-registering-the-controls",
         markdownPath:
-          "assets/forms/td-creating-the–form–and-registering-the-controls.md",
+          "assets/angular/forms/td-creating-the–form–and-registering-the-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-creating-the–form–and-registering-the-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-creating-the–form–and-registering-the-controls.md",
         section: "Creating the form and registering the controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-xtzt2y?embed=1&file=src/app/app.component.html",
@@ -254,9 +257,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-submitting-and-using-the-form",
-        markdownPath: "assets/forms/td-submitting-and-using-the-form.md",
+        markdownPath:
+          "assets/angular/forms/td-submitting-and-using-the-form.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-submitting-and-using-the-form.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-submitting-and-using-the-form.md",
         section: "Submitting and using the form",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-bhmsih?embed=1&file=src/app/app.component.html",
@@ -267,9 +271,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-adding-validation-to-check-user-input",
         markdownPath:
-          "assets/forms/td-adding-validation-to-check-user-input.md",
+          "assets/angular/forms/td-adding-validation-to-check-user-input.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-adding-validation-to-check-user-input.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-adding-validation-to-check-user-input.md",
         section: "Adding validation to check user input",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-ugqjpr?embed=1&file=src/app/app.component.html",
@@ -279,9 +283,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-using-the-form-state",
-        markdownPath: "assets/forms/td-using-the-form-state.md",
+        markdownPath: "assets/angular/forms/td-using-the-form-state.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-the-form-state.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-using-the-form-state.md",
         section: "Using the form state",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-3ua9r5?embed=1&file=src/app/app.component.html",
@@ -291,9 +295,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-outputting-validation-error-messages",
-        markdownPath: "assets/forms/td-outputting-validation-error-messages.md",
+        markdownPath:
+          "assets/angular/forms/td-outputting-validation-error-messages.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-outputting-validation-error-messages.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-outputting-validation-error-messages.md",
         section: "Outputting validation error message",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-wqg434?embed=1&file=src/app/app.component.html",
@@ -304,9 +309,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-set-default-values-with-ngModel-property",
         markdownPath:
-          "assets/forms/td-set-default-values-with-ngModel-property.md",
+          "assets/angular/forms/td-set-default-values-with-ngModel-property.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-set-default-values-with-ngModel-property.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-set-default-values-with-ngModel-property.md",
         section: "Set default values with ngModel property",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-gt53x4?embed=1&file=src/app/app.component.html",
@@ -316,9 +321,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-using-ngmodel-with-two-way-binding",
-        markdownPath: "assets/forms/td-using-ngmodel-with-two-way-binding.md",
+        markdownPath:
+          "assets/angular/forms/td-using-ngmodel-with-two-way-binding.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-ngmodel-with-two-way-binding.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-using-ngmodel-with-two-way-binding.md",
         section: "Using ngModel with two way binding",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
@@ -328,9 +334,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-grouping-form-controls",
-        markdownPath: "assets/forms/td-grouping-form-controls.md",
+        markdownPath: "assets/angular/forms/td-grouping-form-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-grouping-form-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-grouping-form-controls.md",
         section: "Grouping form controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-tjtsnx?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
@@ -340,9 +346,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-handling-radio-buttons",
-        markdownPath: "assets/forms/td-handling-radio-buttons.md",
+        markdownPath: "assets/angular/forms/td-handling-radio-buttons.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-handling-radio-buttons.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-handling-radio-buttons.md",
         section: "Handling radio buttons",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-cftfsl?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
@@ -352,9 +358,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-setting-and-patching-form-values",
-        markdownPath: "assets/forms/td-setting-and-patching-form-values.md",
+        markdownPath:
+          "assets/angular/forms/td-setting-and-patching-form-values.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-setting-and-patching-form-values.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-setting-and-patching-form-values.md",
         section: "Setting and patching form values",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-nlfg2q?embed=1&file=src/app/app.component.ts",
@@ -364,9 +371,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-using-form-data",
-        markdownPath: "assets/forms/td-using-form-data.md",
+        markdownPath: "assets/angular/forms/td-using-form-data.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-using-form-data.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-using-form-data.md",
         section: "Using form data",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-sfd9fz?embed=1&file=src/app/app.component.ts",
@@ -376,9 +383,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-resetting-forms",
-        markdownPath: "assets/forms/td-resetting-forms.md",
+        markdownPath: "assets/angular/forms/td-resetting-forms.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/td-resetting-forms.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-resetting-forms.md",
         section: "Resetting forms",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-vbtjud?embed=1&file=src/app/app.component.ts",
@@ -393,9 +400,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-setup",
-        markdownPath: "assets/forms/reactive-setup.md",
+        markdownPath: "assets/angular/forms/reactive-setup.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-setup.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-setup.md",
         section: "Setup",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-fmssbr?embed=1&file=src/app/app.module.ts",
@@ -405,9 +412,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-adding-validation",
-        markdownPath: "assets/forms/reactive-adding-validation.md",
+        markdownPath: "assets/angular/forms/reactive-adding-validation.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-adding-validation.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-adding-validation.md",
         section: "Adding validation",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-wyhwti?embed=1&file=src/app/app.component.ts",
@@ -417,9 +424,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-getting-access-to-controls",
-        markdownPath: "assets/forms/reactive-getting-access-to-controls.md",
+        markdownPath:
+          "assets/angular/forms/reactive-getting-access-to-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-getting-access-to-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-getting-access-to-controls.md",
         section: "Getting access to controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-aq1xc6?embed=1&file=src/app/app.component.html",
@@ -429,9 +437,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-grouping-controls",
-        markdownPath: "assets/forms/reactive-grouping-controls.md",
+        markdownPath: "assets/angular/forms/reactive-grouping-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-grouping-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-grouping-controls.md",
         section: "Grouping controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-atwyqk?embed=1&file=src/app/app.component.ts",
@@ -441,9 +449,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-arrays-of-form-controls",
-        markdownPath: "assets/forms/reactive-arrays-of-form-controls.md",
+        markdownPath:
+          "assets/angular/forms/reactive-arrays-of-form-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-arrays-of-form-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-arrays-of-form-controls.md",
         section: "Arrays of form controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-28ytnz?embed=1&file=src/app/app.component.ts",
@@ -453,9 +462,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-custom-validators",
-        markdownPath: "assets/forms/reactive-custom-validators.md",
+        markdownPath: "assets/angular/forms/reactive-custom-validators.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-custom-validators.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-custom-validators.md",
         section: "Creating custom validators",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-drgzut?embed=1&file=src/app/app.component.ts",
@@ -465,9 +474,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reacting-custom-error-message",
-        markdownPath: "assets/forms/reacting-custom-error-message.md",
+        markdownPath: "assets/angular/forms/reacting-custom-error-message.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reacting-custom-error-message.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reacting-custom-error-message.md",
         section: "Custom error message",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
@@ -477,9 +486,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reacting-to-status-or-value-changes",
-        markdownPath: "assets/forms/reacting-to-status-or-value-changes.md",
+        markdownPath:
+          "assets/angular/forms/reacting-to-status-or-value-changes.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reacting-to-status-or-value-changes.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reacting-to-status-or-value-changes.md",
         section: "Reacting to status or value changes",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-tqxa86?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
@@ -489,9 +499,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-setting-and-patching-values",
-        markdownPath: "assets/forms/reactive-setting-and-patching-values.md",
+        markdownPath:
+          "assets/angular/forms/reactive-setting-and-patching-values.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/forms/reactive-setting-and-patching-values.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-setting-and-patching-values.md",
         section: "Setting and patching values",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-awgjva?embed=1&file=src/app/app.component.ts",
@@ -506,9 +517,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-anatomy-setup-and-post-request",
-        markdownPath: "assets/http-requests/anatomy-setup-and-post-request.md",
+        markdownPath:
+          "assets/angular/http-requests/anatomy-setup-and-post-request.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/anatomy-setup-and-post-request.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/anatomy-setup-and-post-request.md",
         section: "Anatomy setup and post request",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-z15ggu?embed=1&file=src/app/app.module.ts",
@@ -518,9 +530,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-getting-data",
-        markdownPath: "assets/http-requests/getting-data.md",
+        markdownPath: "assets/angular/http-requests/getting-data.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/getting-data.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/getting-data.md",
         section: "Getting data",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-vfe4hm?embed=1&file=src/app/app.component.ts",
@@ -530,9 +542,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-transform-response-data",
-        markdownPath: "assets/http-requests/transform-response-data.md",
+        markdownPath: "assets/angular/http-requests/transform-response-data.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/transform-response-data.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/transform-response-data.md",
         section: "Transform response data",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-1op1wp?embed=1&file=src/app/app.component.ts",
@@ -542,9 +554,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-showing-a-loading-indicator",
-        markdownPath: "assets/http-requests/showing-a-loading-indicator.md",
+        markdownPath:
+          "assets/angular/http-requests/showing-a-loading-indicator.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/showing-a-loading-indicator.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/showing-a-loading-indicator.md",
         section: "Showing a loading indicator",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-jhgsjs?embed=1&file=src/app/app.component.ts",
@@ -554,9 +567,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-delete-request",
-        markdownPath: "assets/http-requests/delete-request.md",
+        markdownPath: "assets/angular/http-requests/delete-request.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/delete-request.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/delete-request.md",
         section: "Delete request",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-38qlja?embed=1&file=src/app/posts.service.ts",
@@ -566,9 +579,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-handling-errors",
-        markdownPath: "assets/http-requests/handling-errors.md",
+        markdownPath: "assets/angular/http-requests/handling-errors.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/handling-errors.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/handling-errors.md",
         section: "Handling errors",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-prepxy?embed=1&file=src/app/app.component.ts",
@@ -579,9 +592,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-subscribe-http-request-in-service",
         markdownPath:
-          "assets/http-requests/subscribe-http-request-in-service.md",
+          "assets/angular/http-requests/subscribe-http-request-in-service.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/subscribe-http-request-in-service.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/subscribe-http-request-in-service.md",
         section: "Subscribe HTTP request in the service",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-57wvqr?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
@@ -592,9 +605,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-error-handling-before-subscription",
         markdownPath:
-          "assets/http-requests/error-handling-before-subscription.md",
+          "assets/angular/http-requests/error-handling-before-subscription.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/error-handling-before-subscription.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/error-handling-before-subscription.md",
         section: "Error handling before subscription",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-4ke8b5?embed=1&file=src/app/posts.service.ts",
@@ -604,9 +617,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-setting-headers",
-        markdownPath: "assets/http-requests/setting-headers.md",
+        markdownPath: "assets/angular/http-requests/setting-headers.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/setting-headers.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/setting-headers.md",
         section: "Setting headers",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-lczuqw?embed=1&file=src/app/posts.service.ts",
@@ -616,9 +629,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-adding-query-params",
-        markdownPath: "assets/http-requests/adding-query-params.md",
+        markdownPath: "assets/angular/http-requests/adding-query-params.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/adding-query-params.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/adding-query-params.md",
         section: "Adding query params",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-t8avkn?embed=1&file=src/app/posts.service.ts",
@@ -630,9 +643,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         domainPath:
           "angular/http-requests-observing-different-types-of-responses",
         markdownPath:
-          "assets/http-requests/observing-different-types-of-responses.md",
+          "assets/angular/http-requests/observing-different-types-of-responses.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/observing-different-types-of-responses.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/observing-different-types-of-responses.md",
         section: "Observing different types of responses",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-bdzwcm?embed=1&file=src/app/posts.service.ts",
@@ -642,9 +655,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-changing-the-response-body-type",
-        markdownPath: "assets/http-requests/changing-the-response-body-type.md",
+        markdownPath:
+          "assets/angular/http-requests/changing-the-response-body-type.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/changing-the-response-body-type.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/changing-the-response-body-type.md",
         section: "Changing the response body type",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-k7q37x?devToolsHeight=33&embed=1&file=src/app/posts.service.ts",
@@ -656,9 +670,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         domainPath:
           "angular/http-requests-setup-interceptors-and-manipulating-request-object",
         markdownPath:
-          "assets/http-requests/setup-interceptors-and-manipulating-request-object.md",
+          "assets/angular/http-requests/setup-interceptors-and-manipulating-request-object.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/setup-interceptors-and-manipulating-request-object.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/setup-interceptors-and-manipulating-request-object.md",
         section: "Setup interceptors and manipulating request object",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-7n5i9s?embed=1&file=src/app/app.module.ts",
@@ -668,9 +682,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-response-interceptors",
-        markdownPath: "assets/http-requests/response-interceptors.md",
+        markdownPath: "assets/angular/http-requests/response-interceptors.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/response-interceptors.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/response-interceptors.md",
         section: "Response Interceptors",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-r8useb?embed=1&file=src/app/auth-interceptor.service.ts",
@@ -680,9 +694,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "HTTP requests",
         domainPath: "angular/http-requests-multiple-interceptors",
-        markdownPath: "assets/http-requests/multiple-interceptors.md",
+        markdownPath: "assets/angular/http-requests/multiple-interceptors.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/http-requests/multiple-interceptors.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/http-requests/multiple-interceptors.md",
         section: "Multiple interceptors",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-d9h93k?embed=1&file=src/app/app.module.ts",
@@ -697,9 +711,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Testing",
         domainPath: "angular/unit-testing-types-of-tests",
-        markdownPath: "assets/testing/types-of-tests.md",
+        markdownPath: "assets/angular/testing/types-of-tests.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/types-of-tests.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/types-of-tests.md",
         section: "Types of tests",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-38wwgf?embed=1&file=src/app/app.component.spec.ts&view=both",
@@ -714,9 +728,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-unit-testing-fundamentals",
         markdownPath:
-          "assets/testing/unit-testing/unit-testing-fundamentals.md",
+          "assets/angular/testing/unit-testing/unit-testing-fundamentals.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/unit-testing-fundamentals.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/unit-testing-fundamentals.md",
         section: "Unit testing fundamentals",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-qvirpk?embed=1&file=src/app/01-fundamentals/compute.spec.ts",
@@ -727,9 +741,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-working-with-strings-and-arrays",
         markdownPath:
-          "assets/testing/unit-testing/working-with-strings-and-arrays.md",
+          "assets/angular/testing/unit-testing/working-with-strings-and-arrays.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-strings-and-arrays.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/working-with-strings-and-arrays.md",
         section: "Working with strings and arrays",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-aqkfk5?embed=1&file=src/app/02-arrays-and-strings/greet.spec.ts",
@@ -739,9 +753,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-setup-and-tear-down",
-        markdownPath: "assets/testing/unit-testing/setup-and-tear-down.md",
+        markdownPath:
+          "assets/angular/testing/unit-testing/setup-and-tear-down.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/setup-and-tear-down.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/setup-and-tear-down.md",
         section: "Setup and tear down",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-5qkkf6?embed=1&file=src/app/03-setup-and-terdown/vote.component.spec.ts",
@@ -751,9 +766,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-working-with-forms",
-        markdownPath: "assets/testing/unit-testing/working-with-forms.md",
+        markdownPath:
+          "assets/angular/testing/unit-testing/working-with-forms.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-forms.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/working-with-forms.md",
         section: "Working with forms",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-w5xzx9?embed=1&file=src/main-testing.ts",
@@ -764,9 +780,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-working-with-event-emitters",
         markdownPath:
-          "assets/testing/unit-testing/working-with-event-emitters.md",
+          "assets/angular/testing/unit-testing/working-with-event-emitters.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-event-emitters.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/working-with-event-emitters.md",
         section: "Working with event emitters",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-qqawn5?embed=1&file=src/app/05-event-emitters/vote.component.spec.ts",
@@ -776,9 +792,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-working-with-spies",
-        markdownPath: "assets/testing/unit-testing/working-with-spies.md",
+        markdownPath:
+          "assets/angular/testing/unit-testing/working-with-spies.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-spies.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/working-with-spies.md",
         section: "Working with spies",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-e6hb1t?embed=1&file=src/main-testing.ts",
@@ -788,9 +805,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-interaction-testing",
-        markdownPath: "assets/testing/unit-testing/interaction-testing.md",
+        markdownPath:
+          "assets/angular/testing/unit-testing/interaction-testing.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/interaction-testing.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/interaction-testing.md",
         section: "Interaction testing",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-q72zqj?embed=1&file=src/app/06-services/todos.component.spec.ts",
@@ -801,9 +819,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Unit testing",
         domainPath: "angular/unit-testing-working-with-confirmation-boxes",
         markdownPath:
-          "assets/testing/unit-testing/working-with-confirmation-boxes.md",
+          "assets/angular/testing/unit-testing/working-with-confirmation-boxes.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/unit-testing/working-with-confirmation-boxes.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/unit-testing/working-with-confirmation-boxes.md",
         section: "Working with Confirmation Boxes",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-ro9w6r?embed=1&file=src/app/06-services/todos.component.spec.ts",
@@ -818,9 +836,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Integration testing",
         domainPath: "angular/integration-the-setup-code",
-        markdownPath: "assets/testing/unit-testing/working-with-spies.md",
+        markdownPath:
+          "assets/angular/testing/unit-testing/working-with-spies.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/the-setup-code.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/the-setup-code.md",
         section: "The setup code",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-cpyd6m?embed=1&file=src/app/1-voter/voter.component.spec.ts",
@@ -832,9 +851,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         domainPath:
           "angular/integration-testing-testing-property-and-class-bindings",
         markdownPath:
-          "assets/testing/integration-testing/testing-property-and-class-bindings.md",
+          "assets/angular/testing/integration-testing/testing-property-and-class-bindings.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-property-and-class-bindings.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/testing-property-and-class-bindings.md",
         section: "Testing property and class bindings",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-48nkgs?embed=1&file=src/app/1-voter/voter.component.spec.ts",
@@ -845,9 +864,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-testing-event-bindings",
         markdownPath:
-          "assets/testing/integration-testing/testing-event-bindings.md",
+          "assets/angular/testing/integration-testing/testing-event-bindings.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-event-bindings.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/testing-event-bindings.md",
         section: "Testing event bindings",
         aPath:
           "https://stackblitz.com/edit/jasmine-in-angular-qqg9vi?embed=1&file=src/app/1-voter/voter.component.spec.ts",
@@ -858,9 +877,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-providing-the-dependencies",
         markdownPath:
-          "assets/testing/integration-testing/providing-the-dependencies.md",
+          "assets/angular/testing/integration-testing/providing-the-dependencies.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/providing-the-dependencies.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/providing-the-dependencies.md",
         section: "Providing the dependencies",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-7rqnh8?embed=1&file=src/app/2-todos/todos.component.spec.ts",
@@ -871,9 +890,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-getting-the-dependencies",
         markdownPath:
-          "assets/testing/integration-testing/getting-the-dependencies.md",
+          "assets/angular/testing/integration-testing/getting-the-dependencies.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/getting-the-dependencies.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/getting-the-dependencies.md",
         section: "Getting the dependencies",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-ps33lc?embed=1&file=src/app/2-todos/todos.component.spec.ts",
@@ -883,9 +902,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-providing-stubs",
-        markdownPath: "assets/testing/integration-testing/providing-stubs.md",
+        markdownPath:
+          "assets/angular/testing/integration-testing/providing-stubs.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/providing-stubs.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/providing-stubs.md",
         section: "Providing stubs",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-sjuwew?embed=1&file=src/app/user-details/user-details.component.spec.ts",
@@ -896,9 +916,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-testing-the-navigation",
         markdownPath:
-          "assets/testing/integration-testing/testing-the-navigation.md",
+          "assets/angular/testing/integration-testing/testing-the-navigation.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-the-navigation.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/testing-the-navigation.md",
         section: "Testing the navigation",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-15vp2s?embed=1&file=src/app/user-details/user-details.component.spec.ts",
@@ -909,9 +929,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-dealing-with-route-parameters",
         markdownPath:
-          "assets/testing/integration-testing/dealing-with-route-parameters.md",
+          "assets/angular/testing/integration-testing/dealing-with-route-parameters.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/dealing-with-route-parameters.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/dealing-with-route-parameters.md",
         section: "Dealing with route parameters",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-2wdpw3?embed=1&file=src/app/user-details/user-details.component.spec.ts",
@@ -923,9 +943,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         domainPath:
           "angular/integration-testing-testing-router-outlet-components",
         markdownPath:
-          "assets/testing/integration-testing/testing-router-outlet-components.md",
+          "assets/angular/testing/integration-testing/testing-router-outlet-components.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-router-outlet-components.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/testing-router-outlet-components.md",
         section: "Testing router outlet components",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-tdp4rz?embed=1&file=src/app/app.component.spec.ts",
@@ -936,9 +956,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-shallow-component-tests",
         markdownPath:
-          "assets/testing/integration-testing/shallow-component-tests.md",
+          "assets/angular/testing/integration-testing/shallow-component-tests.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/shallow-component-tests.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/shallow-component-tests.md",
         section: "Shallow component tests",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-zsftuz?embed=1&file=src/app/app.component.spec.ts",
@@ -949,9 +969,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Integration testing",
         domainPath: "angular/integration-testing-testing-attribute-directives",
         markdownPath:
-          "assets/testing/integration-testing/testing-attribute-directives.md",
+          "assets/angular/testing/integration-testing/testing-attribute-directives.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/testing-attribute-directives.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/testing-attribute-directives.md",
         section: "Testing attribute directives",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-hjxa1v?embed=1&file=src/app/highlight.directive.spec.ts",
@@ -963,9 +983,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         domainPath:
           "angular/integration-testing-dealing-with-asynchronous-operations",
         markdownPath:
-          "assets/testing/integration-testing/dealing-with-asynchronous-operations.md",
+          "assets/angular/testing/integration-testing/dealing-with-asynchronous-operations.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/integration-testing/dealing-with-asynchronous-operations.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/integration-testing/dealing-with-asynchronous-operations.md",
         section: "Dealing with asynchronous operations",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-fuzibp?embed=1&file=src/app/todos/todos.component.spec.ts",
@@ -981,9 +1001,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "protractor",
         domainPath: "angular/protractor-basic-protractor-configuration",
         markdownPath:
-          "assets/testing/end-to-end/protractor/basic-protractor-configuration.md",
+          "assets/angular/testing/end-to-end/protractor/basic-protractor-configuration.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/protractor/basic-protractor-configuration.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/protractor/basic-protractor-configuration.md",
         section: "Basic protractor configuration",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-aahexv?embed=1&file=e2e/protractor.conf.js",
@@ -995,9 +1015,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         domainPath:
           "angular/protractor-testing-without-page-and-class-bindings",
         markdownPath:
-          "assets/testing/end-to-end/protractor/testing-without-page-and-class-bindings.md",
+          "assets/angular/testing/end-to-end/protractor/testing-without-page-and-class-bindings.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/protractor/without-page-and-class-bindings.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/protractor/without-page-and-class-bindings.md",
         section: "Without page objects",
         aPath:
           "https://stackblitz.com/edit/angular-webcontainer-template-yjj1zq?file=e2e/src/app.po.ts",
@@ -1013,9 +1033,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-installing-and-opening",
         markdownPath:
-          "assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
+          "assets/angular/testing/end-to-end/cypress/installing-and-opening/readme.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/installing-and-opening/readme.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/installing-and-opening/readme.md",
         section: "Installing and opening",
         aPath: "",
         bPath: "",
@@ -1023,9 +1043,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-first-test",
-        markdownPath: "assets/testing/end-to-end/cypress/cypress-first-test.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/cypress-first-test.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/cypress-first-test.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/cypress-first-test.md",
         section: "Writing our first cypress test",
         aPath: "",
         bPath: "",
@@ -1033,9 +1054,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-testing-text-input",
-        markdownPath: "assets/testing/end-to-end/cypress/testing-text-input.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/testing-text-input.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/testing-text-input.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/testing-text-input.md",
         section: "Testing text input",
         aPath: "",
         bPath: "",
@@ -1043,9 +1065,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-selecting-elements",
-        markdownPath: "assets/testing/end-to-end/cypress/selecting-elements.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/selecting-elements.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/selecting-elements.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/selecting-elements.md",
         section: "Selecting elements",
         aPath: "",
         bPath: "",
@@ -1053,9 +1076,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-aliasing-elements",
-        markdownPath: "assets/testing/end-to-end/cypress/aliasing-elements.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/aliasing-elements.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/aliasing-elements.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/aliasing-elements.md",
         section: "Aliasing elements",
         aPath: "",
         bPath: "",
@@ -1064,9 +1088,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-working-with-.then-command-results",
         markdownPath:
-          "assets/testing/end-to-end/cypress/working-with-.then-command-results.md",
+          "assets/angular/testing/end-to-end/cypress/working-with-.then-command-results.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/working-with-.then-command-results.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/working-with-.then-command-results.md",
         section: "Working with .then command results",
         aPath: "",
         bPath: "",
@@ -1074,9 +1098,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-beforeEach-hook",
-        markdownPath: "assets/testing/end-to-end/cypress/beforeEach-hook.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/beforeEach-hook.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/beforeEach-hook.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/beforeEach-hook.md",
         section: "BeforeEach hook",
         aPath: "",
         bPath: "",
@@ -1084,9 +1109,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-setting-a-base-url",
-        markdownPath: "assets/testing/end-to-end/cypress/setting-a-base-url.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/setting-a-base-url.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/setting-a-base-url.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/setting-a-base-url.md",
         section: "Setting a base URL",
         aPath: "",
         bPath: "",
@@ -1095,9 +1121,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-interacting-with-elements",
         markdownPath:
-          "assets/testing/end-to-end/cypress/interacting-with-elements.md",
+          "assets/angular/testing/end-to-end/cypress/interacting-with-elements.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/interacting-with-elements.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/interacting-with-elements.md",
         section: "Interacting with elements",
         aPath: "",
         bPath: "",
@@ -1106,9 +1132,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-triggering-other-actions",
         markdownPath:
-          "assets/testing/end-to-end/cypress/triggering-other-actions.md",
+          "assets/angular/testing/end-to-end/cypress/triggering-other-actions.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/triggering-other-actions.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/triggering-other-actions.md",
         section: "Triggering other actions",
         aPath: "",
         bPath: "",
@@ -1116,9 +1142,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-common-assertions",
-        markdownPath: "assets/testing/end-to-end/cypress/common-assertions.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/common-assertions.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/common-assertions.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/common-assertions.md",
         section: "Common assertions",
         aPath: "",
         bPath: "",
@@ -1126,9 +1153,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-automatic-retrying",
-        markdownPath: "assets/testing/end-to-end/cypress/automatic-retrying.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/automatic-retrying.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/automatic-retrying.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/automatic-retrying.md",
         section: "Automatic retrying",
         aPath: "",
         bPath: "",
@@ -1137,9 +1165,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-debugging-in-cypress",
         markdownPath:
-          "assets/testing/end-to-end/cypress/debugging-in-cypress.md",
+          "assets/angular/testing/end-to-end/cypress/debugging-in-cypress.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/debugging-in-cypress.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/debugging-in-cypress.md",
         section: "Debugging in cypress",
         aPath: "",
         bPath: "",
@@ -1148,9 +1176,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-environment-variables",
         markdownPath:
-          "assets/testing/end-to-end/cypress/environment-variables.md",
+          "assets/angular/testing/end-to-end/cypress/environment-variables.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/environment-variables.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/environment-variables.md",
         section: "Environment variables",
         aPath: "",
         bPath: "",
@@ -1158,9 +1186,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-test-doubles",
-        markdownPath: "assets/testing/end-to-end/cypress/test-doubles.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/test-doubles.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/test-doubles.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/test-doubles.md",
         section: "Test doubles",
         aPath: "",
         bPath: "",
@@ -1168,9 +1197,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-wrap-command",
-        markdownPath: "assets/testing/end-to-end/cypress/wrap-command.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/wrap-command.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/wrap-command.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/wrap-command.md",
         section: "Wrap command",
         aPath: "",
         bPath: "",
@@ -1178,9 +1208,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "cypress",
         domainPath: "angular/cypress-and-command",
-        markdownPath: "assets/testing/end-to-end/cypress/and-command.md",
+        markdownPath:
+          "assets/angular/testing/end-to-end/cypress/and-command.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/and-command.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/and-command.md",
         section: "And command",
         aPath: "",
         bPath: "",
@@ -1189,9 +1220,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-filter-and-not-command",
         markdownPath:
-          "assets/testing/end-to-end/cypress/filter-and-not-command.md",
+          "assets/angular/testing/end-to-end/cypress/filter-and-not-command.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/filter-and-not-command.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/filter-and-not-command.md",
         section: "Filter and not command",
         aPath: "",
         bPath: "",
@@ -1200,9 +1231,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-typing-special-characters",
         markdownPath:
-          "assets/testing/end-to-end/cypress/typing-special-characters.md",
+          "assets/angular/testing/end-to-end/cypress/typing-special-characters.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/typing-special-characters.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/typing-special-characters.md",
         section: "Typing special characters",
         aPath: "",
         bPath: "",
@@ -1211,9 +1242,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "cypress",
         domainPath: "angular/cypress-activating-code-completion",
         markdownPath:
-          "assets/testing/end-to-end/cypress/activating-code-completion.md",
+          "assets/angular/testing/end-to-end/cypress/activating-code-completion.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/testing/end-to-end/cypress/activating-code-completion.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/testing/end-to-end/cypress/activating-code-completion.md",
         section: "Activating code completion",
         aPath: "",
         bPath: "",
