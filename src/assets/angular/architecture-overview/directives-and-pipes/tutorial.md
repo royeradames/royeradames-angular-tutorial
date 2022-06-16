@@ -11,7 +11,7 @@ There are two types of directives:
 
 ## [Attribute](https://angular.io/guide/attribute-directives)
 
-![directive](structural-directive.png)
+![directive](attribute-directive.png)
 Attribute directives change the behavior or appearance of an existing DOM element. 
 
 ## [Build some in directives](https://angular.io/guide/built-in-directives):
