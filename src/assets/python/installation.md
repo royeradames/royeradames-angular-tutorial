@@ -39,6 +39,7 @@
   - [`locals()`](#locals)
   - [`global()`](#global)
   - [Lambda functions (anonymous functions)](#lambda-functions-anonymous-functions)
+- [Class](#class)
 
 ## Download instructions
 - download python (includes pip)
@@ -526,3 +527,32 @@ Example:
 myList = [{'num': 3}, {'num': 2}, {'num': 1}]
 sorted(myList, key=lambda x: x['num'])
 ```
+
+# Class
+
+The meta function of functions and variables
+
+- `def __init__(self, otherVaribles):` -> `constructor(){}`
+- `self` is used for defining private variables -> `private variable`
+
+> adding static variable works has TS. You still use self in replacement of `this` for variables
+
+
+```python
+class Dog:
+  legs = 4
+  def __init__(self, name):
+      self.name = name
+      
+  
+  def speak(self):
+      print(self.name + ' says: Bark!')
+
+myDog = Dog('Rover')
+print(myDog.name)
+print(myDog.legs)
+```
+
+While there is no `private` we can use `_` to let others know to act like its private.
+
+`_legs = 4`
