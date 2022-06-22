@@ -43,7 +43,12 @@
   - [Static and instance methods](#static-and-instance-methods)
   - [Decorators](#decorators)
 - [Inheritance](#inheritance)
-- [Extending built-in classes](#extending-built-in-classes)
+- [Extending built-in classes (super())](#extending-built-in-classes-super)
+- [Errors and exceptions ( try/catch and throw error())](#errors-and-exceptions--trycatch-and-throw-error)
+  - [Catching exceptions by Type](#catching-exceptions-by-type)
+  - [Finally](#finally)
+  - [Custom Decorators](#custom-decorators)
+  - [Raising Exceptions](#raising-exceptions)
 
 ## Download instructions
 - download python (includes pip)
@@ -533,6 +538,7 @@ sorted(myList, key=lambda x: x['num'])
 ```
 
 # Class
+> self variable used inside a class it's the coventional variable name to refer to the class instance.
 
 The meta function of functions and variables
 
@@ -637,9 +643,9 @@ class Chihuahua(Dog):
         print('Vigorous wagging!')
 
 ```
-# Extending built-in classes
+# Extending built-in classes (super())
 
-We use `super()` to refer to the parent we are extending.
+We use `super()` to get an instance of the parent class
 
 ```ts
 super([arguments]); // calls the parent constructor.
@@ -666,4 +672,85 @@ uniqueList.append(1)
 uniqueList.append(2)
 
 print(uniqueList.someProperty)
+```
+
+# Errors and exceptions ( try/catch and throw error())
+
+```python
+try:
+    1/0
+except Exception as e:
+    print(type(e))
+```
+
+`<class 'ZeroDivisionError'>`
+
+## Catching exceptions by Type
+```python
+def causeError():
+    try:
+        return 1 + 'a'
+
+    except TypeError:
+        print('There was a type error!')
+    except ZeroDivisionError:
+        print('There was a zero division error!')
+    except Exception:
+        print('There was some sort of error!')
+    
+causeError()
+```
+
+## Finally
+
+will always execute
+
+```python
+def causeError():
+  try:
+      return 1/1
+  except Exception:
+      print('There was some sort of error!')
+  finally:
+      print('This will always execute!')
+    
+causeError()
+```
+
+## Custom Decorators
+
+Great for handling many errors at the same time like HTTPs errors.
+
+```python 
+def handleException(func):
+  def wrapper(*args):
+      try:
+          func(*args)
+      except TypeError:
+          print('There was a type error!')
+      except ZeroDivisionError:
+          print('There was a zero division error!')
+      except Exception:
+          print('There was some sort of error!')
+  return wrapper
+
+@handleException
+def causeError():
+    return 1/0
+
+causeError()
+```
+
+## Raising Exceptions
+
+`raise Exception()` -> `throw new error()`
+
+```python
+@handleException
+def raiseError(n):
+    if n == 0:
+        raise Exception()
+    print(n)
+    
+raiseError(1)
 ```
