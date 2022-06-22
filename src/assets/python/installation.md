@@ -32,6 +32,9 @@
   - [For else](#for-else)
   - [forEach](#foreach)
   - [For...in](#forin)
+- [Function](#function)
+  - [*args](#args)
+  - [**kwargs](#kwargs)
 
 ## Download instructions
 - download python (includes pip)
@@ -452,3 +455,44 @@ for i, (key, val) in enumerate(contractData.items()):
       queryParams += f"@{contractSummaryMap.get(key)} = {repr(val)},  "
 ```
 
+# Function
+
+- `def name(input):`
+- `name(input)`
+
+```python
+def performOperation(num1, num2, operation = 'sum'):
+    if operation == 'sum':
+        return num1 + num2
+    if operation == 'multiply':
+        return num1 * num2
+
+performOperation(2,3, operation = "multiply") #We can specify the name of the input and to know how to worry about the input order.
+# the order of the primitive input does matter
+```
+
+## *args
+
+Capture all primitive inputs
+
+>Like TS passing an array
+
+```python
+def performOperation(*args):
+    print(args)
+    
+performOperation(1,2,3)
+```
+
+## **kwargs
+
+Capture all keyword inputs. 
+
+>Like TS passing an object
+
+```python
+def performOperation(*args):
+    print(args)
+    
+performOperation(1,2,3)
+```
