@@ -40,6 +40,8 @@
   - [`global()`](#global)
   - [Lambda functions (anonymous functions)](#lambda-functions-anonymous-functions)
 - [Class](#class)
+  - [Static and instance methods](#static-and-instance-methods)
+  - [Decorators](#decorators)
 
 ## Download instructions
 - download python (includes pip)
@@ -556,3 +558,54 @@ print(myDog.legs)
 While there is no `private` we can use `_` to let others know to act like its private.
 
 `_legs = 4`
+
+## Static and instance methods
+
+[JS static](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
+
+**Neither static methods/properties can be called on instances of the class**. Instead, they're called on the class itself. Static methods are often utility functions, such as functions to create or clone objects, whereas static properties are useful for caches, fixed-configuration, or any other data you don't need to be replicated across instances.
+
+We use the class name to call the function and/or the class variables.
+
+```python
+class Orientation:
+  pi = 3.14
+  def __init__(self, x_pos, y_pos, degrees):
+      self.x_pos = x_pos
+      self.y_pos = y_pos
+      self.x_dir, self.y_dir = Orientation.getUnitVectorFromDegrees(degrees)
+      
+  def getUnitVectorFromDegrees(degrees):
+      radians = (degrees/180) * Orientation.pi
+      return math.sin(radians), -math.cos(radians)
+  
+  def getNextPos(self):
+      return self.x_pos + self.x_dir, self.y_pos + self.y_dir
+    
+myOrientation = Orientation(5, 5, 75)
+myOrientation.getNextPos()
+```
+
+## Decorators
+
+`@staticmethod` lets you use self.staticFunction in `__init__(self):`
+
+```python
+class Orientation:
+    pi = 3.14
+    def __init__(self, x_pos, y_pos, degrees):
+        self.x_pos = x_pos
+        self.y_pos = y_pos
+        self.x_dir, self.y_dir = self.getUnitVectorFromDegrees(degrees)
+        
+    @staticmethod
+    def getUnitVectorFromDegrees(degrees):
+        radians = (degrees/180) * Orientation.pi # we still need to replace self with class name to get access to the class variables
+        return math.sin(radians), -math.cos(radians)
+    
+    def getNextPos(self):
+        return self.x_pos + self.x_dir, self.y_pos + self.y_dir
+    
+myOrientation = Orientation(5, 5, 75)
+myOrientation.getNextPos()
+```
