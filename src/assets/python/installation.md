@@ -496,3 +496,12 @@ def performOperation(*args):
     
 performOperation(1,2,3)
 ```
+
+## Scope
+
+## `locals()`
+
+Return a dictionary containing the current scope's local variables.
+## `global()`
+
+Return the dictionary containing the current scope's global variables.
