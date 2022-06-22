@@ -28,6 +28,10 @@
   - [Inline if statement (Ternary)](#inline-if-statement-ternary)
 - [While loops](#while-loops)
   - [pass](#pass)
+- [For loop (ForEach and for..in)](#for-loop-foreach-and-forin)
+  - [For else](#for-else)
+  - [forEach](#foreach)
+  - [For...in](#forin)
 
 ## Download instructions
 - download python (includes pip)
@@ -383,5 +387,68 @@ while datetime.now().second != wait_until:
     pass
 
 print(f"We are at {wait_until} seconds!")
+```
+
+# For loop (ForEach and for..in)
+
+`for (variable(s)) in array:`
+
+## For else
+
+Runs if the break is activated
+
+```python
+for number in range(2, 100):
+  for factor in range(2, int(number**0.5)):
+    if number % factor == 0:
+      break
+  else:
+      print(f'{number} is prime!')
+```
+## forEach
+
+```python
+myList = [1,2,3,4,5]
+for item in myList:
+    print(item)
+```
+
+## For...in
+[JS for in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+
+```python
+animalLookup = {
+    'a': ['aardvark', 'antelope'],
+    'b': ['bear'],
+    'c': ['cat'],
+    'd': ['dog'],
+}
+
+print(animalLookup.items())
+for letter, animals in animalLookup.items():
+    print(letter)
+    print(animals)
+```
+
+```python
+dict_items([('a', ['aardvark', 'antelope']), ('b', ['bear']), ('c', ['cat']), ('d', ['dog'])])
+a
+['aardvark', 'antelope']
+b
+['bear']
+c
+['cat']
+d
+['dog']
+```
+
+To get access to the id use enumerate:
+
+```python
+for i, (key, val) in enumerate(contractData.items()):
+  if i == len(contractData.items()) - 1:
+      queryParams += f"@{contractSummaryMap.get(key)} = {repr(val)}  "
+  else:
+      queryParams += f"@{contractSummaryMap.get(key)} = {repr(val)},  "
 ```
 
