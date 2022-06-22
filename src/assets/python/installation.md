@@ -42,6 +42,8 @@
 - [Class](#class)
   - [Static and instance methods](#static-and-instance-methods)
   - [Decorators](#decorators)
+- [Inheritance](#inheritance)
+- [Extending built-in classes](#extending-built-in-classes)
 
 ## Download instructions
 - download python (includes pip)
@@ -608,4 +610,60 @@ class Orientation:
     
 myOrientation = Orientation(5, 5, 75)
 myOrientation.getNextPos()
+```
+
+# Inheritance
+
+`class name(Parent):` -> `class Name extends Parent{}`
+
+```python
+class Dog:
+    _legs = 4
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(self.name + ' says: Bark!')
+    
+    def getLegs(self):
+        return self._legs
+
+
+class Chihuahua(Dog):
+    def speak(self):
+        print(f'{self.name} says: Yap yap yap!')
+        
+    def wagTail(self):
+        print('Vigorous wagging!')
+
+```
+# Extending built-in classes
+
+We use `super()` to refer to the parent we are extending.
+
+```ts
+super([arguments]); // calls the parent constructor.
+super.functionOnParent([arguments]);
+```
+[js super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
+
+```python
+class UniqueList(list):
+    
+    def __init__(self):
+        super().__init__() #keeps all parent constructor() code
+        self.someProperty = 'Unique List!'
+        
+
+    def append(self, item):
+        if item in self:
+            return
+        super().append(item)
+        
+uniqueList = UniqueList()
+uniqueList.append(1)
+uniqueList.append(1)
+uniqueList.append(2)
+
+print(uniqueList.someProperty)
 ```
