@@ -35,6 +35,10 @@
 - [Function](#function)
   - [*args](#args)
   - [**kwargs](#kwargs)
+  - [Scope](#scope)
+  - [`locals()`](#locals)
+  - [`global()`](#global)
+  - [Lambda functions (anonymous functions)](#lambda-functions-anonymous-functions)
 
 ## Download instructions
 - download python (includes pip)
@@ -471,6 +475,13 @@ performOperation(2,3, operation = "multiply") #We can specify the name of the in
 # the order of the primitive input does matter
 ```
 
+**Not a valid way to call a function**
+
+```python
+def someFunc(var1, var2, var3, var4):
+someFunc(var1=1,2,3,4)
+```
+
 ## *args
 
 Capture all primitive inputs
@@ -505,3 +516,13 @@ Return a dictionary containing the current scope's local variables.
 ## `global()`
 
 Return the dictionary containing the current scope's global variables.
+
+## Lambda functions (anonymous functions)
+
+`(lambda x : x + 3)(5)` -> `const ano = (x) => x + 3; ano(5)`
+
+Example:
+```python
+myList = [{'num': 3}, {'num': 2}, {'num': 1}]
+sorted(myList, key=lambda x: x['num'])
+```
