@@ -73,17 +73,17 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
       },
       {
-        domainPath: "angular/bootstrapping-the-module-for-the-browser",
+        domainPath: "angular/the-component-selector",
         chapter: "Components",
-        section: "Bootstrapping the module for the browser",
+        section: "The component selector",
         aPath:
-          "https://stackblitz.com/edit/angular-ivy-wfjmtm?embed=1&file=src/main.ts",
+          "https://stackblitz.com/edit/angular-ivy-12fpay?embed=1&file=src/app/app.component.ts",
         bPath:
-          "https://stackblitz.com/edit/angular-ivy-wj3d22?embed=1&file=src/main.ts",
+          "https://stackblitz.com/edit/angular-ivy-o6g7ul?embed=1&file=src/app/app.component.ts",
         markdownPath:
-          "assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
+          "assets/angular/components/the-component-template/text.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/the-component-template/text.md",
       },
     ],
   },
