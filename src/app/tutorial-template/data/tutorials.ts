@@ -48,20 +48,44 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/ngmodule–and-the-root-module/text.md",
       },
       {
-        domainPath: "angular/ngmodule-and-the-root-module",
+        domainPath: "angular/component-metadata",
         chapter: "Components",
-        section: "NgModule and the root Module",
+        section: "Component metadata",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-2cgpum?embed=1&file=src/app/app.component.ts",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-4xwqn9?embed=1&file=src/app/app.component.ts",
-        markdownPath:
-          "assets/angular/components/component-metadata/text.md",
+        markdownPath: "assets/angular/components/component-metadata/text.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/component-metadata/text.md",
       },
+      {
+        domainPath: "angular/bootstrapping-the-module-for-the-browser",
+        chapter: "Components",
+        section: "Bootstrapping the module for the browser",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-wfjmtm?embed=1&file=src/main.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-wj3d22?embed=1&file=src/main.ts",
+        markdownPath:
+          "assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
+      },
+      {
+        domainPath: "angular/bootstrapping-the-module-for-the-browser",
+        chapter: "Components",
+        section: "Bootstrapping the module for the browser",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-wfjmtm?embed=1&file=src/main.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-wj3d22?embed=1&file=src/main.ts",
+        markdownPath:
+          "assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/bootstrapping-the-module-for-the-browser/text.md",
+      },
     ],
-
   },
   {
     label: "Routing",
