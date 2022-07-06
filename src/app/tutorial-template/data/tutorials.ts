@@ -31,16 +31,38 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       },
     ],
   },
-  {label: "Components", options: [{
-    domainPath: "angular/ngmodule-and-the-root-module",
-      chapter: "Components",
-      section: "NgModule and the root Module",
-      aPath: "https://stackblitz.com/edit/angular-ivy-uuv1cd?embed=1&file=src/app/app.module.ts",
-      bPath: "https://stackblitz.com/edit/angular-ivy-8811tc?embed=1&file=src/app/app.module.ts",
-      markdownPath: "assets/angular/components/ngmodule–and-the-root-module/text.md",
-      editPath:
+  {
+    label: "Components",
+    options: [
+      {
+        domainPath: "angular/ngmodule-and-the-root-module",
+        chapter: "Components",
+        section: "NgModule and the root Module",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-uuv1cd?embed=1&file=src/app/app.module.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-8811tc?embed=1&file=src/app/app.module.ts",
+        markdownPath:
+          "assets/angular/components/ngmodule–and-the-root-module/text.md",
+        editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/ngmodule–and-the-root-module/text.md",
-    }]},
+      },
+      {
+        domainPath: "angular/ngmodule-and-the-root-module",
+        chapter: "Components",
+        section: "NgModule and the root Module",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-2cgpum?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-4xwqn9?embed=1&file=src/app/app.component.ts",
+        markdownPath:
+          "assets/angular/components/component-metadata/text.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/component-metadata/text.md",
+      },
+    ],
+
+  },
   {
     label: "Routing",
     options: [
