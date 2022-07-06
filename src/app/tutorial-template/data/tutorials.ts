@@ -81,6 +81,18 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         bPath:
           "https://stackblitz.com/edit/angular-ivy-o6g7ul?embed=1&file=src/app/app.component.ts",
         markdownPath:
+          "assets/angular/components/the-component-selector/text.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/the-component-selector/text.md",
+      },{
+        domainPath: "angular/the-component-template",
+        chapter: "Components",
+        section: "The component template",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-zt7bkm?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-dsshy8?embed=1&file=src/app/app.component.ts",
+        markdownPath:
           "assets/angular/components/the-component-template/text.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/the-component-template/text.md",
