@@ -754,3 +754,6 @@ def raiseError(n):
     
 raiseError(1)
 ```
+
+# Custom Exceptions
+
