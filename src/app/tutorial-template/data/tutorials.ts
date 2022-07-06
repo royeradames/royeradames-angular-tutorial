@@ -84,7 +84,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "assets/angular/components/the-component-selector/text.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/the-component-selector/text.md",
-      },{
+      },
+      {
         domainPath: "angular/the-component-template",
         chapter: "Components",
         section: "The component template",
@@ -96,6 +97,30 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "assets/angular/components/the-component-template/text.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/the-component-template/text.md",
+      },
+      {
+        domainPath: "angular/styling-a-component",
+        chapter: "Components",
+        section: "Styling a component",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-kfcszv?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-ciddrn?embed=1&file=src/app/app.component.ts",
+        markdownPath: "assets/angular/components/styling-a-component/text.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/styling-a-component/text.md",
+      },
+      {
+        domainPath: "angular/using-other-components-in-a-component",
+        chapter: "Components",
+        section: "Using other components in a component",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-5dgmyp?embed=1&file=src/app/app.component.html",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-zdbpll?embed=1&file=src/app/app.component.html",
+        markdownPath: "assets/angular/components/using-other-components-in-a-component/text.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/using-other-components-in-a-component/text.md",
       },
     ],
   },
