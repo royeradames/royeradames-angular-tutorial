@@ -13,7 +13,7 @@ export interface TutorialsOptgroup {
   options: TutorialInterface[];
 }
 
-export const tutorialsOptgroup: TutorialsOptgroup[] = [
+export const angularTutorials: TutorialsOptgroup[] = [
   {
     label: "Introduction",
     options: [
@@ -118,7 +118,8 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
           "https://stackblitz.com/edit/angular-ivy-5dgmyp?embed=1&file=src/app/app.component.html",
         bPath:
           "https://stackblitz.com/edit/angular-ivy-zdbpll?embed=1&file=src/app/app.component.html",
-        markdownPath: "assets/angular/components/using-other-components-in-a-component/text.md",
+        markdownPath:
+          "assets/angular/components/using-other-components-in-a-component/text.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/components/using-other-components-in-a-component/text.md",
       },
@@ -320,11 +321,36 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
     options: [
       {
         chapter: "Form",
-        domainPath: "angular/angular-forms-introduction",
-        markdownPath: "assets/angular/forms/angular-forms-introduction.md",
+        domainPath: "angular/template-driven-vs-reactive-form",
+        markdownPath:
+          "assets/angular/forms/template-driven-vs-reactive-form.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/angular-forms-introduction.md",
-        section: "Understanding location strategies",
+        section: "Template Driven VS Reactive Form",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
+        bPath: "",
+      },
+      {
+        chapter: "Form",
+        domainPath: "angular/label",
+        markdownPath:
+          "assets/angular/forms/label.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/label.md",
+        section: "Label",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
+        bPath: "",
+      },
+      {
+        chapter: "Form",
+        domainPath: "angular/inputs",
+        markdownPath:
+          "assets/angular/forms/inputs.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/inputs.md",
+        section: "Inputs",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
         bPath: "",
@@ -338,9 +364,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-creating-the–form–and-registering-the-controls",
         markdownPath:
-          "assets/angular/forms/td-creating-the–form–and-registering-the-controls.md",
+          "assets/angular/forms/template-driven/creating-the–form–and-registering-the-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-creating-the–form–and-registering-the-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-creating-the–form–and-registering-the-controls.md",
         section: "Creating the form and registering the controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-xtzt2y?embed=1&file=src/app/app.component.html",
@@ -351,9 +377,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-submitting-and-using-the-form",
         markdownPath:
-          "assets/angular/forms/td-submitting-and-using-the-form.md",
+          "assets/angular/forms/template-driven/submitting-and-using-the-form.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-submitting-and-using-the-form.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-submitting-and-using-the-form.md",
         section: "Submitting and using the form",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-bhmsih?embed=1&file=src/app/app.component.html",
@@ -364,9 +390,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-adding-validation-to-check-user-input",
         markdownPath:
-          "assets/angular/forms/td-adding-validation-to-check-user-input.md",
+          "assets/angular/forms/template-driven/adding-validation-to-check-user-input.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-adding-validation-to-check-user-input.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-adding-validation-to-check-user-input.md",
         section: "Adding validation to check user input",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-ugqjpr?embed=1&file=src/app/app.component.html",
@@ -376,9 +402,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-using-the-form-state",
-        markdownPath: "assets/angular/forms/td-using-the-form-state.md",
+        markdownPath:
+          "assets/angular/forms/template-driven/using-the-form-state.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-using-the-form-state.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-using-the-form-state.md",
         section: "Using the form state",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-3ua9r5?embed=1&file=src/app/app.component.html",
@@ -389,9 +416,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-outputting-validation-error-messages",
         markdownPath:
-          "assets/angular/forms/td-outputting-validation-error-messages.md",
+          "assets/angular/forms/template-driven/outputting-validation-error-messages.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-outputting-validation-error-messages.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-outputting-validation-error-messages.md",
         section: "Outputting validation error message",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-wqg434?embed=1&file=src/app/app.component.html",
@@ -402,9 +429,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-set-default-values-with-ngModel-property",
         markdownPath:
-          "assets/angular/forms/td-set-default-values-with-ngModel-property.md",
+          "assets/angular/forms/template-driven/set-default-values-with-ngModel-property.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-set-default-values-with-ngModel-property.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-set-default-values-with-ngModel-property.md",
         section: "Set default values with ngModel property",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-gt53x4?embed=1&file=src/app/app.component.html",
@@ -415,9 +442,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-using-ngmodel-with-two-way-binding",
         markdownPath:
-          "assets/angular/forms/td-using-ngmodel-with-two-way-binding.md",
+          "assets/angular/forms/template-driven/using-ngmodel-with-two-way-binding.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-using-ngmodel-with-two-way-binding.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-using-ngmodel-with-two-way-binding.md",
         section: "Using ngModel with two way binding",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-dcurmy?embed=1&file=src/app/app.component.html",
@@ -427,9 +454,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-grouping-form-controls",
-        markdownPath: "assets/angular/forms/td-grouping-form-controls.md",
+        markdownPath:
+          "assets/angular/forms/template-driven/grouping-form-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-grouping-form-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-grouping-form-controls.md",
         section: "Grouping form controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-tjtsnx?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
@@ -439,9 +467,10 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-handling-radio-buttons",
-        markdownPath: "assets/angular/forms/td-handling-radio-buttons.md",
+        markdownPath:
+          "assets/angular/forms/template-driven/handling-radio-buttons.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-handling-radio-buttons.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-handling-radio-buttons.md",
         section: "Handling radio buttons",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-cftfsl?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
@@ -452,9 +481,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Template driven form",
         domainPath: "angular/td-setting-and-patching-form-values",
         markdownPath:
-          "assets/angular/forms/td-setting-and-patching-form-values.md",
+          "assets/angular/forms/template-driven/setting-and-patching-form-values.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-setting-and-patching-form-values.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-setting-and-patching-form-values.md",
         section: "Setting and patching form values",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-nlfg2q?embed=1&file=src/app/app.component.ts",
@@ -464,9 +493,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-using-form-data",
-        markdownPath: "assets/angular/forms/td-using-form-data.md",
+        markdownPath: "assets/angular/forms/template-driven/using-form-data.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-using-form-data.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-using-form-data.md",
         section: "Using form data",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-sfd9fz?embed=1&file=src/app/app.component.ts",
@@ -476,9 +505,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Template driven form",
         domainPath: "angular/td-resetting-forms",
-        markdownPath: "assets/angular/forms/td-resetting-forms.md",
+        markdownPath: "assets/angular/forms/template-driven/resetting-forms.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/td-resetting-forms.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/td-resetting-forms.md",
         section: "Resetting forms",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-vbtjud?embed=1&file=src/app/app.component.ts",
@@ -493,9 +522,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-setup",
-        markdownPath: "assets/angular/forms/reactive-setup.md",
+        markdownPath: "assets/angular/forms/reactive/setup.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-setup.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-setup.md",
         section: "Setup",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-fmssbr?embed=1&file=src/app/app.module.ts",
@@ -505,9 +534,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-adding-validation",
-        markdownPath: "assets/angular/forms/reactive-adding-validation.md",
+        markdownPath: "assets/angular/forms/reactive/adding-validation.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-adding-validation.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-adding-validation.md",
         section: "Adding validation",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-wyhwti?embed=1&file=src/app/app.component.ts",
@@ -518,9 +547,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Reactive form",
         domainPath: "angular/reactive-getting-access-to-controls",
         markdownPath:
-          "assets/angular/forms/reactive-getting-access-to-controls.md",
+          "assets/angular/forms/reactive/getting-access-to-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-getting-access-to-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-getting-access-to-controls.md",
         section: "Getting access to controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-aq1xc6?embed=1&file=src/app/app.component.html",
@@ -530,9 +559,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-grouping-controls",
-        markdownPath: "assets/angular/forms/reactive-grouping-controls.md",
+        markdownPath: "assets/angular/forms/reactive/grouping-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-grouping-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-grouping-controls.md",
         section: "Grouping controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-atwyqk?embed=1&file=src/app/app.component.ts",
@@ -543,9 +572,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Reactive form",
         domainPath: "angular/reactive-arrays-of-form-controls",
         markdownPath:
-          "assets/angular/forms/reactive-arrays-of-form-controls.md",
+          "assets/angular/forms/reactive/arrays-of-form-controls.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-arrays-of-form-controls.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-arrays-of-form-controls.md",
         section: "Arrays of form controls",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-28ytnz?embed=1&file=src/app/app.component.ts",
@@ -555,9 +584,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reactive-custom-validators",
-        markdownPath: "assets/angular/forms/reactive-custom-validators.md",
+        markdownPath: "assets/angular/forms/reactive/custom-validators.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-custom-validators.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-custom-validators.md",
         section: "Creating custom validators",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-drgzut?embed=1&file=src/app/app.component.ts",
@@ -567,9 +596,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
       {
         chapter: "Reactive form",
         domainPath: "angular/reacting-custom-error-message",
-        markdownPath: "assets/angular/forms/reacting-custom-error-message.md",
+        markdownPath: "assets/angular/forms/reactive/custom-error-message.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reacting-custom-error-message.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reacting-custom-error-message.md",
         section: "Custom error message",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
@@ -580,9 +609,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Reactive form",
         domainPath: "angular/reacting-to-status-or-value-changes",
         markdownPath:
-          "assets/angular/forms/reacting-to-status-or-value-changes.md",
+          "assets/angular/forms/reactive/reacting-to-status-or-value-changes.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reacting-to-status-or-value-changes.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reacting-to-status-or-value-changes.md",
         section: "Reacting to status or value changes",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-tqxa86?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
@@ -593,9 +622,9 @@ export const tutorialsOptgroup: TutorialsOptgroup[] = [
         chapter: "Reactive form",
         domainPath: "angular/reactive-setting-and-patching-values",
         markdownPath:
-          "assets/angular/forms/reactive-setting-and-patching-values.md",
+          "assets/angular/forms/reactive/setting-and-patching-values.md",
         editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive-setting-and-patching-values.md",
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-setting-and-patching-values.md",
         section: "Setting and patching values",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-awgjva?embed=1&file=src/app/app.component.ts",

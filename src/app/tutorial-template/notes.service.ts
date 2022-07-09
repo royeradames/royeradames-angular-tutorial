@@ -6,8 +6,8 @@ import { lastValueFrom } from "rxjs";
 import {
   TutorialInterface,
   TutorialsOptgroup,
-  tutorialsOptgroup,
-} from "./data/tutorials";
+  angularTutorials,
+} from "./data/angular-tutorials";
 import { TutorialService } from "./tutorial.service";
 
 export interface TrackDomainsGroupInterface {
@@ -48,7 +48,7 @@ export interface SetAdjacentDomainPathInterface {
   providedIn: "root",
 })
 export class NotesService {
-  notesOptgroups: TutorialsOptgroup[] = tutorialsOptgroup;
+  notesOptgroups: TutorialsOptgroup[] = angularTutorials;
   currentTutorial: CurrentTutorialInterface = {
     domainPath: "",
     chapter: "",
