@@ -31,9 +31,9 @@
 
 ## Reset form
 
-Available but not common
+Available but not common 
 
-## Picker
+## Pickers
 
 - <input type="date">`<input type="date">`
     - Value is a string representing a date in YYYY-MM-DD format, or empty

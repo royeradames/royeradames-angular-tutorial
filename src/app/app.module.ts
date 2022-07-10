@@ -49,7 +49,7 @@ import { SvgBlogIconComponent } from "./shared/svg/svg-blog-icon/svg-blog-icon.c
     SvgBlogIconComponent,
   ],
   imports: [
-    MarkdownModule.forRoot({ loader: HttpClient }),
+    MarkdownModule.forRoot({ loader: HttpClient}),
     BrowserModule,
     HttpClientModule,
     AppRoutesModule,

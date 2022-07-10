@@ -1,5 +1,5 @@
-import { Component } from "@angular/core";
-import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
+import { Component, OnInit } from "@angular/core";
+import { SafeResourceUrl } from "@angular/platform-browser";
 import { ActivatedRoute, Router } from "@angular/router";
 import { TutorialInterface } from "./data/angular-tutorials";
 import { NotesService } from "./notes.service";
@@ -13,21 +13,24 @@ export interface MetaInterface
   bPath?: SafeResourceUrl;
   playgroundPath: SafeResourceUrl;
 }
+
 @Component({
   selector: "app-tutorial-template",
   templateUrl: "./tutorial-template.component.html",
   styleUrls: ["./tutorial-template.component.scss"],
 })
-export class TutorialTemplateComponent {
+export class TutorialTemplateComponent implements OnInit {
   notesNavOptgroup = this.notesService.notesOptgroups;
-
   currentTutorial = this.notesService.currentTutorial;
+  markdown = "";
 
   constructor(
     private router: Router,
     private activatedRoute: ActivatedRoute,
     private notesService: NotesService
-  ) {
+  ) {}
+
+  async ngOnInit() {
     this.activatedRoute.params.subscribe((params) =>
       this.notesService.setCurrentTutorial({
         meta: this.currentTutorial,
@@ -51,5 +54,9 @@ export class TutorialTemplateComponent {
     }
     this.currentTutorial.currentText = this.currentTutorial.showText;
     this.currentTutorial.currentPlaygroundPath = this.currentTutorial.aPath;
+  }
+
+  update() {
+    // this.markdownService.rel;
   }
 }

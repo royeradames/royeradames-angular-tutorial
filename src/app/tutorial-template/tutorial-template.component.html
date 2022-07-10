@@ -1,48 +1,47 @@
-<main id="main" class="tutorial-parent">
-  <article
-    class="tutorial"
-    [ngClass]="{ 'tutorial-playground': currentTutorial.playgroundExist }"
-  >
-    <article class="notes">
-      <app-table-of-content></app-table-of-content>
+<main class="tutorial-parent" id="main">
+    <article
+            [ngClass]="{ 'tutorial-playground': currentTutorial.playgroundExist }"
+            class="tutorial"
+    >
+        <article class="notes">
+            <app-table-of-content></app-table-of-content>
 
-      <div class="notes-markdown">
-        <article
-          markdown
-          [src]="currentTutorial['markdownPath']"
-          data-cy="tutorial"
-        ></article>
-        <hr />
-        <article class="controls">
-          <button
-            class="show-reset"
-            (click)="showReset()"
-            *ngIf="currentTutorial.displayButton"
-            data-cy="practice-button"
-          >
-            {{ currentTutorial.currentText }}
-          </button>
+            <div class="notes-markdown">
+                <markdown
+                        data-cy="tutorial"
+                        [src]="currentTutorial['markdownPath']">
+                </markdown>
+                <hr/>
+                <article class="controls">
+                    <button
+                            (click)="showReset()"
+                            *ngIf="currentTutorial.displayButton"
+                            class="show-reset"
+                            data-cy="practice-button"
+                    >
+                        {{ currentTutorial.currentText }}
+                    </button>
+                </article>
+                <a
+                        [href]="currentTutorial['editPath']"
+                        class="improve-document"
+                        data-cy="edit-tutorial"
+                        target="_black"
+                >Edit this chapter</a
+                >
+            </div>
+            <hr/>
+            <app-navigation-buttons
+                    dataCyNext="footer-next"
+                    dataCyPrevious="footer-previous"
+                    showText="true"
+            ></app-navigation-buttons>
         </article>
-        <a
-          class="improve-document"
-          [href]="currentTutorial['editPath']"
-          target="_black"
-          data-cy="edit-tutorial"
-          >Edit this chapter</a
-        >
-      </div>
-      <hr />
-      <app-navigation-buttons
-        dataCyPrevious="footer-previous"
-        dataCyNext="footer-next"
-        showText="true"
-      ></app-navigation-buttons>
+        <article class="playground">
+            <iframe
+                    [src]="currentTutorial.currentPlaygroundPath"
+                    data-cy="playground"
+            ></iframe>
+        </article>
     </article>
-    <article class="playground">
-      <iframe
-        [src]="currentTutorial.currentPlaygroundPath"
-        data-cy="playground"
-      ></iframe>
-    </article>
-  </article>
 </main>

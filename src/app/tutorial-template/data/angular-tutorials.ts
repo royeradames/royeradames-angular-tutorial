@@ -334,8 +334,7 @@ export const angularTutorials: TutorialsOptgroup[] = [
       {
         chapter: "Form",
         domainPath: "angular/label",
-        markdownPath:
-          "assets/angular/forms/label.md",
+        markdownPath: "assets/angular/forms/label.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/label.md",
         section: "Label",
@@ -346,14 +345,143 @@ export const angularTutorials: TutorialsOptgroup[] = [
       {
         chapter: "Form",
         domainPath: "angular/inputs",
-        markdownPath:
-          "assets/angular/forms/inputs.md",
+        markdownPath: "assets/angular/forms/inputs.md",
         editPath:
           "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/inputs.md",
         section: "Inputs",
         aPath:
           "https://stackblitz.com/edit/angular-ivy-o2xypm?embed=1&file=src/app/app.component.html",
         bPath: "",
+      },
+    ],
+  },
+  {
+    label: "Reactive form",
+    options: [
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-setup",
+        markdownPath: "assets/angular/forms/reactive/setup.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-setup.md",
+        section: "Setup",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-fmssbr?embed=1&file=src/app/app.module.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-ugcary?embed=1&file=src/app/app.component.ts",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-adding-validation",
+        markdownPath: "assets/angular/forms/reactive/adding-validation.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-adding-validation.md",
+        section: "Adding validation",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-wyhwti?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-ip6tjv?embed=1&file=src/app/app.component.ts",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-getting-access-to-controls",
+        markdownPath:
+          "assets/angular/forms/reactive/getting-access-to-controls.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-getting-access-to-controls.md",
+        section: "Getting access to controls",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-aq1xc6?embed=1&file=src/app/app.component.html",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-k4rycu?embed=1&file=src/app/app.component.html",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-grouping-controls",
+        markdownPath: "assets/angular/forms/reactive/grouping-controls.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-grouping-controls.md",
+        section: "Grouping controls",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-atwyqk?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-ryqiht?embed=1&file=src/app/app.component.ts",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-arrays-of-form-controls",
+        markdownPath:
+          "assets/angular/forms/reactive/arrays-of-form-controls.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-arrays-of-form-controls.md",
+        section: "Arrays of form controls",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-28ytnz?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-6sypwa?embed=1&file=src/app/app.component.html",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-custom-validators",
+        markdownPath: "assets/angular/forms/reactive/custom-validators.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-custom-validators.md",
+        section: "Creating custom validators",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-drgzut?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-w5euj6?embed=1&file=src/app/app.component.ts",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reacting-custom-error-message",
+        markdownPath: "assets/angular/forms/reactive/custom-error-message.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reacting-custom-error-message.md",
+        section: "Custom error message",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-go658y?embed=1&file=src/app/app.component.html",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reacting-to-status-or-value-changes",
+        markdownPath:
+          "assets/angular/forms/reactive/reacting-to-status-or-value-changes.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reacting-to-status-or-value-changes.md",
+        section: "Reacting to status or value changes",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-tqxa86?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-aml5u7?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
+      },
+      {
+        chapter: "Reactive form",
+        domainPath: "angular/reactive-setting-and-patching-values",
+        markdownPath:
+          "assets/angular/forms/reactive/setting-and-patching-values.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-setting-and-patching-values.md",
+        section: "Setting and patching values",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-awgjva?embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-dy8vrc?embed=1&file=src/app/app.component.ts",
+      },
+      {
+        chapter: "Template driven form",
+        domainPath: "angular/multiple-checkbox-selection-returning-list-of-value",
+        markdownPath:
+          "assets/angular/forms/template-driven/checkboxes-storing-value.md",
+        editPath:
+          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/template-driven/checkboxes-storing-value.md",
+        section: "Multiple checkbox selection returning list of value",
+        aPath:
+          "https://stackblitz.com/edit/angular-ivy-w4ntyr?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
+        bPath:
+          "https://stackblitz.com/edit/angular-ivy-1rwnjc?devToolsHeight=33&embed=1&file=src/app/input-checkbox-value/input-checkbox-list-value.component.html",
       },
     ],
   },
@@ -516,123 +644,7 @@ export const angularTutorials: TutorialsOptgroup[] = [
       },
     ],
   },
-  {
-    label: "Reactive form",
-    options: [
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-setup",
-        markdownPath: "assets/angular/forms/reactive/setup.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-setup.md",
-        section: "Setup",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-fmssbr?embed=1&file=src/app/app.module.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-ugcary?embed=1&file=src/app/app.component.ts",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-adding-validation",
-        markdownPath: "assets/angular/forms/reactive/adding-validation.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-adding-validation.md",
-        section: "Adding validation",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-wyhwti?embed=1&file=src/app/app.component.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-ip6tjv?embed=1&file=src/app/app.component.ts",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-getting-access-to-controls",
-        markdownPath:
-          "assets/angular/forms/reactive/getting-access-to-controls.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-getting-access-to-controls.md",
-        section: "Getting access to controls",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-aq1xc6?embed=1&file=src/app/app.component.html",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-k4rycu?embed=1&file=src/app/app.component.html",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-grouping-controls",
-        markdownPath: "assets/angular/forms/reactive/grouping-controls.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-grouping-controls.md",
-        section: "Grouping controls",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-atwyqk?embed=1&file=src/app/app.component.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-ryqiht?embed=1&file=src/app/app.component.ts",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-arrays-of-form-controls",
-        markdownPath:
-          "assets/angular/forms/reactive/arrays-of-form-controls.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-arrays-of-form-controls.md",
-        section: "Arrays of form controls",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-28ytnz?embed=1&file=src/app/app.component.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-6sypwa?embed=1&file=src/app/app.component.html",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-custom-validators",
-        markdownPath: "assets/angular/forms/reactive/custom-validators.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-custom-validators.md",
-        section: "Creating custom validators",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-drgzut?embed=1&file=src/app/app.component.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-w5euj6?embed=1&file=src/app/app.component.ts",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reacting-custom-error-message",
-        markdownPath: "assets/angular/forms/reactive/custom-error-message.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reacting-custom-error-message.md",
-        section: "Custom error message",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-whjtxy?embed=1&file=src/app/app.component.html",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-go658y?embed=1&file=src/app/app.component.html",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reacting-to-status-or-value-changes",
-        markdownPath:
-          "assets/angular/forms/reactive/reacting-to-status-or-value-changes.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reacting-to-status-or-value-changes.md",
-        section: "Reacting to status or value changes",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-tqxa86?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-aml5u7?devToolsHeight=33&embed=1&file=src/app/app.component.ts",
-      },
-      {
-        chapter: "Reactive form",
-        domainPath: "angular/reactive-setting-and-patching-values",
-        markdownPath:
-          "assets/angular/forms/reactive/setting-and-patching-values.md",
-        editPath:
-          "https://github.com/royeradames/royeradames-angular-tutorial/blob/main/src/assets/angular/forms/reactive/reactive-setting-and-patching-values.md",
-        section: "Setting and patching values",
-        aPath:
-          "https://stackblitz.com/edit/angular-ivy-awgjva?embed=1&file=src/app/app.component.ts",
-        bPath:
-          "https://stackblitz.com/edit/angular-ivy-dy8vrc?embed=1&file=src/app/app.component.ts",
-      },
-    ],
-  },
+
   {
     label: "HTTP requests",
     options: [
