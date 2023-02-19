@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { NgModule, isDevMode } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
 import { AppComponent } from "./app.component";
@@ -25,6 +25,7 @@ import { SocialMediaComponent } from "./shared/components/social-media/social-me
 import { SvgGithubComponent } from "./shared/svg/svg-github/svg-github.component";
 import { SvgLinkedinIconComponent } from "./shared/svg/svg-linkedin-icon/svg-linkedin-icon.component";
 import { SvgBlogIconComponent } from "./shared/svg/svg-blog-icon/svg-blog-icon.component";
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,12 @@ import { SvgBlogIconComponent } from "./shared/svg/svg-blog-icon/svg-blog-icon.c
     ReactiveFormsModule,
     LMarkdownEditorModule,
     FormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   bootstrap: [AppComponent],
 })

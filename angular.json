@@ -36,7 +36,8 @@
                 "glob": "**/*",
                 "input": "node_modules/ace-builds/src-min",
                 "output": "./assets/ace-builds/"
-              }
+              },
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.scss",
@@ -52,7 +53,9 @@
               "node_modules/prismjs/components/prism-sass.min.js",
               "node_modules/prismjs/components/prism-cshtml.min.js",
               "node_modules/ngx-markdown-editor/assets/highlight.js/highlight.min.js"
-            ]
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -115,7 +118,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.scss"
